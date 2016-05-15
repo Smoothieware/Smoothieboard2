@@ -1,0 +1,3 @@
+How to use the template :
+
+Just unzip the file into the templates directory of your KiCad install (share/kicad/template), create a new project from the template, and you start with a schematic, a parts library, and a pcb with some mounting holes placed on a 20mm grid.
