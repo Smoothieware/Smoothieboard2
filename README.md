@@ -1,7 +1,7 @@
 # Smoothieboard2
 Hardware files for the Smoothieboard v2, and extension boards
 
-==Uploading a board
+##Uploading a board
 
 When uploading a board, you should provide the following data :
 * Kicad files
