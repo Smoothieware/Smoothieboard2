@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/houses/Documents/Notes and Info/SBV2/Thermocouple.sch</source>
+    <date>4/28/2016 11:58:48 AM</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Thermocouple.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MAX31855KASA</value>
+      <footprint>Power_Integrations:SO-8</footprint>
+      <fields>
+        <field name="DKPN">MAX31855KASA+TCT-ND</field>
+        <field name="MFPN">MAX31855KASA+T</field>
+      </fields>
+      <libsource lib="interface" part="MAX31855KASA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FA6EA</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Smoothie-teer-S</value>
+      <footprint>w_conn_ftsh:SHF-105-01-L-D-SM-LC</footprint>
+      <fields>
+        <field name="DKPN">609-4054-ND</field>
+        <field name="MFPN">20021521-00010T1LF</field>
+      </fields>
+      <libsource lib="Thermocouple-cache" part="Smoothie-teer-S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FAEAA</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>2 PosTerm Block</value>
+      <footprint>w_conn_ftsh:TerminalBlock_Amphenol_PT-3.5mm_2pol-RA</footprint>
+      <fields>
+        <field name="DKPN">20020110-C021A01LF-ND</field>
+        <field name="MFPN">20020110-C021A01LF</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FB7B1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <fields>
+        <field name="DKPN">1N4148WXTPMSCT-ND</field>
+        <field name="MFPN">1N4148WX-TP</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FBA3B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <fields>
+        <field name="DKPN">1N4148WXTPMSCT-ND</field>
+        <field name="MFPN">1N4148WX-TP</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FBB66</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DKPN">311-10KGRCT-ND</field>
+        <field name="MFPN">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FC042</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DKPN">311-10KGRCT-ND</field>
+        <field name="MFPN">RC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FC0D3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="DKPN">490-6405-1-ND</field>
+        <field name="MFPN">GRM188R60J106ME47J</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FC82F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="DKPN">1276-1921-1-ND</field>
+        <field name="MFPN">CL10B103KB8NCNC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571FD456</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Mounting_Hole_M3</value>
+      <footprint>w_conn_ftsh:M3_Mounting_Hole</footprint>
+      <fields>
+        <field name="DKPN">N/A</field>
+        <field name="MFPN">N/A</field>
+      </fields>
+      <libsource lib="Thermocouple-cache" part="Mounting_Hole_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57224F8F</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>Mounting_Hole_M3</value>
+      <footprint>w_conn_ftsh:M3_Mounting_Hole</footprint>
+      <fields>
+        <field name="DKPN">N/A</field>
+        <field name="MFPN">N/A</field>
+      </fields>
+      <libsource lib="Thermocouple-cache" part="Mounting_Hole_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57225285</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>Mounting_Hole_M3</value>
+      <footprint>w_conn_ftsh:M3_Mounting_Hole</footprint>
+      <fields>
+        <field name="DKPN">N/A</field>
+        <field name="MFPN">N/A</field>
+      </fields>
+      <libsource lib="Thermocouple-cache" part="Mounting_Hole_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572252AB</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>Mounting_Hole_M3</value>
+      <footprint>w_conn_ftsh:M3_Mounting_Hole</footprint>
+      <fields>
+        <field name="DKPN">N/A</field>
+        <field name="MFPN">N/A</field>
+      </fields>
+      <libsource lib="Thermocouple-cache" part="Mounting_Hole_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572252D1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="interface" part="MAX31855KASA">
+      <aliases>
+        <alias>MAX31855JASA</alias>
+        <alias>MAX31855NASA</alias>
+        <alias>MAX31855SASA</alias>
+        <alias>MAX31855TASA</alias>
+        <alias>MAX31855EASA</alias>
+        <alias>MAX31855RASA</alias>
+      </aliases>
+      <description>Cold Junction K-type Termocouple Interface, SPI, SO8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</docs>
+      <footprints>
+        <fp>SO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31855KASA</field>
+        <field name="Footprint">SO-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="passive"/>
+        <pin num="3" name="T+" type="passive"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="~CS~" type="input"/>
+        <pin num="7" name="SO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Thermocouple-cache" part="Mounting_Hole_M3">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Mounting_Hole_M3</field>
+      </fields>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Thermocouple-cache" part="Smoothie-teer-S">
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Smoothie-teer-S</field>
+        <field name="DKPN">ND</field>
+        <field name="MFPN">Enter Here</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="power_out"/>
+        <pin num="2" name="+5V" type="power_out"/>
+        <pin num="3" name="GPIO!" type="passive"/>
+        <pin num="4" name="GPIO" type="passive"/>
+        <pin num="5" name="GPIO" type="passive"/>
+        <pin num="6" name="CS" type="passive"/>
+        <pin num="7" name="MOSI" type="passive"/>
+        <pin num="8" name="MISO" type="passive"/>
+        <pin num="9" name="SCK" type="passive"/>
+        <pin num="10" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="interface">
+      <uri>C:\Program Files\KiCad\share\kicad\library\interface.lib</uri>
+    </library>
+    <library logical="Thermocouple-cache">
+      <uri>C:\Users\houses\Documents\Notes and Info\SBV2\Thermocouple-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="U1" pin="4"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="P2" pin="6"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(P2-Pad4)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="6" name="Net-(P2-Pad7)">
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="7" name="Net-(P2-Pad5)">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="8" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="P2" pin="10"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(P2-Pad8)">
+      <node ref="P2" pin="8"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(C2-Pad1)">
+      <node ref="P1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+  </nets>
+</export>
