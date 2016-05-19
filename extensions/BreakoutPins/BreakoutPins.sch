@@ -72,34 +72,6 @@ F 6 "N/A" H -1700 -4500 60  0001 C CNN "MFPN"
 	1    1100 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L MH M3
-U 1 1 5723E54E
-P 1100 1800
-F 0 "M3" H 1100 1650 60  0001 C CNN
-F 1 "MH_M3" H 1100 1950 60  0000 C CNN
-F 2 "SBV2_Footprints:M3_Mounting_Hole" H 1100 1800 60  0001 C CNN
-F 3 "" H 1100 1800 60  0000 C CNN
-F 4 "ND" H 1100 1800 60  0001 C CNN "Digikey Part No."
-F 5 "N/A" H -1700 -4200 60  0001 C CNN "DKPN"
-F 6 "N/A" H -1700 -4200 60  0001 C CNN "MFPN"
-	1    1100 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L MH M4
-U 1 1 5723E55F
-P 1100 2100
-F 0 "M4" H 1100 1950 60  0001 C CNN
-F 1 "MH_M3" H 1100 2250 60  0000 C CNN
-F 2 "SBV2_Footprints:M3_Mounting_Hole" H 1100 2100 60  0001 C CNN
-F 3 "" H 1100 2100 60  0000 C CNN
-F 4 "ND" H 1100 2100 60  0001 C CNN "Digikey Part No."
-F 5 "N/A" H -1700 -3900 60  0001 C CNN "DKPN"
-F 6 "N/A" H -1700 -3900 60  0001 C CNN "MFPN"
-	1    1100 2100
-	1    0    0    -1  
-$EndComp
 Text Notes 7100 6900 0    177  ~ 0
 Fancy SmoothieBoard 2 Logo!
 $Comp

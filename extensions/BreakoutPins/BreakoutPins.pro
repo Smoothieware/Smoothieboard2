@@ -1,4 +1,4 @@
-update=18/05/2016 20:39:50
+update=19/05/2016 21:23:56
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,5 +68,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Gadgeteer
-LibName31=Gadget
+LibName30=Gadget
