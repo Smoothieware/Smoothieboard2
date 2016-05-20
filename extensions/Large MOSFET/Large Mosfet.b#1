@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -194,13 +194,26 @@
 <text x="23.792" y="8.3" size="3.81" layer="21">-</text>
 <text x="22.711" y="12.3" size="3.81" layer="21">+</text>
 <text x="0.3" y="22.9" size="1.778" layer="21">PWR IN</text>
-<text x="0.3" y="20.9" size="1.778" layer="21">24V 12A</text>
+<text x="0.3" y="20.9" size="1.778" layer="21">24V</text>
 <text x="29.5" y="21.151" size="1.778" layer="21">OUT</text>
 <text x="3.1" y="18.9" size="1.778" layer="21">MAX</text>
 <dimension x1="3" y1="3" x2="33" y2="3" x3="18" y3="-3" textsize="1.778" layer="51"/>
 <dimension x1="0" y1="0" x2="36" y2="0" x3="18" y3="-7" textsize="1.778" layer="51"/>
 <dimension x1="36" y1="0" x2="36" y2="31" x3="45.085" y3="15.5" textsize="1.778" layer="51"/>
 <dimension x1="33.02" y1="27.813" x2="33.02" y2="2.794" x3="40.64" y3="15.3035" textsize="1.778" layer="51" dtype="vertical"/>
+<text x="5.911" y="26.009" size="1.27" layer="21">Gnd</text>
+<text x="9.594" y="26.009" size="1.27" layer="21">5v</text>
+<text x="11.88" y="26.009" size="1.27" layer="21">Signal</text>
+<text x="14.42" y="28.803" size="1.27" layer="21">Input</text>
+<text x="22.8274" y="24.358" size="0.8128" layer="21">-</text>
+<text x="19.881" y="24.358" size="0.8128" layer="21">+</text>
+<text x="25.839" y="14.96" size="1.016" layer="22" rot="MR0">Designed by</text>
+<text x="25.839" y="13.563" size="1.016" layer="22" rot="MR0">Ray Kholodovsky</text>
+<text x="22.04" y="28.93" size="1.27" layer="21">Large</text>
+<text x="23.31" y="25.374" size="1.1684" layer="21">Smoothie</text>
+<text x="22.04" y="27.025" size="1.27" layer="21">MOSFET</text>
+<text x="23.31" y="24.104" size="1.1684" layer="21">Expansion</text>
+<text x="5.38" y="20.9" size="1.778" layer="21">12A</text>
 </plain>
 <libraries>
 <library name="Cohesion_parts">
@@ -556,25 +569,30 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="R35" library="resistor" package="R0603" value="10r" x="18.3" y="24.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.189" y="24.989" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="17.511" y="25.568" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="19.771" y="22.464" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R36" library="resistor" package="R0603" value="100k" x="15.8" y="24.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.911" y="23.211" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="14.511" y="25.668" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="17.258" y="22.512" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="LED7" library="led" package="SML0603" value="LED" x="21.68" y="24.79" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.68" y="23.79" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="22.98" y="26.19" size="0.8128" layer="27" rot="R180"/>
+<attribute name="VALUE" x="22.853" y="24.158" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R37" library="resistor" package="R0603" value="1.5k" x="21.59" y="22.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.479" y="21.711" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="20.058" y="22.502" size="0.8128" layer="27" rot="R180"/>
+<attribute name="VALUE" x="22.852" y="21.867" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="JP1" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="13" y="28.8"/>
-<element name="D11" library="SparkFun-DiscreteSemi" package="SOD-323" value="1N4148" x="31.857" y="19.921" rot="R180">
+<element name="JP1" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="7.92" y="28.8"/>
+<element name="D11" library="SparkFun-DiscreteSemi" package="SOD-323" value="1N4148" x="31.857" y="19.921" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="DIO-09646" x="35.857" y="15.921" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="32.746" y="18.905" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="32.746" y="19.032" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="U$1" library="Cohesion_parts" package="D2PACK" value="N-POWER-MOSFETD2PAK-MOSFET" x="17.78" y="7.954" rot="R180"/>
+<element name="U$1" library="Cohesion_parts" package="D2PACK" value="MOSFET" x="17.78" y="7.954" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.368" y="0.715" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="21.59" y="11.383" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="U$6" library="eric_sorensen" package="1715250000" value="5MMCONN" x="5.207" y="14.986" rot="R270"/>
 <element name="U$2" library="eric_sorensen" package="1715250000" value="5MMCONN" x="30.861" y="10.033" rot="R90"/>
 </elements>
@@ -585,8 +603,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$1" pad="3"/>
 <wire x1="15.8" y1="23.25" x2="15.8" y2="17.404" width="0.6096" layer="1"/>
 <wire x1="15.8" y1="17.404" x2="15.24" y2="16.844" width="0.6096" layer="1"/>
-<wire x1="13" y1="28.927" x2="13" y2="25.1" width="0.6096" layer="1"/>
-<wire x1="13" y1="25.1" x2="14.85" y2="23.25" width="0.6096" layer="1"/>
+<wire x1="12.065" y1="26.035" x2="14.85" y2="23.25" width="0.6096" layer="1"/>
 <wire x1="15.8" y1="23.25" x2="14.85" y2="23.25" width="0.6096" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.4064" thermals="no" rank="5">
 <vertex x="0" y="0"/>
@@ -635,14 +652,18 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.207" y1="9.986" x2="6.986" y2="9.986" width="3.81" layer="1"/>
 <wire x1="15.24" y1="16.844" x2="13.844" y2="16.844" width="3.81" layer="1"/>
 <wire x1="13.844" y1="16.844" x2="6.986" y2="9.986" width="3.81" layer="1"/>
+<wire x1="7.92" y1="28.927" x2="7.92" y2="26.37" width="0.6096" layer="1"/>
+<wire x1="7.92" y1="26.37" x2="8.255" y2="26.035" width="0.6096" layer="1"/>
+<wire x1="8.255" y1="26.035" x2="12.065" y2="26.035" width="0.6096" layer="1"/>
 </signal>
 <signal name="FET-LOGIC-IN">
 <contactref element="R35" pad="1"/>
 <contactref element="R36" pad="2"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="18.08" y1="28.927" x2="18.08" y2="25.17" width="0.6096" layer="1"/>
 <wire x1="18.08" y1="25.17" x2="18.3" y2="24.95" width="0.6096" layer="1"/>
 <wire x1="15.8" y1="24.95" x2="18.3" y2="24.95" width="0.6096" layer="1"/>
+<wire x1="15.8" y1="24.95" x2="15.8" y2="26.127" width="0.6096" layer="1"/>
+<wire x1="15.8" y1="26.127" x2="13" y2="28.927" width="0.6096" layer="1"/>
 </signal>
 <signal name="E1-CONTROL" class="5">
 <contactref element="R37" pad="2"/>
@@ -707,31 +728,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP1" pad="2"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,416eec80ee3743d9"/>
-<approved hash="3,1,a519038b01c8a75a"/>
-<approved hash="3,1,c6516a0f684fc411"/>
-<approved hash="3,1,1944026fc0983952"/>
-<approved hash="3,1,21e92b172b2b21d5"/>
-<approved hash="3,1,4bda0778047348d1"/>
-<approved hash="3,1,88247782560f3730"/>
-<approved hash="4,1,197e0ea60e62ec91"/>
-<approved hash="4,1,06fe88948c14ec51"/>
-<approved hash="4,1,9cebf28424cf6155"/>
-<approved hash="4,1,8cd1f22a48620d4c"/>
-<approved hash="4,1,51e5591066f245f2"/>
-<approved hash="4,1,51fc49bd0a5c29c8"/>
-<approved hash="4,1,8c629d6bdbfd3fdf"/>
-<approved hash="4,1,8bc21f7941ab3b3f"/>
-<approved hash="4,16,9cebf28424cf6155"/>
-<approved hash="4,16,8cd1f22a48620d4c"/>
-<approved hash="4,16,06fe88948c14ec51"/>
-<approved hash="4,16,197e0ea60e62ec91"/>
-<approved hash="4,16,51e5591066f245f2"/>
-<approved hash="4,16,51fc49bd0a5c29c8"/>
-<approved hash="4,16,8bc21f7941ab3b3f"/>
-<approved hash="4,16,8c629d6bdbfd3fdf"/>
-</errors>
 </board>
 </drawing>
 </eagle>
