@@ -1,0 +1,424 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Gadget
+LIBS:logo
+LIBS:BreakoutTerm-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "SBV2-EB: BreakoutTerm"
+Date ""
+Rev "1.0"
+Comp "Smoothieware.org"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7100 6900 0    177  ~ 0
+Fancy SmoothieBoard 2 Logo!
+$Comp
+L +3.3V #PWR01
+U 1 1 573E07CC
+P 3350 2550
+F 0 "#PWR01" H 3350 2400 50  0001 C CNN
+F 1 "+3.3V" H 3350 2690 50  0000 C CNN
+F 2 "" H 3350 2550 50  0000 C CNN
+F 3 "" H 3350 2550 50  0000 C CNN
+	1    3350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 573E07F5
+P 4800 2550
+F 0 "#PWR02" H 4800 2400 50  0001 C CNN
+F 1 "+5V" H 4800 2690 50  0000 C CNN
+F 2 "" H 4800 2550 50  0000 C CNN
+F 3 "" H 4800 2550 50  0000 C CNN
+	1    4800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 573E081E
+P 4950 3400
+F 0 "#PWR03" H 4950 3150 50  0001 C CNN
+F 1 "GND" H 4950 3250 50  0000 C CNN
+F 2 "" H 4950 3400 50  0000 C CNN
+F 3 "" H 4950 3400 50  0000 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2700 4800 2700
+Wire Wire Line
+	4800 2700 4800 2550
+Wire Wire Line
+	3650 2700 3350 2700
+Wire Wire Line
+	3350 2700 3350 2550
+Wire Wire Line
+	4550 3100 4950 3100
+Wire Wire Line
+	4950 3100 4950 3400
+Text Label 4050 4750 0    60   ~ 0
+P3
+Text Label 4050 4850 0    60   ~ 0
+P4
+Text Label 4050 4950 0    60   ~ 0
+P5
+Text Label 4050 5050 0    60   ~ 0
+P6
+Text Label 4050 5150 0    60   ~ 0
+P7
+Text Label 4050 5250 0    60   ~ 0
+P8
+Text Label 4050 5350 0    60   ~ 0
+P9
+Text Label 4750 2900 0    60   ~ 0
+P6
+Text Label 4750 3000 0    60   ~ 0
+P8
+Wire Wire Line
+	4050 4750 4250 4750
+Wire Wire Line
+	4050 4850 4250 4850
+Wire Wire Line
+	4050 4950 4250 4950
+Wire Wire Line
+	4050 5050 4250 5050
+Wire Wire Line
+	4050 5150 4250 5150
+Wire Wire Line
+	4050 5250 4250 5250
+Wire Wire Line
+	4050 5350 4250 5350
+$Comp
+L GND #PWR04
+U 1 1 573E0983
+P 4000 5550
+F 0 "#PWR04" H 4000 5300 50  0001 C CNN
+F 1 "GND" H 4000 5400 50  0000 C CNN
+F 2 "" H 4000 5550 50  0000 C CNN
+F 3 "" H 4000 5550 50  0000 C CNN
+	1    4000 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5450 4000 5450
+Wire Wire Line
+	4000 5450 4000 5550
+$Comp
+L +3.3V #PWR05
+U 1 1 573E09AF
+P 3950 4350
+F 0 "#PWR05" H 3950 4200 50  0001 C CNN
+F 1 "+3.3V" H 3950 4490 50  0000 C CNN
+F 2 "" H 3950 4350 50  0000 C CNN
+F 3 "" H 3950 4350 50  0000 C CNN
+	1    3950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 573E09C3
+P 3700 4550
+F 0 "#PWR06" H 3700 4400 50  0001 C CNN
+F 1 "+5V" H 3700 4690 50  0000 C CNN
+F 2 "" H 3700 4550 50  0000 C CNN
+F 3 "" H 3700 4550 50  0000 C CNN
+	1    3700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4550 3950 4550
+Wire Wire Line
+	3950 4550 3950 4350
+Wire Wire Line
+	4250 4650 3700 4650
+Wire Wire Line
+	3700 4650 3700 4550
+Text Label 3400 2800 0    60   ~ 0
+P3
+Text Label 3400 2900 0    60   ~ 0
+P5
+Text Label 3400 3000 0    60   ~ 0
+P7
+Text Label 3400 3100 0    60   ~ 0
+P9
+Text Label 4750 2800 0    60   ~ 0
+P4
+Wire Wire Line
+	3650 3100 3400 3100
+Wire Wire Line
+	3400 2800 3650 2800
+Wire Wire Line
+	3400 2900 3650 2900
+Wire Wire Line
+	3400 3000 3650 3000
+Wire Wire Line
+	4750 2800 4550 2800
+Wire Wire Line
+	4750 2900 4550 2900
+Wire Wire Line
+	4750 3000 4550 3000
+$Comp
+L +3.3V #PWR07
+U 1 1 573E0BA7
+P 5800 2600
+F 0 "#PWR07" H 5800 2450 50  0001 C CNN
+F 1 "+3.3V" H 5800 2740 50  0000 C CNN
+F 2 "" H 5800 2600 50  0000 C CNN
+F 3 "" H 5800 2600 50  0000 C CNN
+	1    5800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR08
+U 1 1 573E0BAD
+P 7250 2600
+F 0 "#PWR08" H 7250 2450 50  0001 C CNN
+F 1 "+5V" H 7250 2740 50  0000 C CNN
+F 2 "" H 7250 2600 50  0000 C CNN
+F 3 "" H 7250 2600 50  0000 C CNN
+	1    7250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 573E0BB3
+P 7400 3450
+F 0 "#PWR09" H 7400 3200 50  0001 C CNN
+F 1 "GND" H 7400 3300 50  0000 C CNN
+F 2 "" H 7400 3450 50  0000 C CNN
+F 3 "" H 7400 3450 50  0000 C CNN
+	1    7400 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2750 7250 2750
+Wire Wire Line
+	7250 2750 7250 2600
+Wire Wire Line
+	6100 2750 5800 2750
+Wire Wire Line
+	5800 2750 5800 2600
+Wire Wire Line
+	7000 3150 7400 3150
+Wire Wire Line
+	7400 3150 7400 3450
+Text Label 7200 2950 0    60   ~ 0
+P6
+Text Label 7200 3050 0    60   ~ 0
+P8
+Text Label 5850 2850 0    60   ~ 0
+P3
+Text Label 5850 2950 0    60   ~ 0
+P5
+Text Label 5850 3050 0    60   ~ 0
+P7
+Text Label 5850 3150 0    60   ~ 0
+P9
+Text Label 7200 2850 0    60   ~ 0
+P4
+Wire Wire Line
+	6100 3150 5850 3150
+Wire Wire Line
+	5850 2850 6100 2850
+Wire Wire Line
+	5850 2950 6100 2950
+Wire Wire Line
+	5850 3050 6100 3050
+Wire Wire Line
+	7200 2850 7000 2850
+Wire Wire Line
+	7200 2950 7000 2950
+Wire Wire Line
+	7200 3050 7000 3050
+$Comp
+L CONN_01X10 P2
+U 1 1 573E08DA
+P 4450 5000
+F 0 "P2" H 4450 5550 50  0000 C CNN
+F 1 "CONN_01X10" V 4550 5000 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_10pol" H 4450 5000 50  0001 C CNN
+F 3 "" H 4450 5000 50  0000 C CNN
+F 4 "277-1727-ND " H 4450 5000 60  0001 C CNN "DKPN"
+F 5 "1984691" H 4450 5000 60  0001 C CNN "MFPN"
+F 6 "Phoenix Contact" H 4450 5000 60  0001 C CNN "MANF"
+	1    4450 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR010
+U 1 1 573E0C24
+P 1100 2900
+F 0 "#PWR010" H 1100 2750 50  0001 C CNN
+F 1 "+3.3V" H 1100 3040 50  0000 C CNN
+F 2 "" H 1100 2900 50  0000 C CNN
+F 3 "" H 1100 2900 50  0000 C CNN
+	1    1100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 573E0C38
+P 1550 2900
+F 0 "#PWR011" H 1550 2750 50  0001 C CNN
+F 1 "+5V" H 1550 3040 50  0000 C CNN
+F 2 "" H 1550 2900 50  0000 C CNN
+F 3 "" H 1550 2900 50  0000 C CNN
+	1    1550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 573E0C4C
+P 1100 3500
+F 0 "#PWR012" H 1100 3250 50  0001 C CNN
+F 1 "GND" H 1100 3350 50  0000 C CNN
+F 2 "" H 1100 3500 50  0000 C CNN
+F 3 "" H 1100 3500 50  0000 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 573E0C63
+P 1100 3500
+F 0 "#FLG013" H 1100 3595 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 3680 50  0000 C CNN
+F 2 "" H 1100 3500 50  0000 C CNN
+F 3 "" H 1100 3500 50  0000 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG014
+U 1 1 573E0C7E
+P 1100 2900
+F 0 "#FLG014" H 1100 2995 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 3080 50  0000 C CNN
+F 2 "" H 1100 2900 50  0000 C CNN
+F 3 "" H 1100 2900 50  0000 C CNN
+	1    1100 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG015
+U 1 1 573E0CE7
+P 1550 2900
+F 0 "#FLG015" H 1550 2995 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 3080 50  0000 C CNN
+F 2 "" H 1550 2900 50  0000 C CNN
+F 3 "" H 1550 2900 50  0000 C CNN
+	1    1550 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Gadgeteer_logo LOGO2
+U 1 1 573F3AAC
+P 9950 1650
+F 0 "LOGO2" H 9950 1950 60  0000 C CNN
+F 1 "Gadgeteer_logo" H 9950 1350 60  0000 C CNN
+F 2 "SBV2_Footprints:Gadgeteer_logo" H 9900 1250 60  0001 C CNN
+F 3 "" H 9950 1650 60  0000 C CNN
+	1    9950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPEN_HARDWARE_1 LOGO1
+U 1 1 573F3AEF
+P 9950 2450
+F 0 "LOGO1" H 9950 2725 50  0000 C CNN
+F 1 "OPEN_HARDWARE_1" H 9950 2225 50  0000 C CNN
+F 2 "SBV2_Footprints:Logo_silk_OSHW_12x13mm" H 9950 2100 60  0001 C CNN
+F 3 "" H 9950 2450 60  0000 C CNN
+	1    9950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH_3.2mm M1
+U 1 1 573F3B65
+P 1100 1300
+F 0 "M1" H 1100 1150 60  0000 C CNN
+F 1 "MH_3.2mm" H 1100 1450 60  0000 C CNN
+F 2 "SBV2_Footprints:M3_Mounting_Hole" H 1000 1050 60  0001 C CNN
+F 3 "" H 1100 1300 60  0000 C CNN
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH_3.2mm M2
+U 1 1 573F3BEA
+P 1100 1750
+F 0 "M2" H 1100 1600 60  0000 C CNN
+F 1 "MH_3.2mm" H 1100 1900 60  0000 C CNN
+F 2 "SBV2_Footprints:M3_Mounting_Hole" H 1000 1500 60  0001 C CNN
+F 3 "" H 1100 1750 60  0000 C CNN
+	1    1100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn-Y P1
+U 1 1 573F3F4E
+P 4100 2900
+F 0 "P1" H 4100 3200 50  0000 C CNN
+F 1 "*" H 4100 2600 50  0000 C CNN
+F 2 "SBV2_Footprints:ESHF-105-01-L-D-SM" H 4150 2450 50  0001 C CNN
+F 3 "" H 4100 1700 50  0000 C CNN
+F 4 "ESHF-105-01-L-D-SM " H 4100 2250 50  0001 C CNN "MFPN"
+F 5 "SAM8765-ND " H 4150 2350 50  0001 C CNN "DKPN"
+F 6 "Samtec" H 4100 2900 60  0001 C CNN "MANF"
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn-Y P3
+U 1 1 573F3FDE
+P 6550 2950
+F 0 "P3" H 6550 3250 50  0000 C CNN
+F 1 "*" H 6550 2650 50  0000 C CNN
+F 2 "SBV2_Footprints:ESHF-105-01-L-D-SM" H 6600 2500 50  0001 C CNN
+F 3 "" H 6550 1750 50  0000 C CNN
+F 4 "ESHF-105-01-L-D-SM " H 6550 2300 50  0001 C CNN "MFPN"
+F 5 "SAM8765-ND " H 6600 2400 50  0001 C CNN "DKPN"
+	1    6550 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 3850 3400 0    60   ~ 0
+Upstream : any port
+Text Notes 5850 3400 0    60   ~ 0
+Downstream : pass through
+$EndSCHEMATC
