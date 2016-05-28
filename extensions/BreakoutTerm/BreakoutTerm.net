@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/git_bobc/Smoothieboard2/extensions/BreakoutTerm/BreakoutTerm.sch)
-    (date "21/05/2016 00:16:37")
+    (date "28/05/2016 17:55:49")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -51,23 +51,22 @@
       (tstamp 573F3BEA))
     (comp (ref P1)
       (value *)
-      (footprint SBV2_Footprints:ESHF-105-01-L-D-SM)
+      (footprint SBV2_Footprints:SHF-105-01-L-D-SM)
       (fields
-        (field (name MFPN) "ESHF-105-01-L-D-SM ")
-        (field (name DKPN) "SAM8765-ND ")
-        (field (name MANF) Samtec))
+        (field (name MFPN) SHF-105-01-L-D-SM)
+        (field (name DKPN) 609-4054-ND))
       (libsource (lib Gadget) (part Conn-Y))
       (sheetpath (names /) (tstamps /))
-      (tstamp 573F3F4E))
+      (tstamp 5749CDEF))
     (comp (ref P3)
       (value *)
-      (footprint SBV2_Footprints:ESHF-105-01-L-D-SM)
+      (footprint SBV2_Footprints:SHF-105-01-L-D-SM)
       (fields
-        (field (name MFPN) "ESHF-105-01-L-D-SM ")
-        (field (name DKPN) "SAM8765-ND "))
+        (field (name MFPN) SHF-105-01-L-D-SM)
+        (field (name DKPN) 609-4054-ND))
       (libsource (lib Gadget) (part Conn-Y))
       (sheetpath (names /) (tstamps /))
-      (tstamp 573F3FDE)))
+      (tstamp 5749CF64)))
   (libparts
     (libpart (lib conn) (part CONN_01X10)
       (description "Connector 01x10")
@@ -95,9 +94,9 @@
       (fields
         (field (name Reference) P)
         (field (name Value) Conn-Y)
-        (field (name Footprint) SBV2_Footprints:ESHF-105-01-L-D-SM)
-        (field (name MFPN) "ESHF-105-01-L-D-SM ")
-        (field (name DKPN) "SAM8765-ND "))
+        (field (name Footprint) SBV2_Footprints:SHF-105-01-L-D-SM)
+        (field (name MFPN) SHF-105-01-L-D-SM)
+        (field (name DKPN) 609-4054-ND))
       (pins
         (pin (num 1) (name +3.3V) (type power_in))
         (pin (num 2) (name +5V) (type power_in))
@@ -132,7 +131,7 @@
     (library (logical conn)
       (uri "c:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical Gadget)
-      (uri Gadget.lib)))
+      (uri C:\git_bobc\Smoothieboard2\extensions\BreakoutTerm\Gadget.lib)))
   (nets
     (net (code 1) (name /P5)
       (node (ref P2) (pin 6))

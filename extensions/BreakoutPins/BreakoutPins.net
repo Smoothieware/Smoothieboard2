@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/git_bobc/Smoothieboard2/extensions/BreakoutPins/BreakoutPins.sch)
-    (date "19/05/2016 21:37:19")
+    (date "28/05/2016 18:35:42")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -45,14 +45,14 @@
       (value Smoothie-teer-Daisy)
       (footprint SBV2_Footprints:20021521-00010T1LF)
       (fields)
-      (libsource (lib Gadget) (part Smoothie-teer-Daisy))
+      (libsource (lib BreakoutPins-cache) (part Smoothie-teer-Daisy))
       (sheetpath (names /) (tstamps /))
       (tstamp 573CC74D))
     (comp (ref P3)
       (value Smoothie-teer-Daisy)
       (footprint SBV2_Footprints:20021521-00010T1LF)
       (fields)
-      (libsource (lib Gadget) (part Smoothie-teer-Daisy))
+      (libsource (lib BreakoutPins-cache) (part Smoothie-teer-Daisy))
       (sheetpath (names /) (tstamps /))
       (tstamp 573CC7BE)))
   (libparts
@@ -84,8 +84,7 @@
       (fields
         (field (name Reference) M)
         (field (name Value) MH)))
-    (libpart (lib Gadget) (part Smoothie-teer-Daisy)
-      (description "Smoothie-teer Type S Connector")
+    (libpart (lib BreakoutPins-cache) (part Smoothie-teer-Daisy)
       (fields
         (field (name Reference) P)
         (field (name Value) Smoothie-teer-Daisy)
@@ -104,8 +103,6 @@
   (libraries
     (library (logical conn)
       (uri "c:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical Gadget)
-      (uri Gadget.lib))
     (library (logical BreakoutPins-cache)
       (uri C:\git_bobc\Smoothieboard2\extensions\BreakoutPins\BreakoutPins-cache.lib)))
   (nets
