@@ -72,8 +72,8 @@ F 6 "N/A" H -1700 -4500 60  0001 C CNN "MFPN"
 	1    1100 1500
 	1    0    0    -1  
 $EndComp
-Text Notes 7100 6900 0    177  ~ 0
-Fancy SmoothieBoard 2 Logo!
+Text Notes 7100 6900 0    150  ~ 30
+SmoothieBoard 2 Expansion Boards
 $Comp
 L CONN_01X10 P2
 U 1 1 573CB8DB

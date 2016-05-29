@@ -16,4 +16,9 @@ $CMP MH_3.2mm
 D A mounting hole
 $ENDCMP
 #
+$CMP Microswitch
+D Omron Microswitch D2F-A
+K Microswitch 
+$ENDCMP
+#
 #End Doc Library

@@ -1,4 +1,4 @@
-update=28/05/2016 18:10:19
+update=28/05/2016 01:05:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,10 +57,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Gadget
+LibName31=C:/ProgramData/Kicad/kicad-library/library/logo
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=Docs
+PlotDirectoryName=Docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
