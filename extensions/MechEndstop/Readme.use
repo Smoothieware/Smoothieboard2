@@ -1,0 +1,9 @@
+Usage
+-----
+
+Connect to a Smootheboard endstop port
+
+Smoothieware config:
+- no endstop pullup
+- endstop active low
+
