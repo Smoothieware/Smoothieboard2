@@ -4,6 +4,6 @@ Usage
 Connect to a Smootheboard endstop port
 
 Smoothieware config:
-- no endstop pullup
-- endstop active low
+- set pin to pull down
+- active low
 
