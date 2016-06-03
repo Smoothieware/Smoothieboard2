@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn-S
+D Gadgeteer Type S Connector
+$ENDCMP
+#
+$CMP Conn-Y
+D Gadgeteer Type Y Connector
+$ENDCMP
+#
+$CMP Gadgeteer_logo
+D Gadgeteer logo
+$ENDCMP
+#
+$CMP MH_3.2mm
+D A mounting hole
+$ENDCMP
+#
+$CMP Microswitch
+D Omron Microswitch D2F-A
+K Microswitch 
+$ENDCMP
+#
+#End Doc Library
