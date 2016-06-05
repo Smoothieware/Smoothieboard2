@@ -1,0 +1,32 @@
+Usage
+-----
+
+Connect to a gadgeteer Y port.
+
+Connect Smoothie compatible endstop to connectors INP0 - INP6.
+
+"+" 3.3/5V to provide power, e.g. for opto endstop
+"-" Ground reference
+"S" signal input. Led indicates when endstop/switch input is low.
+
+
+For normal switch NC/NO type, connect to "-" and "S".
+ 
+
+Use JP1 to select the voltage on "+" pin of endstop connectors. Select from
+- 5V
+- 3.3V
+- nothing (jumper removed)
+
+Additionally, jumpers JP2 - JP8 can be cut to isolate an input. 
+
+Y pin   Connector   Jumper
+
+P3      INP0    JP2
+P4      INP1    JP3
+P5      INP2    JP4
+P5      INP3    JP5
+P7      INP4    JP6
+P8      INP5    JP7
+P9      INP6    JP8
+
