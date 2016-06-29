@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Connectors)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Connectors.pretty")(options "")(descr ""))
+  (lib (name Jumpers)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Jumpers.pretty")(options "")(descr ""))
+  (lib (name Diodes)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Diodes.pretty")(options "")(descr ""))
 )
