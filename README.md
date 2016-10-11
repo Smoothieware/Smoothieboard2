@@ -13,3 +13,7 @@ When uploading a board, you should provide the following data :
 * Top and bottom pictures of the PCB, produced using http://gerblook.org/
 
 Please try to use the same naming conventions as other board so there is some kind of unity in the repository.
+
+##Specifications
+
+Specifications for this project can be found at https://is.gd/Y4MjV7
