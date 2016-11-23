@@ -1,0 +1,5 @@
+1. Optoisolater, Manufacturer: Lite-On Inc., Manufacturer Part Number: 6N137S-TA1, Digikey Part Number: 160-1794-2-ND
+2. 10 pin Connector, Manufacturer: CNC Tech, Manufacturer Part Number: 3220-10-0200-00, Digikey Part Number: 1175-1627-ND
+3. 2 pin Connector, Manufacturer: Sullins Connector Solutions, Manufacturer Part Number: PPTC021LFBN-RC, Digikey Part Number: S7000-ND
+4. 330R 0603 Resistor, Manufacturer: Yageo, Manufacturer Part Number: RC0603JR-07330RL, Digikey Part Number: 311-330GRTR-ND
+5. 100n 0603 Capacitor, Manufacturer: Samsung Electro-Mechanics America, Inc, Manufacturer Part Number: CL10B104KO8NNNC, Digikey Part Number: 1276-1005-2-ND
