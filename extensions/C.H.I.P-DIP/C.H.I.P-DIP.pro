@@ -1,4 +1,4 @@
-update=Sun 05 Mar 2017 03:23:31 AM CET
+update=06-03-2017 00:29:18
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -67,5 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=SchematicLibraries/c.h.i.p
-[general]
-version=1
+LibName31=SchematicLibraries/EEPROM

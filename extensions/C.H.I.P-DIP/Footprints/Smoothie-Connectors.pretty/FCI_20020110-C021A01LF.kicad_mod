@@ -11,8 +11,8 @@
   (fp_line (start -4.2 -4.6) (end -4.2 4.6) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole oval (at -1.75 3.4) (size 2 3) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 1.75 3.4) (size 2 3) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
-  (model "${KIPRJMOD}/Footprints/3Dfiles/FCI-20020110-C021A01LF.wrl"
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/Footprints/3Dfiles/FCI-20020110-C021A01LF.wrl
+    (at (xyz -0.211 0 0.135))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
   )

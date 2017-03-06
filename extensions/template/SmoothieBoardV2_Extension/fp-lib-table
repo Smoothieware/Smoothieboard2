@@ -4,4 +4,5 @@
   (lib (name Smoothie-Jumpers)(type KiCad)(uri "$(KIPRJMOD)/Footprints/Smoothie-Jumpers.pretty")(options "")(descr ""))
   (lib (name Smoothie-Regulators)(type KiCad)(uri "$(KIPRJMOD)/Footprints/Smoothie-Regulators.pretty")(options "")(descr ""))
   (lib (name C.H.I.P)(type KiCad)(uri "$(KIPRJMOD)/Footprints/C.H.I.P.pretty")(options "")(descr ""))
+  (lib (name Smoothie-TSOC)(type KiCad)(uri "$(KIPRJMOD/Footprints/Smoothie-TSOC.pretty")(options "")(descr ""))
 )
