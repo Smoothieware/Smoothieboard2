@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Smoothie-Connectors)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Smoothie-Connectors.pretty")(options "")(descr ""))
+  (lib (name Smoothie-Diodes)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Smoothie-Diodes.pretty")(options "")(descr ""))
+  (lib (name Smoothie-Jumpers)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Smoothie-Jumpers.pretty")(options "")(descr ""))
+  (lib (name Smoothie-Regulators)(type KiCad)(uri "$(KIPRJMOD)\\Footprints\\Smoothie-Regulators.pretty")(options "")(descr ""))
+)
