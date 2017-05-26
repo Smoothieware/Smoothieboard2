@@ -174,6 +174,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Jon Thore/Downloads/Pheonix_MKDS1.5-2pol.wrl"
+      (at (xyz 0.09842519685039371 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SBV2_Footprints:Weidmuller_1715250000 locked (layer F.Cu) (tedit 58FCFF0C) (tstamp 58C56DB8)
@@ -203,6 +208,11 @@
       (net 8 "Net-(C3-Pad2)"))
     (model walter/conn_mkds/mkds_1,5-2.wrl
       (at (xyz 0.1 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Jon Thore/Downloads/Pheonix_MKDS1.5-2pol.wrl"
+      (at (xyz 0.09842519685039371 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -358,6 +368,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 180 180))
+    )
+    (model "C:/Users/Jon Thore/Documents/GitHub/Smoothieboard2/extensions/level-shifter/Footprints/3Dfiles/SHF-105-01-L-D-SM-LC.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -681,15 +696,20 @@
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 180 180))
     )
+    (model "C:/Users/Jon Thore/Documents/GitHub/Smoothieboard2/extensions/level-shifter/Footprints/3Dfiles/SHF-105-01-L-D-SM-LC.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
+    )
   )
 
-  (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 58E0A804) (tstamp 5928B511)
+  (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 5928B96A) (tstamp 5928B511)
     (at 162.5 100.5 90)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
     (path /58C555EA)
     (attr smd)
-    (fp_text reference R3 (at 0 -1.85 90) (layer F.SilkS)
+    (fp_text reference R3 (at 0 2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 400 (at 0 1.95 90) (layer F.Fab)
