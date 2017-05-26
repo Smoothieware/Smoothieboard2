@@ -162,7 +162,7 @@ U 1 1 58C555EA
 P 7300 2950
 F 0 "R3" H 7370 3041 50  0000 L CNN
 F 1 "400" H 7370 2950 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 7370 2859 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 7370 2859 50  0000 L CNN
 F 3 "" H -250 150 50  0000 C CNN
 	1    7300 2950
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 58C55696
 P 7300 3900
 F 0 "C3" H 7415 3991 50  0000 L CNN
 F 1 "10n" H 7415 3900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6850 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6550 3800 50  0000 L CNN
 F 3 "" H 50  150 50  0000 C CNN
 	1    7300 3900
 	1    0    0    -1  
@@ -261,8 +261,8 @@ $Comp
 L MAX31865_SSOP20 U1
 U 1 1 58C57440
 P 6150 3650
-F 0 "U1" H 6175 4950 60  0000 C CNN
-F 1 "MAX31865_SSOP20" H 6175 4844 60  0000 C CNN
+F 0 "U1" H 6150 4350 60  0000 C CNN
+F 1 "MAX31865_SSOP20" H 6150 4250 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 100 400 60  0001 C CNN
 F 3 "" H 100 400 60  0000 C CNN
 	1    6150 3650
@@ -331,13 +331,13 @@ Wire Wire Line
 Wire Wire Line
 	3650 4350 3650 3900
 Wire Wire Line
-	3650 3900 3750 3900
+	3500 3900 3750 3900
 Wire Wire Line
 	4650 3800 4900 3800
 Wire Wire Line
 	4900 3800 4900 3500
 Wire Wire Line
-	4900 3500 5500 3500
+	4850 3500 5500 3500
 Wire Wire Line
 	5500 3800 5200 3800
 Wire Wire Line
@@ -405,4 +405,68 @@ Wire Wire Line
 	8200 3850 8300 3850
 Text Notes 3450 5900 0    60   ~ 0
 This card is designed to be flexible and accept all common configurations of PT100 sensors.
+$Comp
+L Smoothie-teer-S P4
+U 1 1 5928A58B
+P 4200 3050
+F 0 "P4" H 4200 3475 50  0000 C CNN
+F 1 "Smoothie-teer-S" H 4200 3384 50  0000 C CNN
+F 2 "Smoothie-Connectors:SHF-105-01-L-D-SM-LC" H 400 -1550 50  0001 C CNN
+F 3 "" H 400 -1550 50  0000 C CNN
+	1    4200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2850 3650 2850
+Connection ~ 3650 2850
+Wire Wire Line
+	3750 2950 3600 2950
+Wire Wire Line
+	3600 2950 3600 3700
+Wire Wire Line
+	3600 3700 3750 3700
+Wire Wire Line
+	3750 3050 3550 3050
+Wire Wire Line
+	3550 3050 3550 3800
+Wire Wire Line
+	3550 3800 3750 3800
+Wire Wire Line
+	3750 3150 3500 3150
+Wire Wire Line
+	3500 3150 3500 3900
+Connection ~ 3650 3900
+Wire Wire Line
+	3750 3250 3450 3250
+Wire Wire Line
+	3450 3250 3450 4000
+Wire Wire Line
+	3450 4000 3750 4000
+Wire Wire Line
+	4650 2850 4750 2850
+Wire Wire Line
+	4750 2850 4750 3600
+Wire Wire Line
+	4750 3600 4650 3600
+Wire Wire Line
+	4650 2950 4800 2950
+Wire Wire Line
+	4800 2950 4800 3700
+Wire Wire Line
+	4800 3700 4650 3700
+Wire Wire Line
+	4650 3050 4850 3050
+Wire Wire Line
+	4850 3050 4850 3500
+Connection ~ 4900 3500
+Wire Wire Line
+	4650 3150 4950 3150
+Wire Wire Line
+	4950 3150 4950 3900
+Connection ~ 4950 3900
+Wire Wire Line
+	4650 3250 5300 3250
+Wire Wire Line
+	5300 3250 5300 4700
+Connection ~ 5300 4700
 $EndSCHEMATC
