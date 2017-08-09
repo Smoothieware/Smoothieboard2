@@ -1,0 +1,251 @@
+Cmp-Mod V01 Created by PcbNew   date = jue 27 abr 2017 21:02:42 CEST
+
+BeginCmp
+TimeStamp = 5901E48D
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E480
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E47C
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E471
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E46D
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E469
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1D7
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1D5
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1D3
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1D1
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1CE
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1CB
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1C8
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1C5
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E1C1
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E196
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E193
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E191
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E18F
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E18A
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E187
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E183
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E17E
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901E17A
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Lib:VIA-0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CBAE
+Path = /5901C4BC
+Reference = U2;
+ValeurCmp = ArduinoConnector;
+IdModule  = Lib:ARDUINO_UNO;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CB3A
+Path = /5900E0E0
+Reference = A1;
+ValeurCmp = Conn-A;
+IdModule  = Lib:SHF-105-01-L-D-SM-LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CB48
+Path = /5901E910
+Reference = A2;
+ValeurCmp = Conn-A;
+IdModule  = Lib:SHF-105-01-L-D-SM-LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CB56
+Path = /5900E45B
+Reference = I1;
+ValeurCmp = Conn-I;
+IdModule  = Lib:SHF-105-01-L-D-SM-LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CB64
+Path = /5900E509
+Reference = P1;
+ValeurCmp = Conn-S;
+IdModule  = Lib:SHF-105-01-L-D-SM-LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CB72
+Path = /58FE5860
+Reference = P2;
+ValeurCmp = Conn-Y;
+IdModule  = Lib:SHF-105-01-L-D-SM-LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901CB80
+Path = /5900E41A
+Reference = U1;
+ValeurCmp = Conn-U;
+IdModule  = Lib:SHF-105-01-L-D-SM-LC;
+EndCmp
+
+EndListe
