@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name HR911105A)(type Legacy)(uri C:/Users/Logxen/Documents/KiCad/SmoothieboardHybrid/HR911105A.mod)(options "")(descr ""))
+  (lib (name w_conn_kk100)(type KiCad)(uri C:/Users/logxe/Dropbox/Kicad/libs/w_conn_kk100.pretty)(options "")(descr ""))
+  (lib (name LPC4330-EMC)(type KiCad)(uri C:/Users/logxe/Dropbox/Kicad/LPC4330-EMC/LPC4330-EMC.pretty)(options "")(descr ""))
+)
