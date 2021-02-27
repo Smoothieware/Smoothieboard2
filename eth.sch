@@ -1,50 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:Smoothie2Standard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:a4982
-LIBS:ap2511
-LIBS:ksz8081rna
-LIBS:lm1117
-LIBS:lpc43xxfet256
-LIBS:microsd
-LIBS:q_nmos_sssgd
-LIBS:r78e
-LIBS:spi_flash
-LIBS:a8498
-LIBS:s29glxxxs
-LIBS:tmc2660
-LIBS:rj45-hr911105a
-LIBS:tc4427a
-LIBS:Smoothie2Standard-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -59,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KSZ8081RNA U13
+L ksz8081rna:KSZ8081RNA U13
 U 1 1 59AD77E2
 P 4000 3300
 F 0 "U13" H 4000 4800 60  0000 C CNN
@@ -70,7 +25,7 @@ F 3 "" H 4000 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-HR911105A P18
+L rj45-hr911105a:RJ45-HR911105A P18
 U 1 1 59AD7817
 P 9300 2600
 F 0 "P18" H 9300 3200 60  0000 C CNN
@@ -81,7 +36,7 @@ F 3 "" H 9300 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL_SMD X2
+L Smoothie2Standard-rescue:CRYSTAL_SMD X2
 U 1 1 59BE2598
 P 1700 4600
 F 0 "X2" H 1700 4690 50  0000 C CNN
@@ -96,7 +51,7 @@ XO
 Text Label 2400 4500 0    60   ~ 0
 XI
 $Comp
-L R R98
+L Smoothie2Standard-rescue:R R98
 U 1 1 59BE26E8
 P 2550 4700
 F 0 "R98" V 2630 4700 50  0000 C CNN
@@ -115,7 +70,7 @@ RESET
 Text GLabel 2700 2850 0    60   Input ~ 0
 GND
 $Comp
-L INDUCTOR_SMALL L11
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L11
 U 1 1 59BE28DB
 P 1950 2300
 F 0 "L11" H 1950 2400 50  0000 C CNN
@@ -166,7 +121,7 @@ GNDS
 Text GLabel 8100 1900 0    60   Input ~ 0
 3.3V
 $Comp
-L R R99
+L Smoothie2Standard-rescue:R R99
 U 1 1 59BE3011
 P 7350 2900
 F 0 "R99" V 7430 2900 50  0000 C CNN
@@ -177,7 +132,7 @@ F 3 "" H 7350 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R100
+L Smoothie2Standard-rescue:R R100
 U 1 1 59BE305F
 P 7350 3100
 F 0 "R100" V 7430 3100 50  0000 C CNN
@@ -208,7 +163,7 @@ TXC
 Text Label 8000 2500 0    60   ~ 0
 RXC
 $Comp
-L C C88
+L Smoothie2Standard-rescue:C C88
 U 1 1 59BE355C
 P 7700 3350
 F 0 "C88" H 7725 3450 50  0000 L CNN
@@ -219,7 +174,7 @@ F 3 "" H 7700 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C89
+L Smoothie2Standard-rescue:C C89
 U 1 1 59BE35CD
 P 8000 3350
 F 0 "C89" H 8025 3450 50  0000 L CNN
@@ -234,11 +189,11 @@ Wire Wire Line
 Wire Wire Line
 	2300 4500 2300 4600
 Wire Wire Line
-	2300 4600 1900 4600
+	2300 4600 2100 4600
 Wire Wire Line
 	1500 4600 1300 4600
 Wire Wire Line
-	1300 4400 1300 4700
+	1300 4400 1300 4600
 Wire Wire Line
 	1300 4400 2800 4400
 Wire Wire Line
@@ -248,21 +203,21 @@ Wire Wire Line
 Wire Wire Line
 	2300 4700 2300 5000
 Wire Wire Line
-	2300 5000 1300 5000
+	2300 5000 2100 5000
 Wire Wire Line
-	1700 4700 1700 5100
+	1700 4700 1700 5000
 Connection ~ 1700 5000
 Wire Wire Line
 	2300 4200 2800 4200
 Wire Wire Line
-	2700 2700 2700 2850
+	2700 2700 2700 2800
 Wire Wire Line
 	2700 2800 2800 2800
 Wire Wire Line
 	2700 2700 2800 2700
 Connection ~ 2700 2800
 Wire Wire Line
-	2200 2300 2800 2300
+	2200 2300 2300 2300
 Wire Wire Line
 	2300 1900 2300 2300
 Connection ~ 2300 2300
@@ -271,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2100 2800 2100
 Wire Wire Line
-	1600 1900 1600 2500
+	1600 1900 1600 2300
 Wire Wire Line
 	1600 2300 1700 2300
 Wire Wire Line
@@ -283,11 +238,11 @@ Wire Wire Line
 Wire Wire Line
 	2300 3100 2800 3100
 Wire Wire Line
-	2300 3200 2800 3200
+	2300 3200 2500 3200
 Wire Wire Line
-	2300 3300 2800 3300
+	2300 3300 2500 3300
 Wire Wire Line
-	2300 3400 2800 3400
+	2300 3400 2500 3400
 Wire Wire Line
 	2300 3500 2800 3500
 Wire Wire Line
@@ -320,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 3000 9900 3000
 Wire Wire Line
-	8100 1900 8100 3000
+	8100 1900 8100 2800
 Wire Wire Line
 	8100 2800 8200 2800
 Wire Wire Line
@@ -345,14 +300,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 3500 7700 3600
 Wire Wire Line
-	7700 3600 8150 3600
+	7700 3600 8000 3600
 Wire Wire Line
-	8000 3500 8000 3700
+	8000 3500 8000 3600
 Connection ~ 8000 3600
 Text GLabel 8000 3700 0    60   Input ~ 0
 GND
 $Comp
-L C C83
+L Smoothie2Standard-rescue:C C83
 U 1 1 59BE3DF9
 P 2000 1250
 F 0 "C83" H 2025 1350 50  0000 L CNN
@@ -363,7 +318,7 @@ F 3 "" H 2000 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C82
+L Smoothie2Standard-rescue:C C82
 U 1 1 59BE3E8D
 P 1700 1250
 F 0 "C82" H 1725 1350 50  0000 L CNN
@@ -374,7 +329,7 @@ F 3 "" H 1700 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C84
+L Smoothie2Standard-rescue:C C84
 U 1 1 59BE3EE9
 P 2300 1250
 F 0 "C84" H 2325 1350 50  0000 L CNN
@@ -385,7 +340,7 @@ F 3 "" H 2300 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C85
+L Smoothie2Standard-rescue:C C85
 U 1 1 59BE3F3B
 P 2600 1250
 F 0 "C85" H 2625 1350 50  0000 L CNN
@@ -396,7 +351,7 @@ F 3 "" H 2600 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C86
+L Smoothie2Standard-rescue:C C86
 U 1 1 59BE3F96
 P 2900 1250
 F 0 "C86" H 2925 1350 50  0000 L CNN
@@ -407,7 +362,7 @@ F 3 "" H 2900 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C87
+L Smoothie2Standard-rescue:C C87
 U 1 1 59BE3FE8
 P 3200 1250
 F 0 "C87" H 3225 1350 50  0000 L CNN
@@ -420,7 +375,7 @@ $EndComp
 Wire Wire Line
 	1700 1400 1700 1500
 Wire Wire Line
-	1700 1500 3200 1500
+	1700 1500 2000 1500
 Wire Wire Line
 	2000 1500 2000 1400
 Wire Wire Line
@@ -433,25 +388,25 @@ Wire Wire Line
 	2900 1500 2900 1400
 Connection ~ 2600 1500
 Wire Wire Line
-	3200 1400 3200 1600
+	3200 1400 3200 1500
 Connection ~ 2900 1500
 Connection ~ 3200 1500
 Text GLabel 3200 1600 0    60   Input ~ 0
 GND
 Wire Wire Line
-	1700 800  1700 1100
+	1700 800  1700 1000
 Wire Wire Line
 	1700 1000 2000 1000
 Wire Wire Line
 	2000 1000 2000 1100
 Wire Wire Line
-	2300 800  2300 1100
+	2300 800  2300 1000
 Wire Wire Line
 	2300 1000 2600 1000
 Wire Wire Line
 	2600 1000 2600 1100
 Wire Wire Line
-	2900 800  2900 1100
+	2900 800  2900 1000
 Wire Wire Line
 	2900 1000 3200 1000
 Wire Wire Line
@@ -492,7 +447,7 @@ Text Label 2900 800  0    60   ~ 0
 Text Label 2300 800  0    60   ~ 0
 3.3VE
 $Comp
-L PWR_FLAG #FLG011
+L power:PWR_FLAG #FLG011
 U 1 1 59EE950F
 P 2200 2300
 F 0 "#FLG011" H 2200 2395 50  0001 C CNN
@@ -503,7 +458,7 @@ F 3 "" H 2200 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C90
+L Smoothie2Standard-rescue:C_Small C90
 U 1 1 5A44FBD2
 P 1300 4800
 F 0 "C90" H 1310 4870 50  0000 L CNN
@@ -514,7 +469,7 @@ F 3 "" H 1300 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C91
+L Smoothie2Standard-rescue:C_Small C91
 U 1 1 5A44FC8D
 P 2100 4800
 F 0 "C91" H 2110 4870 50  0000 L CNN
@@ -539,4 +494,75 @@ Wire Wire Line
 	8150 3600 8150 2700
 Wire Wire Line
 	8150 2700 8200 2700
+Wire Wire Line
+	1700 5000 1300 5000
+Wire Wire Line
+	1700 5000 1700 5100
+Wire Wire Line
+	2700 2800 2700 2850
+Wire Wire Line
+	2300 2300 2800 2300
+Wire Wire Line
+	1600 2300 1600 2500
+Wire Wire Line
+	8100 2800 8100 3000
+Wire Wire Line
+	8000 3600 8150 3600
+Wire Wire Line
+	8000 3600 8000 3700
+Wire Wire Line
+	2000 1500 2300 1500
+Wire Wire Line
+	2300 1500 2600 1500
+Wire Wire Line
+	2600 1500 2900 1500
+Wire Wire Line
+	2900 1500 3200 1500
+Wire Wire Line
+	3200 1500 3200 1600
+Wire Wire Line
+	1700 1000 1700 1100
+Wire Wire Line
+	2300 1000 2300 1100
+Wire Wire Line
+	2900 1000 2900 1100
+Wire Wire Line
+	1300 4600 1300 4700
+Wire Wire Line
+	2100 4600 1900 4600
+Wire Wire Line
+	2100 5000 1700 5000
+$Comp
+L Smoothie2Standard-rescue:R R107
+U 1 1 6069FA98
+P 2650 3200
+F 0 "R107" V 2730 3200 50  0000 C CNN
+F 1 "33R" V 2650 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2580 3200 50  0001 C CNN
+F 3 "" H 2650 3200 50  0000 C CNN
+	1    2650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Smoothie2Standard-rescue:R R108
+U 1 1 606A34B5
+P 2650 3300
+F 0 "R108" V 2730 3300 50  0000 C CNN
+F 1 "33R" V 2650 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2580 3300 50  0001 C CNN
+F 3 "" H 2650 3300 50  0000 C CNN
+	1    2650 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Smoothie2Standard-rescue:R R109
+U 1 1 606A693D
+P 2650 3400
+F 0 "R109" V 2730 3400 50  0000 C CNN
+F 1 "33R" V 2650 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2580 3400 50  0001 C CNN
+F 3 "" H 2650 3400 50  0000 C CNN
+	1    2650 3400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

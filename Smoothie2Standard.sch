@@ -1,50 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:Smoothie2Standard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:a4982
-LIBS:ap2511
-LIBS:ksz8081rna
-LIBS:lm1117
-LIBS:lpc43xxfet256
-LIBS:microsd
-LIBS:q_nmos_sssgd
-LIBS:r78e
-LIBS:spi_flash
-LIBS:a8498
-LIBS:s29glxxxs
-LIBS:tmc2660
-LIBS:rj45-hr911105a
-LIBS:tc4427a
-LIBS:Smoothie2Standard-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -63,7 +18,7 @@ Text GLabel 1900 3700 0    60   Input ~ 0
 Text GLabel 1900 10100 0    60   Input ~ 0
 GND
 $Comp
-L INDUCTOR_SMALL L1
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L1
 U 1 1 582DBAD0
 P 1350 6200
 F 0 "L1" H 1350 6300 50  0000 C CNN
@@ -74,7 +29,7 @@ F 3 "" H 1350 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L2
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L2
 U 1 1 582DBB7D
 P 1350 6400
 F 0 "L2" H 1350 6500 50  0000 C CNN
@@ -93,7 +48,7 @@ Text GLabel 1900 6100 0    60   Input ~ 0
 Text GLabel 1900 6500 0    60   Input ~ 0
 GNDA
 $Comp
-L INDUCTOR_SMALL L3
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L3
 U 1 1 582DBF4B
 P 1350 6900
 F 0 "L3" H 1350 7000 50  0000 C CNN
@@ -104,7 +59,7 @@ F 3 "" H 1350 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L4
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L4
 U 1 1 582DBFBD
 P 1350 7300
 F 0 "L4" H 1350 7400 50  0000 C CNN
@@ -123,7 +78,7 @@ Text GLabel 1900 6800 0    60   Input ~ 0
 Text GLabel 1900 7400 0    60   Input ~ 0
 GNDU
 $Comp
-L C_Small C1
+L Smoothie2Standard-rescue:C_Small C1
 U 1 1 582DC49F
 P 1000 10600
 F 0 "C1" H 1010 10670 50  0000 L CNN
@@ -134,7 +89,7 @@ F 3 "" H 1000 10600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L Smoothie2Standard-rescue:C_Small C3
 U 1 1 582DCA0B
 P 1300 10600
 F 0 "C3" H 1310 10670 50  0000 L CNN
@@ -145,7 +100,7 @@ F 3 "" H 1300 10600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L Smoothie2Standard-rescue:C_Small C5
 U 1 1 582DCA80
 P 1600 10600
 F 0 "C5" H 1610 10670 50  0000 L CNN
@@ -156,7 +111,7 @@ F 3 "" H 1600 10600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L Smoothie2Standard-rescue:C_Small C7
 U 1 1 582DCA86
 P 1900 10600
 F 0 "C7" H 1910 10670 50  0000 L CNN
@@ -167,7 +122,7 @@ F 3 "" H 1900 10600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L Smoothie2Standard-rescue:C_Small C2
 U 1 1 582DCB96
 P 1000 11200
 F 0 "C2" H 1010 11270 50  0000 L CNN
@@ -178,7 +133,7 @@ F 3 "" H 1000 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L Smoothie2Standard-rescue:C_Small C4
 U 1 1 582DCB9C
 P 1300 11200
 F 0 "C4" H 1310 11270 50  0000 L CNN
@@ -189,7 +144,7 @@ F 3 "" H 1300 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L Smoothie2Standard-rescue:C_Small C6
 U 1 1 582DCBA2
 P 1600 11200
 F 0 "C6" H 1610 11270 50  0000 L CNN
@@ -200,7 +155,7 @@ F 3 "" H 1600 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L Smoothie2Standard-rescue:C_Small C8
 U 1 1 582DCBA8
 P 1900 11200
 F 0 "C8" H 1910 11270 50  0000 L CNN
@@ -211,7 +166,7 @@ F 3 "" H 1900 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L Smoothie2Standard-rescue:C_Small C9
 U 1 1 582DCE90
 P 2200 11200
 F 0 "C9" H 2210 11270 50  0000 L CNN
@@ -222,7 +177,7 @@ F 3 "" H 2200 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L Smoothie2Standard-rescue:C_Small C11
 U 1 1 582DCE96
 P 2500 11200
 F 0 "C11" H 2510 11270 50  0000 L CNN
@@ -233,7 +188,7 @@ F 3 "" H 2500 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L Smoothie2Standard-rescue:C_Small C12
 U 1 1 582DCE9C
 P 2800 11200
 F 0 "C12" H 2810 11270 50  0000 L CNN
@@ -244,7 +199,7 @@ F 3 "" H 2800 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C13
+L Smoothie2Standard-rescue:C_Small C13
 U 1 1 582DCEA2
 P 3100 11200
 F 0 "C13" H 3110 11270 50  0000 L CNN
@@ -255,7 +210,7 @@ F 3 "" H 3100 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C15
+L Smoothie2Standard-rescue:C_Small C15
 U 1 1 582DD077
 P 3400 11200
 F 0 "C15" H 3410 11270 50  0000 L CNN
@@ -266,7 +221,7 @@ F 3 "" H 3400 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C17
+L Smoothie2Standard-rescue:C_Small C17
 U 1 1 582DD07D
 P 3700 11200
 F 0 "C17" H 3710 11270 50  0000 L CNN
@@ -277,7 +232,7 @@ F 3 "" H 3700 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C18
+L Smoothie2Standard-rescue:C_Small C18
 U 1 1 582DD083
 P 4000 11200
 F 0 "C18" H 4010 11270 50  0000 L CNN
@@ -288,7 +243,7 @@ F 3 "" H 4000 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C19
+L Smoothie2Standard-rescue:C_Small C19
 U 1 1 582DD089
 P 4300 11200
 F 0 "C19" H 4310 11270 50  0000 L CNN
@@ -299,7 +254,7 @@ F 3 "" H 4300 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C20
+L Smoothie2Standard-rescue:C_Small C20
 U 1 1 582DD08F
 P 4600 11200
 F 0 "C20" H 4610 11270 50  0000 L CNN
@@ -310,7 +265,7 @@ F 3 "" H 4600 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
+L Smoothie2Standard-rescue:C_Small C10
 U 1 1 582DD581
 P 2500 10600
 F 0 "C10" H 2510 10670 50  0000 L CNN
@@ -321,7 +276,7 @@ F 3 "" H 2500 10600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C16
+L Smoothie2Standard-rescue:C_Small C16
 U 1 1 582DD58D
 P 3600 10600
 F 0 "C16" H 3610 10670 50  0000 L CNN
@@ -418,7 +373,7 @@ NC_CLKOUT1
 Text Label 4300 4200 0    60   ~ 0
 NC_CLKOUT3
 $Comp
-L CONN_01X02 P5
+L Smoothie2Standard-rescue:CONN_01X02 P5
 U 1 1 582E232E
 P 3000 10650
 F 0 "P5" H 3000 10800 50  0000 C CNN
@@ -429,7 +384,7 @@ F 3 "" H 3000 10650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P2
+L Smoothie2Standard-rescue:CONN_01X02 P2
 U 1 1 582E5B27
 P 1600 1250
 F 0 "P2" H 1600 1400 50  0000 C CNN
@@ -446,7 +401,7 @@ VBB
 Text GLabel 4600 2400 0    60   Input ~ 0
 5V
 $Comp
-L CONN_01X02 P10
+L Smoothie2Standard-rescue:CONN_01X02 P10
 U 1 1 582E6095
 P 4900 2650
 F 0 "P10" H 4900 2800 50  0000 C CNN
@@ -459,7 +414,7 @@ $EndComp
 Text GLabel 4600 2900 0    60   Input ~ 0
 GND
 $Comp
-L CONN_01X02 P13
+L Smoothie2Standard-rescue:CONN_01X02 P13
 U 1 1 582E640E
 P 6700 1950
 F 0 "P13" H 6700 2100 50  0000 C CNN
@@ -474,7 +429,7 @@ GND
 Text GLabel 6400 1700 0    60   Input ~ 0
 3.3V
 $Comp
-L CONN_02X05 P12
+L Smoothie2Standard-rescue:CONN_02X05 P12
 U 1 1 582E6D1B
 P 5950 8600
 F 0 "P12" H 5950 8900 50  0000 C CNN
@@ -500,7 +455,7 @@ GND
 Text GLabel 5600 8100 0    60   Input ~ 0
 3.3V
 $Comp
-L R R8
+L Smoothie2Standard-rescue:R R8
 U 1 1 582E795A
 P 6050 8200
 F 0 "R8" V 6130 8200 50  0000 C CNN
@@ -513,7 +468,7 @@ $EndComp
 Text Label 6300 8200 0    60   ~ 0
 MCU_DBGEN
 $Comp
-L USB_B P14
+L Smoothie2Standard-rescue:USB_B P14
 U 1 1 582EA0A1
 P 7500 4400
 F 0 "P14" H 7700 4200 50  0000 C CNN
@@ -532,7 +487,7 @@ USB0_D-
 Text Label 6400 4400 0    60   ~ 0
 USB0_D+
 $Comp
-L USB_A P15
+L Smoothie2Standard-rescue:USB_A P15
 U 1 1 582ED9E2
 P 7500 6100
 F 0 "P15" H 7700 5900 50  0000 C CNN
@@ -553,7 +508,7 @@ USB1_D_CONN-
 Text Label 6500 6100 0    60   ~ 0
 USB1_D_CONN+
 $Comp
-L R R13
+L Smoothie2Standard-rescue:R R13
 U 1 1 582EE43F
 P 6250 6100
 F 0 "R13" V 6330 6100 50  0000 C CNN
@@ -564,7 +519,7 @@ F 3 "" H 6250 6100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R14
+L Smoothie2Standard-rescue:R R14
 U 1 1 582EE5B4
 P 6250 6200
 F 0 "R14" V 6330 6200 50  0000 C CNN
@@ -579,7 +534,7 @@ USB1_D-
 Text Label 5400 6100 0    60   ~ 0
 USB1_D+
 $Comp
-L R R11
+L Smoothie2Standard-rescue:R R11
 U 1 1 582EEC56
 P 6150 4100
 F 0 "R11" V 6230 4100 50  0000 C CNN
@@ -592,7 +547,7 @@ $EndComp
 Text Label 6400 4100 0    60   ~ 0
 USB0_VBUS
 $Comp
-L INDUCTOR_SMALL L6
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L6
 U 1 1 582EFB41
 P 6050 4300
 F 0 "L6" H 6050 4400 50  0000 C CNN
@@ -603,7 +558,7 @@ F 3 "" H 6050 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L7
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L7
 U 1 1 582F0574
 P 6050 4600
 F 0 "L7" H 6050 4700 50  0000 C CNN
@@ -622,7 +577,7 @@ MCU_SDA0
 Text Label 6300 11300 0    60   ~ 0
 MCU_SCL0
 $Comp
-L R R9
+L Smoothie2Standard-rescue:R R9
 U 1 1 582F354E
 P 6050 11200
 F 0 "R9" V 6130 11200 50  0000 C CNN
@@ -633,7 +588,7 @@ F 3 "" H 6050 11200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R10
+L Smoothie2Standard-rescue:R R10
 U 1 1 582F3673
 P 6050 11300
 F 0 "R10" V 6130 11300 50  0000 C CNN
@@ -644,7 +599,7 @@ F 3 "" H 6050 11300 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L JUMPER3 JP1
+L Smoothie2Standard-rescue:JUMPER3 JP1
 U 1 1 582F370D
 P 5800 10800
 F 0 "JP1" H 5850 10700 50  0000 L CNN
@@ -661,7 +616,7 @@ Text GLabel 5500 10700 0    60   Input ~ 0
 Text GLabel 7400 8100 0    60   Input ~ 0
 3.3V
 $Comp
-L R R16
+L Smoothie2Standard-rescue:R R16
 U 1 1 582F7B02
 P 7650 8300
 F 0 "R16" V 7730 8300 50  0000 C CNN
@@ -676,7 +631,7 @@ GND
 Text Label 8000 8300 0    60   ~ 0
 MCU_~ISP~
 $Comp
-L CRYSTAL_SMD X1
+L Smoothie2Standard-rescue:CRYSTAL_SMD X1
 U 1 1 582FAD24
 P 7200 10100
 F 0 "X1" H 7200 10190 50  0000 C CNN
@@ -687,7 +642,7 @@ F 3 "" H 7200 10100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C29
+L Smoothie2Standard-rescue:C_Small C29
 U 1 1 582FB834
 P 6100 9900
 F 0 "C29" H 6110 9970 50  0000 L CNN
@@ -698,7 +653,7 @@ F 3 "" H 6100 9900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C30
+L Smoothie2Standard-rescue:C_Small C30
 U 1 1 582FB99A
 P 6100 10100
 F 0 "C30" H 6110 10170 50  0000 L CNN
@@ -715,7 +670,7 @@ MCU_XTAL2
 Text GLabel 7200 10400 0    60   Input ~ 0
 GND
 $Comp
-L D_Schottky_Small D5
+L Smoothie2Standard-rescue:D_Schottky_Small D5
 U 1 1 58306F15
 P 6200 3900
 F 0 "D5" H 6150 3980 50  0000 L CNN
@@ -728,7 +683,7 @@ $EndComp
 Text GLabel 6600 3800 0    60   Input ~ 0
 5V
 $Comp
-L AP2511 U4
+L ap2511:AP2511 U4
 U 1 1 58309AEC
 P 7100 7100
 F 0 "U4" H 7100 7400 60  0000 C CNN
@@ -745,7 +700,7 @@ Text GLabel 7600 6900 0    60   Input ~ 0
 Text GLabel 7600 7400 0    60   Input ~ 0
 GND
 $Comp
-L R R6
+L Smoothie2Standard-rescue:R R6
 U 1 1 5830DAAA
 P 5850 7200
 F 0 "R6" V 5930 7200 50  0000 C CNN
@@ -756,7 +711,7 @@ F 3 "" H 5850 7200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R7
+L Smoothie2Standard-rescue:R R7
 U 1 1 5830DC0E
 P 5850 7300
 F 0 "R7" V 5930 7300 50  0000 C CNN
@@ -775,7 +730,7 @@ MCU_G4_11
 Text Label 6100 7300 0    60   ~ 0
 MCU_G5_18
 $Comp
-L CONN_01X02 P4
+L Smoothie2Standard-rescue:CONN_01X02 P4
 U 1 1 5831C17E
 P 2100 1250
 F 0 "P4" H 2100 1400 50  0000 C CNN
@@ -786,7 +741,7 @@ F 3 "" H 2100 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L Smoothie2Standard-rescue:R R18
 U 1 1 5831DA76
 P 8450 9500
 F 0 "R18" V 8530 9500 50  0000 C CNN
@@ -797,7 +752,7 @@ F 3 "" H 8450 9500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D13
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D13
 U 1 1 5831DDAC
 P 8900 9500
 F 0 "D13" H 8900 9600 50  0000 C CNN
@@ -808,7 +763,7 @@ F 3 "" H 8900 9500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R20
+L Smoothie2Standard-rescue:R R20
 U 1 1 5831E10A
 P 8450 10100
 F 0 "R20" V 8530 10100 50  0000 C CNN
@@ -819,7 +774,7 @@ F 3 "" H 8450 10100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D15
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D15
 U 1 1 5831E1F3
 P 8900 10100
 F 0 "D15" H 8900 10200 50  0000 C CNN
@@ -830,7 +785,7 @@ F 3 "" H 8900 10100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D16
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D16
 U 1 1 5831E403
 P 8900 10400
 F 0 "D16" H 8900 10500 50  0000 C CNN
@@ -841,7 +796,7 @@ F 3 "" H 8900 10400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D17
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D17
 U 1 1 5831E591
 P 8900 10700
 F 0 "D17" H 8900 10800 50  0000 C CNN
@@ -852,7 +807,7 @@ F 3 "" H 8900 10700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D18
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D18
 U 1 1 5831E716
 P 8900 11000
 F 0 "D18" H 8900 11100 50  0000 C CNN
@@ -863,7 +818,7 @@ F 3 "" H 8900 11000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D19
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D19
 U 1 1 5831E80B
 P 8900 11300
 F 0 "D19" H 8900 11400 50  0000 C CNN
@@ -874,7 +829,7 @@ F 3 "" H 8900 11300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R21
+L Smoothie2Standard-rescue:R R21
 U 1 1 5831E91D
 P 8450 10400
 F 0 "R21" V 8530 10400 50  0000 C CNN
@@ -885,7 +840,7 @@ F 3 "" H 8450 10400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R22
+L Smoothie2Standard-rescue:R R22
 U 1 1 5831EA1A
 P 8450 10700
 F 0 "R22" V 8530 10700 50  0000 C CNN
@@ -896,7 +851,7 @@ F 3 "" H 8450 10700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R23
+L Smoothie2Standard-rescue:R R23
 U 1 1 5831EB1A
 P 8450 11000
 F 0 "R23" V 8530 11000 50  0000 C CNN
@@ -907,7 +862,7 @@ F 3 "" H 8450 11000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R24
+L Smoothie2Standard-rescue:R R24
 U 1 1 5831EC19
 P 8450 11300
 F 0 "R24" V 8530 11300 50  0000 C CNN
@@ -922,7 +877,7 @@ Text GLabel 8200 10000 0    60   Input ~ 0
 Text GLabel 4200 1000 0    60   Input ~ 0
 VBB
 $Comp
-L CONN_01X02 P9
+L Smoothie2Standard-rescue:CONN_01X02 P9
 U 1 1 58320D58
 P 4500 1250
 F 0 "P9" H 4500 1400 50  0000 C CNN
@@ -953,7 +908,7 @@ LED3_R
 Text Label 8650 11300 0    60   ~ 0
 LED4_R
 $Comp
-L R R2
+L Smoothie2Standard-rescue:R R2
 U 1 1 58324F58
 P 3000 1150
 F 0 "R2" V 3080 1150 50  0000 C CNN
@@ -964,7 +919,7 @@ F 3 "" H 3000 1150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZENERsmall D2
+L Smoothie2Standard-rescue:ZENERsmall D2
 U 1 1 58325A77
 P 2800 1400
 F 0 "D2" H 2800 1500 50  0000 C CNN
@@ -987,7 +942,7 @@ GND
 Text GLabel 7300 900  0    60   Input ~ 0
 3.3V
 $Comp
-L CP1 C22
+L Smoothie2Standard-rescue:CP1 C22
 U 1 1 5832F55B
 P 5000 1250
 F 0 "C22" H 5025 1350 50  0000 L CNN
@@ -1006,7 +961,7 @@ Text GLabel 5200 2400 0    60   Input ~ 0
 Text GLabel 5200 2900 0    60   Input ~ 0
 GND
 $Comp
-L C C24
+L Smoothie2Standard-rescue:C C24
 U 1 1 58331D1A
 P 5500 2650
 F 0 "C24" H 5525 2750 50  0000 L CNN
@@ -1017,7 +972,7 @@ F 3 "" H 5500 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L Smoothie2Standard-rescue:C C31
 U 1 1 583325C4
 P 6400 2650
 F 0 "C31" H 6425 2750 50  0000 L CNN
@@ -1032,7 +987,7 @@ GND
 Text GLabel 6400 2400 0    60   Input ~ 0
 3.3V
 $Comp
-L C_Small C32
+L Smoothie2Standard-rescue:C_Small C32
 U 1 1 58332E79
 P 6700 2600
 F 0 "C32" H 6710 2670 50  0000 L CNN
@@ -1043,7 +998,7 @@ F 3 "" H 6700 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C27
+L Smoothie2Standard-rescue:C_Small C27
 U 1 1 58334857
 P 5800 2600
 F 0 "C27" H 5810 2670 50  0000 L CNN
@@ -1056,7 +1011,7 @@ $EndComp
 Text Label 19000 3800 0    60   ~ 0
 MCU_G5_1
 $Comp
-L LPC43xxFET256 U1
+L lpc43xxfet256:LPC43xxFET256 U1
 U 1 1 582DABFB
 P 20800 4100
 F 0 "U1" H 20800 7300 60  0000 C CNN
@@ -1067,7 +1022,7 @@ F 3 "" H 20800 5400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Smoothie2Standard-rescue:R R12
 U 1 1 5834686C
 P 6150 4800
 F 0 "R12" V 6230 4800 50  0000 C CNN
@@ -1106,7 +1061,7 @@ GND
 Text GLabel 7800 14000 0    60   Input ~ 0
 3.3V
 $Comp
-L R R40
+L Smoothie2Standard-rescue:R R40
 U 1 1 5839112D
 P 9450 14400
 F 0 "R40" V 9530 14400 50  0000 C CNN
@@ -1133,7 +1088,7 @@ SD_DAT2
 Text Label 7200 14900 0    60   ~ 0
 SD_DAT3
 $Comp
-L C C41
+L Smoothie2Standard-rescue:C C41
 U 1 1 58399D9B
 P 10000 15150
 F 0 "C41" H 10025 15250 50  0000 L CNN
@@ -1148,7 +1103,7 @@ GND
 Text GLabel 10000 14900 0    60   Input ~ 0
 3.3V
 $Comp
-L C_Small C42
+L Smoothie2Standard-rescue:C_Small C42
 U 1 1 58399DA3
 P 10300 15100
 F 0 "C42" H 10310 15170 50  0000 L CNN
@@ -1179,7 +1134,7 @@ BOOT2
 Text Label 19000 4600 0    60   ~ 0
 BOOT3
 $Comp
-L R R41
+L Smoothie2Standard-rescue:R R41
 U 1 1 583AFAD2
 P 10450 8300
 F 0 "R41" V 10530 8300 50  0000 C CNN
@@ -1190,7 +1145,7 @@ F 3 "" H 10450 8300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R42
+L Smoothie2Standard-rescue:R R42
 U 1 1 583AFCBF
 P 10450 8500
 F 0 "R42" V 10530 8500 50  0000 C CNN
@@ -1201,7 +1156,7 @@ F 3 "" H 10450 8500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R43
+L Smoothie2Standard-rescue:R R43
 U 1 1 583AFE35
 P 10450 8700
 F 0 "R43" V 10530 8700 50  0000 C CNN
@@ -1212,7 +1167,7 @@ F 3 "" H 10450 8700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R44
+L Smoothie2Standard-rescue:R R44
 U 1 1 583AFFAE
 P 10450 8900
 F 0 "R44" V 10530 8900 50  0000 C CNN
@@ -1233,7 +1188,7 @@ BOOT2
 Text Label 9600 8900 0    60   ~ 0
 BOOT3
 $Comp
-L JUMPER3 JP5
+L Smoothie2Standard-rescue:JUMPER3 JP5
 U 1 1 583B169B
 P 11100 8700
 F 0 "JP5" H 11150 8600 50  0000 L CNN
@@ -1244,7 +1199,7 @@ F 3 "" H 11100 8700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L JUMPER3 JP6
+L Smoothie2Standard-rescue:JUMPER3 JP6
 U 1 1 583B18E5
 P 11500 8300
 F 0 "JP6" H 11550 8200 50  0000 L CNN
@@ -1257,7 +1212,7 @@ $EndComp
 Text GLabel 10900 8000 0    60   Input ~ 0
 3.3V
 $Comp
-L SPI_FLASH U5
+L spi_flash:SPI_FLASH U5
 U 1 1 583B3EE2
 P 10900 9700
 F 0 "U5" H 10900 10100 60  0000 C CNN
@@ -1268,7 +1223,7 @@ F 3 "" H 11100 9700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C50
+L Smoothie2Standard-rescue:C_Small C50
 U 1 1 583BBB5E
 P 11500 9600
 F 0 "C50" H 11510 9670 50  0000 L CNN
@@ -1315,7 +1270,7 @@ MCU_G5_5
 Text Label 19000 3900 0    60   ~ 0
 MCU_G5_2
 $Comp
-L INDUCTOR_SMALL L8
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L8
 U 1 1 583E21FB
 P 6150 6000
 F 0 "L8" H 6150 6100 50  0000 C CNN
@@ -1326,7 +1281,7 @@ F 3 "" H 6150 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L9
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L9
 U 1 1 583E23C6
 P 6150 6300
 F 0 "L9" H 6150 6400 50  0000 C CNN
@@ -1345,7 +1300,7 @@ NC_P3_0
 Text Label 5800 11000 0    60   ~ 0
 I2C0_VIO
 $Comp
-L LM1117 U3
+L lm1117:LM1117 U3
 U 1 1 5840E0C8
 P 6800 1100
 F 0 "U3" H 6900 850 50  0000 C CNN
@@ -1356,7 +1311,7 @@ F 3 "" H 6800 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 58413470
 P 1900 6100
 F 0 "#FLG01" H 1900 6195 50  0001 C CNN
@@ -1367,7 +1322,7 @@ F 3 "" H 1900 6100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 584135DE
 P 1900 6500
 F 0 "#FLG02" H 1900 6595 50  0001 C CNN
@@ -1378,7 +1333,7 @@ F 3 "" H 1900 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 5841D8CC
 P 1300 1500
 F 0 "#FLG03" H 1300 1595 50  0001 C CNN
@@ -1389,7 +1344,7 @@ F 3 "" H 1300 1500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 5841F3A7
 P 6400 6300
 F 0 "#FLG04" H 6400 6395 50  0001 C CNN
@@ -1400,7 +1355,7 @@ F 3 "" H 6400 6300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L power:PWR_FLAG #FLG05
 U 1 1 5841FD36
 P 6400 6000
 F 0 "#FLG05" H 6400 6095 50  0001 C CNN
@@ -1415,7 +1370,7 @@ VBB
 Text Label 19000 6600 0    60   ~ 0
 MCU_G2_4
 $Comp
-L R R30
+L Smoothie2Standard-rescue:R R30
 U 1 1 58426D24
 P 8650 4500
 F 0 "R30" V 8730 4500 50  0000 C CNN
@@ -1426,7 +1381,7 @@ F 3 "" H 8650 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R31
+L Smoothie2Standard-rescue:R R31
 U 1 1 58426EFB
 P 8650 4700
 F 0 "R31" V 8730 4700 50  0000 C CNN
@@ -1437,7 +1392,7 @@ F 3 "" H 8650 4700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C39
+L Smoothie2Standard-rescue:C_Small C39
 U 1 1 58428A68
 P 9500 4650
 F 0 "C39" H 9510 4720 50  0000 L CNN
@@ -1454,7 +1409,7 @@ MCU_ADC7
 Text GLabel 8400 900  0    60   Input ~ 0
 3.3VA
 $Comp
-L R R25
+L Smoothie2Standard-rescue:R R25
 U 1 1 5842DE33
 P 8650 1000
 F 0 "R25" V 8730 1000 50  0000 C CNN
@@ -1465,7 +1420,7 @@ F 3 "" H 8650 1000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP2
+L Smoothie2Standard-rescue:Jumper_NC_Small JP2
 U 1 1 5842ECF1
 P 9100 1000
 F 0 "JP2" H 9100 1080 50  0000 C CNN
@@ -1476,7 +1431,7 @@ F 3 "" H 9100 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P19
+L Smoothie2Standard-rescue:CONN_01X02 P19
 U 1 1 5842EE72
 P 10000 1050
 F 0 "P19" H 10000 1200 50  0000 C CNN
@@ -1491,7 +1446,7 @@ TH1_PU
 Text Label 9300 1000 0    60   ~ 0
 TH1_CONN
 $Comp
-L R R34
+L Smoothie2Standard-rescue:R R34
 U 1 1 58430947
 P 9050 1200
 F 0 "R34" V 9130 1200 50  0000 C CNN
@@ -1504,7 +1459,7 @@ $EndComp
 Text GLabel 8400 1800 0    60   Input ~ 0
 3.3VA
 $Comp
-L R R26
+L Smoothie2Standard-rescue:R R26
 U 1 1 58431F39
 P 8650 1900
 F 0 "R26" V 8730 1900 50  0000 C CNN
@@ -1515,7 +1470,7 @@ F 3 "" H 8650 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP3
+L Smoothie2Standard-rescue:Jumper_NC_Small JP3
 U 1 1 58431F3F
 P 9100 1900
 F 0 "JP3" H 9100 1980 50  0000 C CNN
@@ -1526,7 +1481,7 @@ F 3 "" H 9100 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P20
+L Smoothie2Standard-rescue:CONN_01X02 P20
 U 1 1 58431F45
 P 10000 1950
 F 0 "P20" H 10000 2100 50  0000 C CNN
@@ -1541,7 +1496,7 @@ TH2_PU
 Text Label 9300 1900 0    60   ~ 0
 TH2_CONN
 $Comp
-L R R35
+L Smoothie2Standard-rescue:R R35
 U 1 1 58431F4E
 P 9050 2100
 F 0 "R35" V 9130 2100 50  0000 C CNN
@@ -1595,7 +1550,7 @@ MCU_G5_3
 Text Label 19000 4100 0    60   ~ 0
 MCU_G5_4
 $Comp
-L JUMPER3 JP8
+L Smoothie2Standard-rescue:JUMPER3 JP8
 U 1 1 58497F9B
 P 11500 1000
 F 0 "JP8" H 11550 900 50  0000 L CNN
@@ -1610,7 +1565,7 @@ Text GLabel 12000 900  0    60   Input ~ 0
 Text GLabel 11100 900  0    60   Input ~ 0
 5V
 $Comp
-L CONN_01X03 P25
+L Smoothie2Standard-rescue:CONN_01X03 P25
 U 1 1 58498AE4
 P 12700 1500
 F 0 "P25" H 12700 1700 50  0000 C CNN
@@ -1629,7 +1584,7 @@ V_ES
 Text GLabel 11200 2000 0    60   Input ~ 0
 GND
 $Comp
-L R R52
+L Smoothie2Standard-rescue:R R52
 U 1 1 5849AEE4
 P 11950 1400
 F 0 "R52" V 12030 1400 50  0000 C CNN
@@ -1640,7 +1595,7 @@ F 3 "" H 11950 1400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP9
+L Smoothie2Standard-rescue:Jumper_NC_Small JP9
 U 1 1 5849B518
 P 11500 1400
 F 0 "JP9" H 11500 1480 50  0000 C CNN
@@ -1651,7 +1606,7 @@ F 3 "" H 11500 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L Smoothie2Standard-rescue:R R45
 U 1 1 5849C372
 P 11450 1600
 F 0 "R45" V 11530 1600 50  0000 C CNN
@@ -1662,7 +1617,7 @@ F 3 "" H 11450 1600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C43
+L Smoothie2Standard-rescue:C_Small C43
 U 1 1 5849C924
 P 11200 1800
 F 0 "C43" H 11210 1870 50  0000 L CNN
@@ -1673,7 +1628,7 @@ F 3 "" H 11200 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P26
+L Smoothie2Standard-rescue:CONN_01X03 P26
 U 1 1 5849DC90
 P 12700 2300
 F 0 "P26" H 12700 2500 50  0000 C CNN
@@ -1690,7 +1645,7 @@ V_ES
 Text GLabel 11200 2800 0    60   Input ~ 0
 GND
 $Comp
-L R R53
+L Smoothie2Standard-rescue:R R53
 U 1 1 5849DC9D
 P 11950 2200
 F 0 "R53" V 12030 2200 50  0000 C CNN
@@ -1701,7 +1656,7 @@ F 3 "" H 11950 2200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP10
+L Smoothie2Standard-rescue:Jumper_NC_Small JP10
 U 1 1 5849DCA3
 P 11500 2200
 F 0 "JP10" H 11500 2280 50  0000 C CNN
@@ -1712,7 +1667,7 @@ F 3 "" H 11500 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R46
+L Smoothie2Standard-rescue:R R46
 U 1 1 5849DCB0
 P 11450 2400
 F 0 "R46" V 11530 2400 50  0000 C CNN
@@ -1723,7 +1678,7 @@ F 3 "" H 11450 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C44
+L Smoothie2Standard-rescue:C_Small C44
 U 1 1 5849DCB7
 P 11200 2600
 F 0 "C44" H 11210 2670 50  0000 L CNN
@@ -1734,7 +1689,7 @@ F 3 "" H 11200 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P27
+L Smoothie2Standard-rescue:CONN_01X03 P27
 U 1 1 5849F283
 P 12700 3100
 F 0 "P27" H 12700 3300 50  0000 C CNN
@@ -1751,7 +1706,7 @@ V_ES
 Text GLabel 11200 3600 0    60   Input ~ 0
 GND
 $Comp
-L R R54
+L Smoothie2Standard-rescue:R R54
 U 1 1 5849F290
 P 11950 3000
 F 0 "R54" V 12030 3000 50  0000 C CNN
@@ -1762,7 +1717,7 @@ F 3 "" H 11950 3000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP11
+L Smoothie2Standard-rescue:Jumper_NC_Small JP11
 U 1 1 5849F296
 P 11500 3000
 F 0 "JP11" H 11500 3080 50  0000 C CNN
@@ -1773,7 +1728,7 @@ F 3 "" H 11500 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L Smoothie2Standard-rescue:R R47
 U 1 1 5849F2A3
 P 11450 3200
 F 0 "R47" V 11530 3200 50  0000 C CNN
@@ -1784,7 +1739,7 @@ F 3 "" H 11450 3200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C45
+L Smoothie2Standard-rescue:C_Small C45
 U 1 1 5849F2AA
 P 11200 3400
 F 0 "C45" H 11210 3470 50  0000 L CNN
@@ -1795,7 +1750,7 @@ F 3 "" H 11200 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P31
+L Smoothie2Standard-rescue:CONN_01X04 P31
 U 1 1 5849F2B6
 P 12800 6250
 F 0 "P31" H 12800 6450 50  0000 C CNN
@@ -1812,7 +1767,7 @@ V_ES
 Text GLabel 11200 6800 0    60   Input ~ 0
 GND
 $Comp
-L R R58
+L Smoothie2Standard-rescue:R R58
 U 1 1 5849F2C3
 P 11950 6200
 F 0 "R58" V 12030 6200 50  0000 C CNN
@@ -1823,7 +1778,7 @@ F 3 "" H 11950 6200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP15
+L Smoothie2Standard-rescue:Jumper_NC_Small JP15
 U 1 1 5849F2C9
 P 11500 6200
 F 0 "JP15" H 11500 6280 50  0000 C CNN
@@ -1834,7 +1789,7 @@ F 3 "" H 11500 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R51
+L Smoothie2Standard-rescue:R R51
 U 1 1 5849F2D6
 P 11450 6400
 F 0 "R51" V 11530 6400 50  0000 C CNN
@@ -1845,7 +1800,7 @@ F 3 "" H 11450 6400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C49
+L Smoothie2Standard-rescue:C_Small C49
 U 1 1 5849F2DD
 P 11200 6600
 F 0 "C49" H 11210 6670 50  0000 L CNN
@@ -1856,7 +1811,7 @@ F 3 "" H 11200 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_GSD Q3
+L Smoothie2Standard-rescue:Q_PMOS_GSD Q3
 U 1 1 584A5B8A
 P 14600 1400
 F 0 "Q3" V 14850 1450 50  0000 R CNN
@@ -1867,7 +1822,7 @@ F 3 "" H 14600 1400 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R64
+L Smoothie2Standard-rescue:R R64
 U 1 1 584A9417
 P 13700 1900
 F 0 "R64" V 13780 1900 50  0000 C CNN
@@ -1878,7 +1833,7 @@ F 3 "" H 13700 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R68
+L Smoothie2Standard-rescue:R R68
 U 1 1 584A9B8C
 P 14300 1500
 F 0 "R68" V 14380 1500 50  0000 C CNN
@@ -1897,7 +1852,7 @@ SSR1_CONN
 Text GLabel 15500 1900 0    60   Input ~ 0
 GND
 $Comp
-L Q_NMOS_SSSGD Q4
+L q_nmos_sssgd:Q_NMOS_SSSGD Q4
 U 1 1 584AFFC8
 P 14800 2900
 F 0 "Q4" H 15100 2950 50  0000 R CNN
@@ -1908,7 +1863,7 @@ F 3 "" H 14800 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R69
+L Smoothie2Standard-rescue:R R69
 U 1 1 584B045C
 P 14550 3200
 F 0 "R69" V 14630 3200 50  0000 C CNN
@@ -1923,7 +1878,7 @@ GND
 Text Label 14300 2900 0    60   ~ 0
 HOTEND1_G
 $Comp
-L R R65
+L Smoothie2Standard-rescue:R R65
 U 1 1 584B2259
 P 14050 2900
 F 0 "R65" V 14130 2900 50  0000 C CNN
@@ -1934,7 +1889,7 @@ F 3 "" H 14050 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P40
+L Smoothie2Standard-rescue:CONN_01X02 P40
 U 1 1 584B31F9
 P 15800 2550
 F 0 "P40" H 15800 2700 50  0000 C CNN
@@ -1947,7 +1902,7 @@ $EndComp
 Text Label 15000 2600 0    60   ~ 0
 HOTEND1_D
 $Comp
-L D_Schottky_Small D26
+L Smoothie2Standard-rescue:D_Schottky_Small D26
 U 1 1 584B567F
 P 15100 2400
 F 0 "D26" H 15050 2480 50  0000 L CNN
@@ -1960,7 +1915,7 @@ $EndComp
 Text GLabel 15500 2300 0    60   Input ~ 0
 VFET
 $Comp
-L LED-RESCUE-Smoothie2Standard D24
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D24
 U 1 1 584BD900
 P 14600 2400
 F 0 "D24" H 14600 2500 50  0000 C CNN
@@ -1971,7 +1926,7 @@ F 3 "" H 14600 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R61
+L Smoothie2Standard-rescue:R R61
 U 1 1 584BD906
 P 13750 2400
 F 0 "R61" V 13830 2400 50  0000 C CNN
@@ -1984,7 +1939,7 @@ $EndComp
 Text Label 13950 2400 0    60   ~ 0
 HOTEND1_LED_R
 $Comp
-L R R70
+L Smoothie2Standard-rescue:R R70
 U 1 1 584BF8A2
 P 14550 4400
 F 0 "R70" V 14630 4400 50  0000 C CNN
@@ -1999,7 +1954,7 @@ GND
 Text Label 14300 4100 0    60   ~ 0
 FAN_G
 $Comp
-L R R66
+L Smoothie2Standard-rescue:R R66
 U 1 1 584BF8AA
 P 14050 4100
 F 0 "R66" V 14130 4100 50  0000 C CNN
@@ -2010,7 +1965,7 @@ F 3 "" H 14050 4100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P41
+L Smoothie2Standard-rescue:CONN_01X02 P41
 U 1 1 584BF8B1
 P 15800 3750
 F 0 "P41" H 15800 3900 50  0000 C CNN
@@ -2023,7 +1978,7 @@ $EndComp
 Text Label 15000 3800 0    60   ~ 0
 FAN_D
 $Comp
-L D_Schottky_Small D27
+L Smoothie2Standard-rescue:D_Schottky_Small D27
 U 1 1 584BF8B8
 P 15100 3600
 F 0 "D27" H 15050 3680 50  0000 L CNN
@@ -2036,7 +1991,7 @@ $EndComp
 Text GLabel 15500 3500 0    60   Input ~ 0
 VFET
 $Comp
-L LED-RESCUE-Smoothie2Standard D25
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D25
 U 1 1 584BF8D9
 P 14600 3600
 F 0 "D25" H 14600 3700 50  0000 C CNN
@@ -2047,7 +2002,7 @@ F 3 "" H 14600 3600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R62
+L Smoothie2Standard-rescue:R R62
 U 1 1 584BF8DF
 P 13750 3600
 F 0 "R62" V 13830 3600 50  0000 C CNN
@@ -2060,7 +2015,7 @@ $EndComp
 Text Label 13950 3600 0    60   ~ 0
 FAN_LED_R
 $Comp
-L C_Small C34
+L Smoothie2Standard-rescue:C_Small C34
 U 1 1 584F725E
 P 8800 2300
 F 0 "C34" H 8810 2370 50  0000 L CNN
@@ -2071,7 +2026,7 @@ F 3 "" H 8800 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C33
+L Smoothie2Standard-rescue:C_Small C33
 U 1 1 584F8D26
 P 8800 1400
 F 0 "C33" H 8810 1470 50  0000 L CNN
@@ -2082,7 +2037,7 @@ F 3 "" H 8800 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG06
+L power:PWR_FLAG #FLG06
 U 1 1 58510591
 P 1300 1000
 F 0 "#FLG06" H 1300 1095 50  0001 C CNN
@@ -2093,7 +2048,7 @@ F 3 "" H 1300 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG07
+L power:PWR_FLAG #FLG07
 U 1 1 58510D51
 P 3500 1000
 F 0 "#FLG07" H 3500 1095 50  0001 C CNN
@@ -2162,7 +2117,7 @@ MCU_G6_25
 Text Label 19000 7200 0    60   ~ 0
 MCU_G5_14
 $Comp
-L CONN_02X05 P23
+L Smoothie2Standard-rescue:CONN_02X05 P23
 U 1 1 58760DA1
 P 10950 14400
 F 0 "P23" H 10950 14700 50  0000 C CNN
@@ -2249,7 +2204,7 @@ USB1
 Text Label 22000 5200 0    60   ~ 0
 NC_P8_8
 $Comp
-L MICROSD P16
+L microsd:MICROSD P16
 U 1 1 58AFF3F3
 P 8400 14700
 F 0 "P16" H 8400 15400 60  0000 C CNN
@@ -2262,7 +2217,7 @@ $EndComp
 Text Notes 20200 11000 0    60   ~ 0
 PWM15
 $Comp
-L CONN_02X05 G2
+L Smoothie2Standard-rescue:CONN_02X05 G2
 U 1 1 58B4849C
 P 13650 11600
 F 0 "G2" H 13650 11900 50  0000 C CNN
@@ -2279,7 +2234,7 @@ Text GLabel 14000 11200 0    60   Input ~ 0
 Text GLabel 14000 12000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G1
+L Smoothie2Standard-rescue:CONN_02X05 G1
 U 1 1 58B484B2
 P 13650 10600
 F 0 "G1" H 13650 10900 50  0000 C CNN
@@ -2296,7 +2251,7 @@ Text GLabel 14000 10200 0    60   Input ~ 0
 Text GLabel 14000 11000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G3
+L Smoothie2Standard-rescue:CONN_02X05 G3
 U 1 1 58B48D18
 P 13650 12600
 F 0 "G3" H 13650 12900 50  0000 C CNN
@@ -2313,7 +2268,7 @@ Text GLabel 14000 12200 0    60   Input ~ 0
 Text GLabel 14000 13000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G4
+L Smoothie2Standard-rescue:CONN_02X05 G4
 U 1 1 58B48D2E
 P 13650 13600
 F 0 "G4" H 13650 13900 50  0000 C CNN
@@ -2330,7 +2285,7 @@ Text GLabel 14000 13200 0    60   Input ~ 0
 Text GLabel 14000 14000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G5
+L Smoothie2Standard-rescue:CONN_02X05 G5
 U 1 1 58B48D44
 P 13650 14600
 F 0 "G5" H 13650 14900 50  0000 C CNN
@@ -2347,7 +2302,7 @@ Text GLabel 14000 14200 0    60   Input ~ 0
 Text GLabel 14000 15000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G6
+L Smoothie2Standard-rescue:CONN_02X05 G6
 U 1 1 58B48D5A
 P 13650 15600
 F 0 "G6" H 13650 15900 50  0000 C CNN
@@ -2423,7 +2378,7 @@ MCU_G6_2
 Text Label 22000 10200 0    60   ~ 0
 MCU_G7_19
 $Comp
-L TEST_1P W40
+L Smoothie2Standard-rescue:TEST_1P W40
 U 1 1 58447C1A
 P 16300 14600
 F 0 "W40" H 16300 14870 50  0000 C CNN
@@ -2434,7 +2389,7 @@ F 3 "" H 16500 14600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W42
+L Smoothie2Standard-rescue:TEST_1P W42
 U 1 1 5844A2EE
 P 16500 14600
 F 0 "W42" H 16500 14870 50  0000 C CNN
@@ -2445,7 +2400,7 @@ F 3 "" H 16700 14600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W43
+L Smoothie2Standard-rescue:TEST_1P W43
 U 1 1 5844A5DB
 P 16700 14600
 F 0 "W43" H 16700 14870 50  0000 C CNN
@@ -2456,7 +2411,7 @@ F 3 "" H 16900 14600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W44
+L Smoothie2Standard-rescue:TEST_1P W44
 U 1 1 5844A7DB
 P 16900 14600
 F 0 "W44" H 16900 14870 50  0000 C CNN
@@ -2467,7 +2422,7 @@ F 3 "" H 17100 14600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W41
+L Smoothie2Standard-rescue:TEST_1P W41
 U 1 1 583ABE20
 P 16300 15300
 F 0 "W41" H 16300 15570 50  0000 C CNN
@@ -2478,7 +2433,7 @@ F 3 "" H 16500 15300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W45
+L Smoothie2Standard-rescue:TEST_1P W45
 U 1 1 583AC115
 P 16900 15300
 F 0 "W45" H 16900 15570 50  0000 C CNN
@@ -2572,7 +2527,7 @@ MCU_G7_14
 Text Label 19000 7000 0    60   ~ 0
 MCU_G5_12
 $Comp
-L INDUCTOR_SMALL L10
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L10
 U 1 1 5864935D
 P 16550 13900
 F 0 "L10" H 16550 14000 50  0000 C CNN
@@ -2595,7 +2550,7 @@ ZMIN_R
 Text Label 11650 6200 0    60   ~ 0
 PROBE_R
 $Comp
-L TEST_1P W4
+L Smoothie2Standard-rescue:TEST_1P W4
 U 1 1 5851F579
 P 1300 1500
 F 0 "W4" H 1300 1770 50  0000 C CNN
@@ -2606,7 +2561,7 @@ F 3 "" H 1500 1500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W3
+L Smoothie2Standard-rescue:TEST_1P W3
 U 1 1 5851F878
 P 1300 1000
 F 0 "W3" H 1300 1270 50  0000 C CNN
@@ -2617,7 +2572,7 @@ F 3 "" H 1500 1000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W16
+L Smoothie2Standard-rescue:TEST_1P W16
 U 1 1 58528B08
 P 8500 8800
 F 0 "W16" H 8500 9070 50  0000 C CNN
@@ -2628,7 +2583,7 @@ F 3 "" H 8700 8800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W14
+L Smoothie2Standard-rescue:TEST_1P W14
 U 1 1 5852AFD2
 P 7900 8300
 F 0 "W14" H 7900 8570 50  0000 C CNN
@@ -2639,7 +2594,7 @@ F 3 "" H 8100 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W25
+L Smoothie2Standard-rescue:TEST_1P W25
 U 1 1 5853C7F5
 P 14000 8500
 F 0 "W25" H 14000 8770 50  0000 C CNN
@@ -2650,7 +2605,7 @@ F 3 "" H 14200 8500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W20
+L Smoothie2Standard-rescue:TEST_1P W20
 U 1 1 5853CCF0
 P 9700 11100
 F 0 "W20" H 9700 11370 50  0000 C CNN
@@ -2661,7 +2616,7 @@ F 3 "" H 9900 11100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W21
+L Smoothie2Standard-rescue:TEST_1P W21
 U 1 1 5853D1D0
 P 9700 11300
 F 0 "W21" H 9700 11570 50  0000 C CNN
@@ -2672,7 +2627,7 @@ F 3 "" H 9900 11300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W9
+L Smoothie2Standard-rescue:TEST_1P W9
 U 1 1 585432D5
 P 7000 4300
 F 0 "W9" H 7000 4570 50  0000 C CNN
@@ -2683,7 +2638,7 @@ F 3 "" H 7200 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W10
+L Smoothie2Standard-rescue:TEST_1P W10
 U 1 1 58544DDA
 P 7000 4600
 F 0 "W10" H 7000 4870 50  0000 C CNN
@@ -2694,7 +2649,7 @@ F 3 "" H 7200 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W6
+L Smoothie2Standard-rescue:TEST_1P W6
 U 1 1 585452BF
 P 6400 4500
 F 0 "W6" H 6400 4770 50  0000 C CNN
@@ -2705,7 +2660,7 @@ F 3 "" H 6600 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W5
+L Smoothie2Standard-rescue:TEST_1P W5
 U 1 1 58545795
 P 6400 4400
 F 0 "W5" H 6400 4670 50  0000 C CNN
@@ -2716,7 +2671,7 @@ F 3 "" H 6600 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W11
+L Smoothie2Standard-rescue:TEST_1P W11
 U 1 1 5854A054
 P 7100 6000
 F 0 "W11" H 7100 6270 50  0000 C CNN
@@ -2727,7 +2682,7 @@ F 3 "" H 7300 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W12
+L Smoothie2Standard-rescue:TEST_1P W12
 U 1 1 5854A849
 P 7100 6300
 F 0 "W12" H 7100 6570 50  0000 C CNN
@@ -2738,7 +2693,7 @@ F 3 "" H 7300 6300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W8
+L Smoothie2Standard-rescue:TEST_1P W8
 U 1 1 5854AD54
 P 6700 6200
 F 0 "W8" H 6700 6470 50  0000 C CNN
@@ -2749,7 +2704,7 @@ F 3 "" H 6900 6200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W7
+L Smoothie2Standard-rescue:TEST_1P W7
 U 1 1 5854B37D
 P 6700 6100
 F 0 "W7" H 6700 6370 50  0000 C CNN
@@ -2760,7 +2715,7 @@ F 3 "" H 6900 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W34
+L Smoothie2Standard-rescue:TEST_1P W34
 U 1 1 5855C139
 P 14900 1300
 F 0 "W34" H 14900 1570 50  0000 C CNN
@@ -2771,7 +2726,7 @@ F 3 "" H 15100 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W35
+L Smoothie2Standard-rescue:TEST_1P W35
 U 1 1 5855F728
 P 15500 1900
 F 0 "W35" H 15500 2170 50  0000 C CNN
@@ -2782,7 +2737,7 @@ F 3 "" H 15700 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W37
+L Smoothie2Standard-rescue:TEST_1P W37
 U 1 1 5855FCA1
 P 15500 2600
 F 0 "W37" H 15500 2870 50  0000 C CNN
@@ -2793,7 +2748,7 @@ F 3 "" H 15700 2600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W39
+L Smoothie2Standard-rescue:TEST_1P W39
 U 1 1 58560253
 P 15500 3800
 F 0 "W39" H 15500 4070 50  0000 C CNN
@@ -2804,7 +2759,7 @@ F 3 "" H 15700 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W36
+L Smoothie2Standard-rescue:TEST_1P W36
 U 1 1 585607A6
 P 15500 2300
 F 0 "W36" H 15500 2570 50  0000 C CNN
@@ -2815,7 +2770,7 @@ F 3 "" H 15700 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W38
+L Smoothie2Standard-rescue:TEST_1P W38
 U 1 1 58560D38
 P 15500 3500
 F 0 "W38" H 15500 3770 50  0000 C CNN
@@ -2826,7 +2781,7 @@ F 3 "" H 15700 3500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W26
+L Smoothie2Standard-rescue:TEST_1P W26
 U 1 1 58563B03
 P 11700 1600
 F 0 "W26" H 11700 1870 50  0000 C CNN
@@ -2837,7 +2792,7 @@ F 3 "" H 11900 1600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W27
+L Smoothie2Standard-rescue:TEST_1P W27
 U 1 1 58564117
 P 11700 2400
 F 0 "W27" H 11700 2670 50  0000 C CNN
@@ -2848,7 +2803,7 @@ F 3 "" H 11900 2400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W28
+L Smoothie2Standard-rescue:TEST_1P W28
 U 1 1 58564682
 P 11700 3200
 F 0 "W28" H 11700 3470 50  0000 C CNN
@@ -2859,7 +2814,7 @@ F 3 "" H 11900 3200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W32
+L Smoothie2Standard-rescue:TEST_1P W32
 U 1 1 58564BE4
 P 11700 6400
 F 0 "W32" H 11700 6670 50  0000 C CNN
@@ -2870,7 +2825,7 @@ F 3 "" H 11900 6400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W33
+L Smoothie2Standard-rescue:TEST_1P W33
 U 1 1 5856514F
 P 12400 6800
 F 0 "W33" H 12400 7070 50  0000 C CNN
@@ -2881,7 +2836,7 @@ F 3 "" H 12600 6800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W17
+L Smoothie2Standard-rescue:TEST_1P W17
 U 1 1 5856AEF9
 P 9300 1000
 F 0 "W17" H 9300 1270 50  0000 C CNN
@@ -2892,7 +2847,7 @@ F 3 "" H 9500 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W22
+L Smoothie2Standard-rescue:TEST_1P W22
 U 1 1 5856B4D8
 P 9700 1600
 F 0 "W22" H 9700 1870 50  0000 C CNN
@@ -2903,7 +2858,7 @@ F 3 "" H 9900 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W23
+L Smoothie2Standard-rescue:TEST_1P W23
 U 1 1 5856BAC8
 P 9700 2500
 F 0 "W23" H 9700 2770 50  0000 C CNN
@@ -2914,7 +2869,7 @@ F 3 "" H 9900 2500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W18
+L Smoothie2Standard-rescue:TEST_1P W18
 U 1 1 5856C177
 P 9300 1900
 F 0 "W18" H 9300 2170 50  0000 C CNN
@@ -2925,7 +2880,7 @@ F 3 "" H 9500 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R38
+L Smoothie2Standard-rescue:R R38
 U 1 1 5856C824
 P 9250 4500
 F 0 "R38" V 9330 4500 50  0000 C CNN
@@ -2936,7 +2891,7 @@ F 3 "" H 9250 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C36
+L Smoothie2Standard-rescue:C C36
 U 1 1 58573B54
 P 9000 4650
 F 0 "C36" H 9025 4750 50  0000 L CNN
@@ -2951,7 +2906,7 @@ VBB_DIV
 Text GLabel 16300 14800 0    60   Input ~ 0
 GND
 $Comp
-L R R17
+L Smoothie2Standard-rescue:R R17
 U 1 1 585BF3E9
 P 7650 8400
 F 0 "R17" V 7730 8400 50  0000 C CNN
@@ -2964,7 +2919,7 @@ $EndComp
 Text Label 8000 8400 0    60   ~ 0
 MCU_~RESET~
 $Comp
-L TEST_1P W15
+L Smoothie2Standard-rescue:TEST_1P W15
 U 1 1 585BF3F2
 P 7900 8400
 F 0 "W15" H 7900 8670 50  0000 C CNN
@@ -2975,7 +2930,7 @@ F 3 "" H 8100 8400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W46
+L Smoothie2Standard-rescue:TEST_1P W46
 U 1 1 58613345
 P 17500 15300
 F 0 "W46" H 17500 15570 50  0000 C CNN
@@ -2988,7 +2943,7 @@ $EndComp
 NoConn ~ 17500 15300
 NoConn ~ 18100 15300
 $Comp
-L A8498 U2
+L a8498:A8498 U2
 U 1 1 59A050AB
 P 3900 14600
 F 0 "U2" H 3900 15100 60  0000 C CNN
@@ -2999,7 +2954,7 @@ F 3 "" H 3900 14600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Smoothie2Standard-rescue:R R3
 U 1 1 59A16194
 P 3100 14850
 F 0 "R3" V 3180 14850 50  0000 C CNN
@@ -3010,7 +2965,7 @@ F 3 "" H 3100 14850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L Smoothie2Standard-rescue:C C14
 U 1 1 59A1756C
 P 3100 14150
 F 0 "C14" H 3125 14250 50  0000 L CNN
@@ -3025,7 +2980,7 @@ Text Label 3100 14400 0    60   ~ 0
 Text Label 3100 14600 0    60   ~ 0
 5VREG_TSET
 $Comp
-L C C21
+L Smoothie2Standard-rescue:C C21
 U 1 1 59A1D28A
 P 4800 14950
 F 0 "C21" H 4825 15050 50  0000 L CNN
@@ -3036,7 +2991,7 @@ F 3 "" H 4800 14950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D4
+L Smoothie2Standard-rescue:D_Schottky D4
 U 1 1 59A1DD70
 P 4500 14950
 F 0 "D4" H 4500 15050 50  0000 C CNN
@@ -3047,7 +3002,7 @@ F 3 "" H 4500 14950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L INDUCTOR_SMALL L5
+L Smoothie2Standard-rescue:INDUCTOR_SMALL L5
 U 1 1 59A1EE03
 P 5150 14500
 F 0 "L5" H 5150 14600 50  0000 C CNN
@@ -3058,7 +3013,7 @@ F 3 "" H 5150 14500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Smoothie2Standard-rescue:R R4
 U 1 1 59A21770
 P 5250 14700
 F 0 "R4" V 5330 14700 50  0000 C CNN
@@ -3069,7 +3024,7 @@ F 3 "" H 5250 14700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L Smoothie2Standard-rescue:R R5
 U 1 1 59A21EA4
 P 5250 15000
 F 0 "R5" V 5330 15000 50  0000 C CNN
@@ -3080,7 +3035,7 @@ F 3 "" H 5250 15000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C26
+L Smoothie2Standard-rescue:C C26
 U 1 1 59A27433
 P 5700 14950
 F 0 "C26" H 5725 15050 50  0000 L CNN
@@ -3091,7 +3046,7 @@ F 3 "" H 5700 14950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C28
+L Smoothie2Standard-rescue:CP1 C28
 U 1 1 59A276DB
 P 6000 14950
 F 0 "C28" H 6025 15050 50  0000 L CNN
@@ -3101,7 +3056,7 @@ F 3 "" H 6000 14950 50  0000 C CNN
 	1    6000 14950
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 14100 0    60   Input ~ 0
+Text GLabel 5500 14850 0    60   Input ~ 0
 5V
 Text GLabel 6000 14000 0    60   Input ~ 0
 VBB
@@ -3197,7 +3152,7 @@ F11 "RESET" I L 1500 14900 60
 F12 "LED1" I L 1500 15000 60 
 $EndSheet
 $Comp
-L Q_PMOS_GSD Q7
+L Smoothie2Standard-rescue:Q_PMOS_GSD Q7
 U 1 1 59AE4AE9
 P 17300 1400
 F 0 "Q7" V 17550 1450 50  0000 R CNN
@@ -3208,7 +3163,7 @@ F 3 "" H 17300 1400 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R76
+L Smoothie2Standard-rescue:R R76
 U 1 1 59AE4AEF
 P 16400 1900
 F 0 "R76" V 16480 1900 50  0000 C CNN
@@ -3219,7 +3174,7 @@ F 3 "" H 16400 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R79
+L Smoothie2Standard-rescue:R R79
 U 1 1 59AE4AF5
 P 17000 1500
 F 0 "R79" V 17080 1500 50  0000 C CNN
@@ -3238,7 +3193,7 @@ SSR2_CONN
 Text GLabel 18200 1900 0    60   Input ~ 0
 GND
 $Comp
-L Q_NMOS_SSSGD Q9
+L q_nmos_sssgd:Q_NMOS_SSSGD Q9
 U 1 1 59AE4B05
 P 17500 2900
 F 0 "Q9" H 17800 2950 50  0000 R CNN
@@ -3249,7 +3204,7 @@ F 3 "" H 17500 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R80
+L Smoothie2Standard-rescue:R R80
 U 1 1 59AE4B0B
 P 17250 3200
 F 0 "R80" V 17330 3200 50  0000 C CNN
@@ -3264,7 +3219,7 @@ GND
 Text Label 17000 2900 0    60   ~ 0
 HOTEND2_G
 $Comp
-L R R77
+L Smoothie2Standard-rescue:R R77
 U 1 1 59AE4B13
 P 16750 2900
 F 0 "R77" V 16830 2900 50  0000 C CNN
@@ -3275,7 +3230,7 @@ F 3 "" H 16750 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P44
+L Smoothie2Standard-rescue:CONN_01X02 P44
 U 1 1 59AE4B19
 P 18500 2550
 F 0 "P44" H 18500 2700 50  0000 C CNN
@@ -3288,7 +3243,7 @@ $EndComp
 Text Label 17700 2600 0    60   ~ 0
 HOTEND2_D
 $Comp
-L D_Schottky_Small D31
+L Smoothie2Standard-rescue:D_Schottky_Small D31
 U 1 1 59AE4B20
 P 17800 2400
 F 0 "D31" H 17750 2480 50  0000 L CNN
@@ -3301,7 +3256,7 @@ $EndComp
 Text GLabel 18200 2300 0    60   Input ~ 0
 VFET
 $Comp
-L LED-RESCUE-Smoothie2Standard D29
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D29
 U 1 1 59AE4B27
 P 17300 2400
 F 0 "D29" H 17300 2500 50  0000 C CNN
@@ -3312,7 +3267,7 @@ F 3 "" H 17300 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R75
+L Smoothie2Standard-rescue:R R75
 U 1 1 59AE4B2D
 P 16450 2400
 F 0 "R75" V 16530 2400 50  0000 C CNN
@@ -3327,7 +3282,7 @@ HOTEND2_LED_R
 Text GLabel 16200 2300 0    60   Input ~ 0
 VFET
 $Comp
-L TEST_1P W50
+L Smoothie2Standard-rescue:TEST_1P W50
 U 1 1 59AE4B37
 P 17600 1300
 F 0 "W50" H 17600 1570 50  0000 C CNN
@@ -3338,7 +3293,7 @@ F 3 "" H 17800 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W51
+L Smoothie2Standard-rescue:TEST_1P W51
 U 1 1 59AE4B3D
 P 18200 1900
 F 0 "W51" H 18200 2170 50  0000 C CNN
@@ -3349,7 +3304,7 @@ F 3 "" H 18400 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W53
+L Smoothie2Standard-rescue:TEST_1P W53
 U 1 1 59AE4B43
 P 18200 2600
 F 0 "W53" H 18200 2870 50  0000 C CNN
@@ -3360,7 +3315,7 @@ F 3 "" H 18400 2600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W52
+L Smoothie2Standard-rescue:TEST_1P W52
 U 1 1 59AE4B49
 P 18200 2300
 F 0 "W52" H 18200 2570 50  0000 C CNN
@@ -3371,7 +3326,7 @@ F 3 "" H 18400 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TC4427A U6
+L tc4427a:TC4427A U6
 U 1 1 59AFB7CF
 P 15100 5500
 F 0 "U6" H 15100 6300 60  0000 C CNN
@@ -3382,7 +3337,7 @@ F 3 "" H 15100 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SSSGD Q8
+L q_nmos_sssgd:Q_NMOS_SSSGD Q8
 U 1 1 59B05E77
 P 17300 5700
 F 0 "Q8" H 17600 5750 50  0000 R CNN
@@ -3397,7 +3352,7 @@ GND
 Text GLabel 15900 4800 0    60   Input ~ 0
 12V
 $Comp
-L R R63
+L Smoothie2Standard-rescue:R R63
 U 1 1 59B0868F
 P 13900 5550
 F 0 "R63" V 13980 5550 50  0000 C CNN
@@ -3408,7 +3363,7 @@ F 3 "" H 13900 5550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R78E U8
+L r78e:R78E U8
 U 1 1 59B130D2
 P 17500 3950
 F 0 "U8" H 17650 3754 50  0000 C CNN
@@ -3419,7 +3374,7 @@ F 3 "" H 17500 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C56
+L Smoothie2Standard-rescue:C_Small C56
 U 1 1 59B183B2
 P 17000 4100
 F 0 "C56" H 17010 4170 50  0000 L CNN
@@ -3430,7 +3385,7 @@ F 3 "" H 17000 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C57
+L Smoothie2Standard-rescue:C_Small C57
 U 1 1 59B188E5
 P 18000 4100
 F 0 "C57" H 18010 4170 50  0000 L CNN
@@ -3447,7 +3402,7 @@ Text GLabel 18000 3700 0    60   Input ~ 0
 Text GLabel 18000 4500 0    60   Input ~ 0
 GND
 $Comp
-L R R74
+L Smoothie2Standard-rescue:R R74
 U 1 1 59B1FFC7
 P 16250 5300
 F 0 "R74" V 16330 5300 50  0000 C CNN
@@ -3462,7 +3417,7 @@ BED1_DRV
 Text Label 16600 5700 0    60   ~ 0
 BED1_GATE
 $Comp
-L R R78
+L Smoothie2Standard-rescue:R R78
 U 1 1 59B237E6
 P 16950 6000
 F 0 "R78" V 17030 6000 50  0000 C CNN
@@ -3475,7 +3430,7 @@ $EndComp
 Text GLabel 17500 6100 0    60   Input ~ 0
 GND
 $Comp
-L CONN_01X02 P42
+L Smoothie2Standard-rescue:CONN_01X02 P42
 U 1 1 59B31507
 P 18200 5350
 F 0 "P42" H 18200 5500 50  0000 C CNN
@@ -3486,7 +3441,7 @@ F 3 "" H 18200 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small D32
+L Smoothie2Standard-rescue:D_Schottky_Small D32
 U 1 1 59B32818
 P 17800 5200
 F 0 "D32" H 17750 5280 50  0000 L CNN
@@ -3501,7 +3456,7 @@ VFET
 Text Label 17400 5400 0    60   ~ 0
 BED1_DRAIN
 $Comp
-L LED-RESCUE-Smoothie2Standard D30
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D30
 U 1 1 59B36261
 P 17300 5200
 F 0 "D30" H 17300 5300 50  0000 C CNN
@@ -3512,7 +3467,7 @@ F 3 "" H 17300 5200 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R81
+L Smoothie2Standard-rescue:R R81
 U 1 1 59B36E3E
 P 17550 5000
 F 0 "R81" V 17630 5000 50  0000 C CNN
@@ -3527,7 +3482,7 @@ BED1_LEDR
 Text GLabel 8400 2700 0    60   Input ~ 0
 3.3VA
 $Comp
-L R R27
+L Smoothie2Standard-rescue:R R27
 U 1 1 59B5EA55
 P 8650 2800
 F 0 "R27" V 8730 2800 50  0000 C CNN
@@ -3538,7 +3493,7 @@ F 3 "" H 8650 2800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP4
+L Smoothie2Standard-rescue:Jumper_NC_Small JP4
 U 1 1 59B5EA5B
 P 9100 2800
 F 0 "JP4" H 9100 2880 50  0000 C CNN
@@ -3549,7 +3504,7 @@ F 3 "" H 9100 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P21
+L Smoothie2Standard-rescue:CONN_01X02 P21
 U 1 1 59B5EA61
 P 10000 2850
 F 0 "P21" H 10000 3000 50  0000 C CNN
@@ -3564,7 +3519,7 @@ TH3_PU
 Text Label 9300 2800 0    60   ~ 0
 TH3_CONN
 $Comp
-L R R36
+L Smoothie2Standard-rescue:R R36
 U 1 1 59B5EA69
 P 9050 3000
 F 0 "R36" V 9130 3000 50  0000 C CNN
@@ -3579,7 +3534,7 @@ MCU_ADC3
 Text GLabel 8800 3400 0    60   Input ~ 0
 GND
 $Comp
-L C_Small C35
+L Smoothie2Standard-rescue:C_Small C35
 U 1 1 59B5EA71
 P 8800 3200
 F 0 "C35" H 8810 3270 50  0000 L CNN
@@ -3590,7 +3545,7 @@ F 3 "" H 8800 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W24
+L Smoothie2Standard-rescue:TEST_1P W24
 U 1 1 59B5EA77
 P 9700 3400
 F 0 "W24" H 9700 3670 50  0000 C CNN
@@ -3601,7 +3556,7 @@ F 3 "" H 9900 3400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W19
+L Smoothie2Standard-rescue:TEST_1P W19
 U 1 1 59B5EA7D
 P 9300 2800
 F 0 "W19" H 9300 3070 50  0000 C CNN
@@ -3612,7 +3567,7 @@ F 3 "" H 9500 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P28
+L Smoothie2Standard-rescue:CONN_01X03 P28
 U 1 1 59BB6E57
 P 12700 3900
 F 0 "P28" H 12700 4100 50  0000 C CNN
@@ -3629,7 +3584,7 @@ V_ES
 Text GLabel 11200 4400 0    60   Input ~ 0
 GND
 $Comp
-L R R55
+L Smoothie2Standard-rescue:R R55
 U 1 1 59BB6E60
 P 11950 3800
 F 0 "R55" V 12030 3800 50  0000 C CNN
@@ -3640,7 +3595,7 @@ F 3 "" H 11950 3800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP12
+L Smoothie2Standard-rescue:Jumper_NC_Small JP12
 U 1 1 59BB6E66
 P 11500 3800
 F 0 "JP12" H 11500 3880 50  0000 C CNN
@@ -3651,7 +3606,7 @@ F 3 "" H 11500 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R48
+L Smoothie2Standard-rescue:R R48
 U 1 1 59BB6E6C
 P 11450 4000
 F 0 "R48" V 11530 4000 50  0000 C CNN
@@ -3662,7 +3617,7 @@ F 3 "" H 11450 4000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C46
+L Smoothie2Standard-rescue:C_Small C46
 U 1 1 59BB6E72
 P 11200 4200
 F 0 "C46" H 11210 4270 50  0000 L CNN
@@ -3673,7 +3628,7 @@ F 3 "" H 11200 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P29
+L Smoothie2Standard-rescue:CONN_01X03 P29
 U 1 1 59BB6E79
 P 12700 4700
 F 0 "P29" H 12700 4900 50  0000 C CNN
@@ -3690,7 +3645,7 @@ V_ES
 Text GLabel 11200 5200 0    60   Input ~ 0
 GND
 $Comp
-L R R56
+L Smoothie2Standard-rescue:R R56
 U 1 1 59BB6E82
 P 11950 4600
 F 0 "R56" V 12030 4600 50  0000 C CNN
@@ -3701,7 +3656,7 @@ F 3 "" H 11950 4600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP13
+L Smoothie2Standard-rescue:Jumper_NC_Small JP13
 U 1 1 59BB6E88
 P 11500 4600
 F 0 "JP13" H 11500 4680 50  0000 C CNN
@@ -3712,7 +3667,7 @@ F 3 "" H 11500 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L Smoothie2Standard-rescue:R R49
 U 1 1 59BB6E8E
 P 11450 4800
 F 0 "R49" V 11530 4800 50  0000 C CNN
@@ -3723,7 +3678,7 @@ F 3 "" H 11450 4800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C47
+L Smoothie2Standard-rescue:C_Small C47
 U 1 1 59BB6E94
 P 11200 5000
 F 0 "C47" H 11210 5070 50  0000 L CNN
@@ -3734,7 +3689,7 @@ F 3 "" H 11200 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P30
+L Smoothie2Standard-rescue:CONN_01X03 P30
 U 1 1 59BB6E9B
 P 12700 5500
 F 0 "P30" H 12700 5700 50  0000 C CNN
@@ -3751,7 +3706,7 @@ V_ES
 Text GLabel 11200 6000 0    60   Input ~ 0
 GND
 $Comp
-L R R57
+L Smoothie2Standard-rescue:R R57
 U 1 1 59BB6EA4
 P 11950 5400
 F 0 "R57" V 12030 5400 50  0000 C CNN
@@ -3762,7 +3717,7 @@ F 3 "" H 11950 5400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP14
+L Smoothie2Standard-rescue:Jumper_NC_Small JP14
 U 1 1 59BB6EAA
 P 11500 5400
 F 0 "JP14" H 11500 5480 50  0000 C CNN
@@ -3773,7 +3728,7 @@ F 3 "" H 11500 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R50
+L Smoothie2Standard-rescue:R R50
 U 1 1 59BB6EB0
 P 11450 5600
 F 0 "R50" V 11530 5600 50  0000 C CNN
@@ -3784,7 +3739,7 @@ F 3 "" H 11450 5600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C48
+L Smoothie2Standard-rescue:C_Small C48
 U 1 1 59BB6EB6
 P 11200 5800
 F 0 "C48" H 11210 5870 50  0000 L CNN
@@ -3807,7 +3762,7 @@ YMAX_R
 Text Label 11650 5400 0    60   ~ 0
 ZMAX_R
 $Comp
-L TEST_1P W29
+L Smoothie2Standard-rescue:TEST_1P W29
 U 1 1 59BB6EC3
 P 11700 4000
 F 0 "W29" H 11700 4270 50  0000 C CNN
@@ -3818,7 +3773,7 @@ F 3 "" H 11900 4000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W30
+L Smoothie2Standard-rescue:TEST_1P W30
 U 1 1 59BB6EC9
 P 11700 4800
 F 0 "W30" H 11700 5070 50  0000 C CNN
@@ -3829,7 +3784,7 @@ F 3 "" H 11900 4800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W31
+L Smoothie2Standard-rescue:TEST_1P W31
 U 1 1 59BB6ECF
 P 11700 5600
 F 0 "W31" H 11700 5870 50  0000 C CNN
@@ -3840,7 +3795,7 @@ F 3 "" H 11900 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LPC43xxFET256 U1
+L lpc43xxfet256:LPC43xxFET256 U1
 U 3 1 59C34645
 P 3100 6800
 F 0 "U1" H 3100 10000 60  0000 C CNN
@@ -3873,7 +3828,7 @@ MCU_~RESET~
 Text Label 900  15000 0    60   ~ 0
 MCU_G4_0
 $Comp
-L CONN_01X04 P6
+L Smoothie2Standard-rescue:CONN_01X04 P6
 U 1 1 59C9FDE9
 P 3200 12350
 F 0 "P6" H 3200 12600 50  0000 C CNN
@@ -3884,7 +3839,7 @@ F 3 "" H 3200 12350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P11
+L Smoothie2Standard-rescue:CONN_01X04 P11
 U 1 1 59CA03BB
 P 5900 12350
 F 0 "P11" H 5900 12600 50  0000 C CNN
@@ -3895,7 +3850,7 @@ F 3 "" H 5900 12350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P17
+L Smoothie2Standard-rescue:CONN_01X04 P17
 U 1 1 59CA095F
 P 8600 12350
 F 0 "P17" H 8600 12600 50  0000 C CNN
@@ -3906,7 +3861,7 @@ F 3 "" H 8600 12350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P24
+L Smoothie2Standard-rescue:CONN_01X04 P24
 U 1 1 59CA0F04
 P 11300 12350
 F 0 "P24" H 11300 12600 50  0000 C CNN
@@ -4130,7 +4085,7 @@ MCU_G6_22
 Text Label 19000 11900 0    60   ~ 0
 MCU_G6_23
 $Comp
-L LPC43xxFET256 U1
+L lpc43xxfet256:LPC43xxFET256 U1
 U 2 1 582DACA0
 P 20800 10900
 F 0 "U1" H 20800 14100 60  0000 C CNN
@@ -4210,14 +4165,14 @@ Text Notes 2900 13600 0    60   ~ 0
 Text Notes 2900 13700 0    60   ~ 0
 Allegro A8498 switching 5V 3A voltage regulator powered by VBB
 $Comp
-L PWR_FLAG #FLG08
+L power:PWR_FLAG #FLG08
 U 1 1 59EA60B5
-P 5500 14100
-F 0 "#FLG08" H 5500 14195 50  0001 C CNN
-F 1 "PWR_FLAG" H 5500 14280 50  0000 C CNN
-F 2 "" H 5500 14100 50  0000 C CNN
-F 3 "" H 5500 14100 50  0000 C CNN
-	1    5500 14100
+P 5500 14700
+F 0 "#FLG08" H 5500 14795 50  0001 C CNN
+F 1 "PWR_FLAG" H 5500 14880 50  0000 C CNN
+F 2 "" H 5500 14700 50  0000 C CNN
+F 3 "" H 5500 14700 50  0000 C CNN
+	1    5500 14700
 	0    1    1    0   
 $EndComp
 Text Label 22000 3900 0    60   ~ 0
@@ -4251,7 +4206,7 @@ MCU_G7_17
 Text Label 8900 12800 0    60   ~ 0
 MCU_G7_18
 $Comp
-L R R60
+L Smoothie2Standard-rescue:R R60
 U 1 1 5A1AE9A4
 P 13650 5300
 F 0 "R60" V 13730 5300 50  0000 C CNN
@@ -4315,7 +4270,7 @@ TXD1
 Text Notes 12600 12600 2    60   ~ 0
 RXD1
 $Comp
-L D_Schottky_Small D33
+L Smoothie2Standard-rescue:D_Schottky_Small D33
 U 1 1 59CB1436
 P 17900 1500
 F 0 "D33" H 17850 1580 50  0000 L CNN
@@ -4326,7 +4281,7 @@ F 3 "" V 17900 1500 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L D_Schottky_Small D28
+L Smoothie2Standard-rescue:D_Schottky_Small D28
 U 1 1 59CB191A
 P 15200 1500
 F 0 "D28" H 15150 1580 50  0000 L CNN
@@ -4337,7 +4292,7 @@ F 3 "" V 15200 1500 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CP1 C23
+L Smoothie2Standard-rescue:CP1 C23
 U 1 1 58331312
 P 5200 2650
 F 0 "C23" H 5225 2750 50  0000 L CNN
@@ -4352,7 +4307,7 @@ Text Label 4450 14500 0    60   ~ 0
 Text GLabel 8400 3600 0    60   Input ~ 0
 3.3V
 $Comp
-L R R28
+L Smoothie2Standard-rescue:R R28
 U 1 1 59E51DD4
 P 8650 3700
 F 0 "R28" V 8730 3700 50  0000 C CNN
@@ -4363,7 +4318,7 @@ F 3 "" H 8650 3700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R29
+L Smoothie2Standard-rescue:R R29
 U 1 1 59E51DDA
 P 8650 3900
 F 0 "R29" V 8730 3900 50  0000 C CNN
@@ -4374,7 +4329,7 @@ F 3 "" H 8650 3900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C38
+L Smoothie2Standard-rescue:C_Small C38
 U 1 1 59E51DE0
 P 9500 3850
 F 0 "C38" H 9510 3920 50  0000 L CNN
@@ -4389,7 +4344,7 @@ GND
 Text Label 9500 3700 0    60   ~ 0
 MCU_ADC6
 $Comp
-L D_Schottky_Small D6
+L Smoothie2Standard-rescue:D_Schottky_Small D6
 U 1 1 59E66400
 P 8000 1050
 F 0 "D6" H 7950 1130 50  0000 L CNN
@@ -4404,7 +4359,7 @@ AOV
 Text GLabel 8000 900  0    60   Input ~ 0
 AOV
 $Comp
-L D_Schottky_Small D7
+L Smoothie2Standard-rescue:D_Schottky_Small D7
 U 1 1 59E87CB0
 P 8000 1350
 F 0 "D7" H 7950 1430 50  0000 L CNN
@@ -4417,7 +4372,7 @@ $EndComp
 Text GLabel 8000 1500 0    60   Input ~ 0
 GND
 $Comp
-L D_Schottky_Small D8
+L Smoothie2Standard-rescue:D_Schottky_Small D8
 U 1 1 59E89E2B
 P 8000 1950
 F 0 "D8" H 7950 2030 50  0000 L CNN
@@ -4430,7 +4385,7 @@ $EndComp
 Text GLabel 8000 1800 0    60   Input ~ 0
 AOV
 $Comp
-L D_Schottky_Small D9
+L Smoothie2Standard-rescue:D_Schottky_Small D9
 U 1 1 59E89E35
 P 8000 2250
 F 0 "D9" H 7950 2330 50  0000 L CNN
@@ -4443,7 +4398,7 @@ $EndComp
 Text GLabel 8000 2400 0    60   Input ~ 0
 GND
 $Comp
-L D_Schottky_Small D10
+L Smoothie2Standard-rescue:D_Schottky_Small D10
 U 1 1 59E8A212
 P 8000 2850
 F 0 "D10" H 7950 2930 50  0000 L CNN
@@ -4456,7 +4411,7 @@ $EndComp
 Text GLabel 8000 2700 0    60   Input ~ 0
 AOV
 $Comp
-L D_Schottky_Small D11
+L Smoothie2Standard-rescue:D_Schottky_Small D11
 U 1 1 59E8A21C
 P 8000 3150
 F 0 "D11" H 7950 3230 50  0000 L CNN
@@ -4469,7 +4424,7 @@ $EndComp
 Text GLabel 8000 3300 0    60   Input ~ 0
 GND
 $Comp
-L D_Schottky_Small D20
+L Smoothie2Standard-rescue:D_Schottky_Small D20
 U 1 1 59E8AEC1
 P 10100 4350
 F 0 "D20" H 10050 4430 50  0000 L CNN
@@ -4482,7 +4437,7 @@ $EndComp
 Text GLabel 10100 4200 0    60   Input ~ 0
 AOV
 $Comp
-L D_Schottky_Small D21
+L Smoothie2Standard-rescue:D_Schottky_Small D21
 U 1 1 59E8AECB
 P 10100 4650
 F 0 "D21" H 10050 4730 50  0000 L CNN
@@ -4495,7 +4450,7 @@ $EndComp
 Text GLabel 10100 4900 0    60   Input ~ 0
 GND
 $Comp
-L TEST_1P W48
+L Smoothie2Standard-rescue:TEST_1P W48
 U 1 1 59EA6005
 P 18000 4800
 F 0 "W48" H 18000 5070 50  0000 C CNN
@@ -4506,7 +4461,7 @@ F 3 "" H 18200 4800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W47
+L Smoothie2Standard-rescue:TEST_1P W47
 U 1 1 59EA6831
 P 17800 5400
 F 0 "W47" H 17800 5670 50  0000 C CNN
@@ -4517,7 +4472,7 @@ F 3 "" H 18000 5400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X02 P1
+L Smoothie2Standard-rescue:CONN_01X02 P1
 U 1 1 59EB5D4F
 P 1300 2750
 F 0 "P1" H 1300 2900 50  0000 C CNN
@@ -4532,7 +4487,7 @@ GND_VFET_IN
 Text GLabel 1000 2500 0    60   Input ~ 0
 VFET_IN
 $Comp
-L CONN_01X02 P3
+L Smoothie2Standard-rescue:CONN_01X02 P3
 U 1 1 59EB5D57
 P 1800 2750
 F 0 "P3" H 1800 2900 50  0000 C CNN
@@ -4543,7 +4498,7 @@ F 3 "" H 1800 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG09
+L power:PWR_FLAG #FLG09
 U 1 1 59EB5D63
 P 1000 2500
 F 0 "#FLG09" H 1000 2595 50  0001 C CNN
@@ -4554,7 +4509,7 @@ F 3 "" H 1000 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W2
+L Smoothie2Standard-rescue:TEST_1P W2
 U 1 1 59EB5D69
 P 1000 3000
 F 0 "W2" H 1000 3270 50  0000 C CNN
@@ -4565,7 +4520,7 @@ F 3 "" H 1200 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W1
+L Smoothie2Standard-rescue:TEST_1P W1
 U 1 1 59EB5D6F
 P 1000 2500
 F 0 "W1" H 1000 2770 50  0000 C CNN
@@ -4578,7 +4533,7 @@ $EndComp
 Text GLabel 8400 5200 0    60   Input ~ 0
 VFET
 $Comp
-L R R32
+L Smoothie2Standard-rescue:R R32
 U 1 1 59F0B7C5
 P 8650 5300
 F 0 "R32" V 8730 5300 50  0000 C CNN
@@ -4589,7 +4544,7 @@ F 3 "" H 8650 5300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R33
+L Smoothie2Standard-rescue:R R33
 U 1 1 59F0B7CB
 P 8650 5500
 F 0 "R33" V 8730 5500 50  0000 C CNN
@@ -4600,7 +4555,7 @@ F 3 "" H 8650 5500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C40
+L Smoothie2Standard-rescue:C_Small C40
 U 1 1 59F0B7D1
 P 9500 5450
 F 0 "C40" H 9510 5520 50  0000 L CNN
@@ -4615,7 +4570,7 @@ GND
 Text Label 9500 5300 0    60   ~ 0
 MCU_ADC5
 $Comp
-L R R39
+L Smoothie2Standard-rescue:R R39
 U 1 1 59F0B7D9
 P 9250 5300
 F 0 "R39" V 9330 5300 50  0000 C CNN
@@ -4626,7 +4581,7 @@ F 3 "" H 9250 5300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C37
+L Smoothie2Standard-rescue:C C37
 U 1 1 59F0B7DF
 P 9000 5450
 F 0 "C37" H 9025 5550 50  0000 L CNN
@@ -4639,7 +4594,7 @@ $EndComp
 Text Label 8850 5300 0    60   ~ 0
 VFET_DIV
 $Comp
-L D_Schottky_Small D22
+L Smoothie2Standard-rescue:D_Schottky_Small D22
 U 1 1 59F0B7E7
 P 10100 5150
 F 0 "D22" H 10050 5230 50  0000 L CNN
@@ -4650,7 +4605,7 @@ F 3 "" V 10100 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky_Small D23
+L Smoothie2Standard-rescue:D_Schottky_Small D23
 U 1 1 59F0B7EE
 P 10100 5450
 F 0 "D23" H 10050 5530 50  0000 L CNN
@@ -4665,7 +4620,7 @@ GND
 Text GLabel 10100 5000 0    60   Input ~ 0
 AOV
 $Comp
-L R R67
+L Smoothie2Standard-rescue:R R67
 U 1 1 59F21FB6
 P 14100 5550
 F 0 "R67" V 14180 5550 50  0000 C CNN
@@ -4676,7 +4631,7 @@ F 3 "" H 14100 5550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R19
+L Smoothie2Standard-rescue:R R19
 U 1 1 59F475CE
 P 8450 9800
 F 0 "R19" V 8530 9800 50  0000 C CNN
@@ -4687,7 +4642,7 @@ F 3 "" H 8450 9800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D14
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D14
 U 1 1 59F475D4
 P 8900 9800
 F 0 "D14" H 8900 9900 50  0000 C CNN
@@ -4704,7 +4659,7 @@ GND
 Text Label 8650 9800 0    60   ~ 0
 VFET_LED_R
 $Comp
-L Q_NMOS_SSSGD Q5
+L q_nmos_sssgd:Q_NMOS_SSSGD Q5
 U 1 1 5A2498DB
 P 14800 4100
 F 0 "Q5" H 15100 4150 50  0000 R CNN
@@ -4715,7 +4670,7 @@ F 3 "" H 14800 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SSSGD Q2
+L q_nmos_sssgd:Q_NMOS_SSSGD Q2
 U 1 1 5A2D80AF
 P 3300 1400
 F 0 "Q2" H 3600 1450 50  0000 R CNN
@@ -4726,7 +4681,7 @@ F 3 "" H 3300 1400 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R1
+L Smoothie2Standard-rescue:R R1
 U 1 1 5A311337
 P 2400 2500
 F 0 "R1" V 2480 2500 50  0000 C CNN
@@ -4737,7 +4692,7 @@ F 3 "" H 2400 2500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ZENERsmall D1
+L Smoothie2Standard-rescue:ZENERsmall D1
 U 1 1 5A31133D
 P 2200 2700
 F 0 "D1" H 2200 2800 50  0000 C CNN
@@ -4754,7 +4709,7 @@ VFET_IN
 Text GLabel 2600 3100 0    60   Input ~ 0
 GND_VFET_IN
 $Comp
-L Q_NMOS_SSSGD Q1
+L q_nmos_sssgd:Q_NMOS_SSSGD Q1
 U 1 1 5A31134C
 P 2700 2700
 F 0 "Q1" H 3000 2750 50  0000 R CNN
@@ -4765,7 +4720,7 @@ F 3 "" H 2700 2700 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R59
+L Smoothie2Standard-rescue:R R59
 U 1 1 5A3500F3
 P 16150 7700
 F 0 "R59" V 16230 7700 50  0000 C CNN
@@ -4780,7 +4735,7 @@ VFET POWER SYSTEM\naccepts 12v-24v power for hotends and beds
 Text GLabel 3900 2400 0    60   Input ~ 0
 5V_IN
 $Comp
-L CONN_01X02 P8
+L Smoothie2Standard-rescue:CONN_01X02 P8
 U 1 1 5A3DF613
 P 4200 2650
 F 0 "P8" H 4200 2800 50  0000 C CNN
@@ -4793,7 +4748,7 @@ $EndComp
 Text GLabel 3900 2900 0    60   Input ~ 0
 GND
 $Comp
-L D_Schottky_Small D3
+L Smoothie2Standard-rescue:D_Schottky_Small D3
 U 1 1 5A3F0F06
 P 4300 2500
 F 0 "D3" H 4250 2580 50  0000 L CNN
@@ -4808,7 +4763,7 @@ Text Label 4450 14700 0    60   ~ 0
 Text GLabel 3200 2300 0    60   Input ~ 0
 VFET
 $Comp
-L CONN_01X02 P7
+L Smoothie2Standard-rescue:CONN_01X02 P7
 U 1 1 5A4113AA
 P 3500 2550
 F 0 "P7" H 3500 2700 50  0000 C CNN
@@ -4821,7 +4776,7 @@ $EndComp
 Text GLabel 3200 2800 0    60   Input ~ 0
 GND
 $Comp
-L CP1 C25
+L Smoothie2Standard-rescue:CP1 C25
 U 1 1 5A412092
 P 5700 1250
 F 0 "C25" H 5725 1350 50  0000 L CNN
@@ -4836,7 +4791,7 @@ GND
 Text GLabel 5700 1000 0    60   Input ~ 0
 VFET
 $Comp
-L C_Small C51
+L Smoothie2Standard-rescue:C_Small C51
 U 1 1 5A424A96
 P 15900 5500
 F 0 "C51" H 15910 5570 50  0000 L CNN
@@ -4847,7 +4802,7 @@ F 3 "" H 15900 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C55
+L Smoothie2Standard-rescue:C_Small C55
 U 1 1 5A430372
 P 16700 4100
 F 0 "C55" H 16710 4170 50  0000 L CNN
@@ -4862,7 +4817,7 @@ Text GLabel 4100 2300 0    60   Input ~ 0
 Text Label 8400 7000 0    60   ~ 0
 MCU_ADC0
 $Comp
-L D_Schottky_Small D50
+L Smoothie2Standard-rescue:D_Schottky_Small D50
 U 1 1 5A5488EC
 P 9000 6850
 F 0 "D50" H 8950 6930 50  0000 L CNN
@@ -4873,7 +4828,7 @@ F 3 "" V 9000 6850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky_Small D51
+L Smoothie2Standard-rescue:D_Schottky_Small D51
 U 1 1 5A5488F2
 P 9000 7150
 F 0 "D51" H 8950 7230 50  0000 L CNN
@@ -4888,7 +4843,7 @@ GND
 Text GLabel 9000 6700 0    60   Input ~ 0
 AOV
 $Comp
-L R R101
+L Smoothie2Standard-rescue:R R101
 U 1 1 5A54908A
 P 9250 7000
 F 0 "R101" V 9330 7000 50  0000 C CNN
@@ -4899,7 +4854,7 @@ F 3 "" H 9250 7000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P45
+L Smoothie2Standard-rescue:CONN_01X02 P45
 U 1 1 5A54FA09
 P 10000 7050
 F 0 "P45" H 10000 7200 50  0000 C CNN
@@ -4914,7 +4869,7 @@ GND
 Text Label 9500 7000 0    60   ~ 0
 DAC_CONN
 $Comp
-L TEST_1P W54
+L Smoothie2Standard-rescue:TEST_1P W54
 U 1 1 5A59AEC3
 P 9700 7000
 F 0 "W54" H 9700 7270 50  0000 C CNN
@@ -4925,7 +4880,7 @@ F 3 "" H 9900 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W55
+L Smoothie2Standard-rescue:TEST_1P W55
 U 1 1 5A59C74E
 P 9700 7100
 F 0 "W55" H 9700 7370 50  0000 C CNN
@@ -4936,7 +4891,7 @@ F 3 "" H 9900 7100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L JUMPER3 JP16
+L Smoothie2Standard-rescue:JUMPER3 JP16
 U 1 1 5A5D4119
 P 10900 8900
 F 0 "JP16" H 10950 8800 50  0000 L CNN
@@ -4947,7 +4902,7 @@ F 3 "" H 10900 8900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L JUMPER3 JP17
+L Smoothie2Standard-rescue:JUMPER3 JP17
 U 1 1 5A5D465B
 P 11300 8500
 F 0 "JP17" H 11350 8400 50  0000 L CNN
@@ -4962,7 +4917,7 @@ MCU_BOOT1_SEL
 Text Label 10650 8900 0    60   ~ 0
 MCU_BOOT3_SEL
 $Comp
-L SW_PUSH_SMALL_H SW1
+L Smoothie2Standard-rescue:SW_PUSH_SMALL_H SW1
 U 1 1 5A647F24
 P 8150 8600
 F 0 "SW1" H 8230 8710 50  0000 C CNN
@@ -4977,7 +4932,7 @@ VBB_RP_GATE
 Text Label 2350 2700 0    60   ~ 0
 VFET_RP_GATE
 $Comp
-L CONN_02X05 P46
+L Smoothie2Standard-rescue:CONN_02X05 P46
 U 1 1 5B2FA35E
 P 13650 8100
 F 0 "P46" H 13650 8400 50  0000 C CNN
@@ -4988,7 +4943,7 @@ F 3 "" H 13650 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W13
+L Smoothie2Standard-rescue:TEST_1P W13
 U 1 1 5B2FBD71
 P 17100 14600
 F 0 "W13" H 17100 14870 50  0000 C CNN
@@ -5027,7 +4982,7 @@ RPI_RXD
 Text Label 14100 8200 0    60   ~ 0
 RPI_TXD
 $Comp
-L R R15
+L Smoothie2Standard-rescue:R R15
 U 1 1 5B3CF016
 P 10650 11100
 F 0 "R15" V 10730 11100 50  0000 C CNN
@@ -5038,7 +4993,7 @@ F 3 "" H 10650 11100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R102
+L Smoothie2Standard-rescue:R R102
 U 1 1 5B3CFB03
 P 10650 11300
 F 0 "R102" V 10730 11300 50  0000 C CNN
@@ -5154,7 +5109,7 @@ NoConn ~ 22600 4600
 NoConn ~ 22600 5700
 NoConn ~ 22600 5800
 $Comp
-L CONN_01X03 P39
+L Smoothie2Standard-rescue:CONN_01X03 P39
 U 1 1 5B7222E3
 P 15900 1400
 F 0 "P39" H 15900 1600 50  0000 C CNN
@@ -5169,7 +5124,7 @@ MCU_G7_5
 Text Label 15850 1900 0    60   ~ 0
 MCU_G5_21
 $Comp
-L CONN_01X03 P43
+L Smoothie2Standard-rescue:CONN_01X03 P43
 U 1 1 5B744AB3
 P 18600 1400
 F 0 "P43" H 18600 1600 50  0000 C CNN
@@ -5184,7 +5139,7 @@ Text GLabel 18300 1100 0    60   Input ~ 0
 Text GLabel 15600 1100 0    60   Input ~ 0
 5V
 $Comp
-L D_Schottky_Small D52
+L Smoothie2Standard-rescue:D_Schottky_Small D52
 U 1 1 5B7BA653
 P 11200 6250
 F 0 "D52" H 11150 6330 50  0000 L CNN
@@ -5197,7 +5152,7 @@ $EndComp
 Text GLabel 11200 6100 0    60   Input ~ 0
 ESOV
 $Comp
-L ZENERsmall D53
+L Smoothie2Standard-rescue:ZENERsmall D53
 U 1 1 5B7DD502
 P 10700 6650
 F 0 "D53" H 10700 6750 50  0000 C CNN
@@ -5308,7 +5263,7 @@ MCU_G6_19
 Text Label 8200 4200 0    60   ~ 0
 MCU_ADC4
 $Comp
-L Conn_01x01 J2
+L Smoothie2Standard-rescue:Conn_01x01 J2
 U 1 1 5B574CF4
 P 9300 4200
 F 0 "J2" H 9300 4300 50  0000 C CNN
@@ -5319,7 +5274,7 @@ F 3 "" H 9300 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W49
+L Smoothie2Standard-rescue:TEST_1P W49
 U 1 1 5B73D7B1
 P 18100 15300
 F 0 "W49" H 18100 15570 50  0000 C CNN
@@ -5332,7 +5287,7 @@ $EndComp
 Text GLabel 12500 5900 0    60   Input ~ 0
 VBB
 $Comp
-L LED-RESCUE-Smoothie2Standard D55
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D55
 U 1 1 5B91C6A8
 P 17950 1700
 F 0 "D55" H 17950 1800 50  0000 C CNN
@@ -5343,7 +5298,7 @@ F 3 "" H 17950 1700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Smoothie2Standard D54
+L Smoothie2Standard-rescue:LED-RESCUE-Smoothie2Standard D54
 U 1 1 5B91CDF8
 P 15250 1700
 F 0 "D54" H 15250 1800 50  0000 C CNN
@@ -5354,7 +5309,7 @@ F 3 "" H 15250 1700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R104
+L Smoothie2Standard-rescue:R R104
 U 1 1 5B982AF4
 P 14900 1700
 F 0 "R104" V 14980 1700 50  0000 C CNN
@@ -5365,7 +5320,7 @@ F 3 "" H 14900 1700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R105
+L Smoothie2Standard-rescue:R R105
 U 1 1 5B9842C0
 P 17600 1700
 F 0 "R105" V 17680 1700 50  0000 C CNN
@@ -5378,7 +5333,7 @@ $EndComp
 Text GLabel 900  13100 0    60   Input ~ 0
 GND
 $Comp
-L D_Schottky_Small D56
+L Smoothie2Standard-rescue:D_Schottky_Small D56
 U 1 1 5DBB57C5
 P 5850 14400
 F 0 "D56" H 5800 14480 50  0000 L CNN
@@ -5389,20 +5344,20 @@ F 3 "" V 5850 14400 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG010
+L power:PWR_FLAG #FLG010
 U 1 1 5DDF9721
-P 5750 14400
-F 0 "#FLG010" H 5750 14495 50  0001 C CNN
-F 1 "PWR_FLAG" H 5750 14580 50  0000 C CNN
-F 2 "" H 5750 14400 50  0000 C CNN
-F 3 "" H 5750 14400 50  0000 C CNN
-	1    5750 14400
+P 5650 14400
+F 0 "#FLG010" H 5650 14495 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 14580 50  0000 C CNN
+F 2 "" H 5650 14400 50  0000 C CNN
+F 3 "" H 5650 14400 50  0000 C CNN
+	1    5650 14400
 	1    0    0    -1  
 $EndComp
-Text Label 4450 14400 0    60   ~ 0
+Text Label 4750 14400 0    60   ~ 0
 5VREG_VIN
 $Comp
-L CONN_02X05 G7
+L Smoothie2Standard-rescue:CONN_02X05 G7
 U 1 1 5DFAF8A5
 P 16650 10600
 F 0 "G7" H 16650 10900 50  0000 C CNN
@@ -5419,7 +5374,7 @@ Text GLabel 17000 10200 0    60   Input ~ 0
 Text GLabel 17000 11000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G8
+L Smoothie2Standard-rescue:CONN_02X05 G8
 U 1 1 5DFB6701
 P 16650 11600
 F 0 "G8" H 16650 11900 50  0000 C CNN
@@ -5436,7 +5391,7 @@ Text GLabel 17000 11200 0    60   Input ~ 0
 Text GLabel 17000 12000 0    60   Input ~ 0
 GND
 $Comp
-L CONN_02X05 G9
+L Smoothie2Standard-rescue:CONN_02X05 G9
 U 1 1 5DFB6B4A
 P 16650 12600
 F 0 "G9" H 16650 12900 50  0000 C CNN
@@ -5455,7 +5410,7 @@ GND
 Text Label 22000 4200 0    60   ~ 0
 MCU_G3_15
 $Comp
-L BSS138 Q10
+L Smoothie2Standard-rescue:BSS138 Q10
 U 1 1 5E28E686
 P 14150 1900
 F 0 "Q10" H 14350 1975 50  0000 L CNN
@@ -5470,7 +5425,7 @@ GND
 Text Label 13850 1900 0    60   ~ 0
 SSR1_PG
 $Comp
-L R R37
+L Smoothie2Standard-rescue:R R37
 U 1 1 5E2A0821
 P 14050 2050
 F 0 "R37" V 14130 2050 50  0000 C CNN
@@ -5481,7 +5436,7 @@ F 3 "" H 14050 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L BSS138 Q11
+L Smoothie2Standard-rescue:BSS138 Q11
 U 1 1 5E2A6DBA
 P 16850 1900
 F 0 "Q11" H 17050 1975 50  0000 L CNN
@@ -5492,7 +5447,7 @@ F 3 "" H 16850 1900 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R72
+L Smoothie2Standard-rescue:R R72
 U 1 1 5E2A8CEE
 P 16750 2050
 F 0 "R72" V 16830 2050 50  0000 C CNN
@@ -5505,7 +5460,7 @@ $EndComp
 Text GLabel 16950 2200 0    60   Input ~ 0
 GND
 $Comp
-L R R71
+L Smoothie2Standard-rescue:R R71
 U 1 1 5E2AC168
 P 15350 1400
 F 0 "R71" V 15430 1400 50  0000 C CNN
@@ -5516,7 +5471,7 @@ F 3 "" H 15350 1400 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R106
+L Smoothie2Standard-rescue:R R106
 U 1 1 5E2AD69D
 P 18050 1400
 F 0 "R106" V 18130 1400 50  0000 C CNN
@@ -5526,60 +5481,16 @@ F 3 "" H 18050 1400 50  0000 C CNN
 	1    18050 1400
 	0    1    -1   0   
 $EndComp
-$Comp
-L R R107
-U 1 1 5E2BF695
-P 1100 13100
-F 0 "R107" V 1180 13100 50  0000 C CNN
-F 1 "10K" V 1100 13100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 1030 13100 50  0001 C CNN
-F 3 "" H 1100 13100 50  0000 C CNN
-	1    1100 13100
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3600 13100 0    60   Input ~ 0
 GND
-$Comp
-L R R108
-U 1 1 5E2C3642
-P 3800 13100
-F 0 "R108" V 3880 13100 50  0000 C CNN
-F 1 "10K" V 3800 13100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3730 13100 50  0001 C CNN
-F 3 "" H 3800 13100 50  0000 C CNN
-	1    3800 13100
-	0    -1   -1   0   
-$EndComp
 Text GLabel 6300 13100 0    60   Input ~ 0
 GND
-$Comp
-L R R109
-U 1 1 5E2C5F1C
-P 6500 13100
-F 0 "R109" V 6580 13100 50  0000 C CNN
-F 1 "10K" V 6500 13100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 6430 13100 50  0001 C CNN
-F 3 "" H 6500 13100 50  0000 C CNN
-	1    6500 13100
-	0    -1   -1   0   
-$EndComp
 Text GLabel 9000 13100 0    60   Input ~ 0
 GND
-$Comp
-L R R110
-U 1 1 5E2C6F72
-P 9200 13100
-F 0 "R110" V 9280 13100 50  0000 C CNN
-F 1 "10K" V 9200 13100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 9130 13100 50  0001 C CNN
-F 3 "" H 9200 13100 50  0000 C CNN
-	1    9200 13100
-	0    -1   -1   0   
-$EndComp
 Text Label 16550 1900 0    60   ~ 0
 SSR2_PG
 $Comp
-L Q_PMOS_GDS Q6
+L Smoothie2Standard-rescue:Q_PMOS_GDS Q6
 U 1 1 5E2FF2E6
 P 17900 7100
 F 0 "Q6" H 18100 7150 50  0000 L CNN
@@ -5594,7 +5505,7 @@ VFET_IN
 Text GLabel 18200 6800 0    60   Input ~ 0
 VFET
 $Comp
-L ZENERsmall D57
+L Smoothie2Standard-rescue:ZENERsmall D57
 U 1 1 5E30CA16
 P 17600 7250
 F 0 "D57" H 17600 7350 50  0000 C CNN
@@ -5605,7 +5516,7 @@ F 3 "" H 17600 7250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R73
+L Smoothie2Standard-rescue:R R73
 U 1 1 5E30EEB7
 P 17350 7500
 F 0 "R73" V 17430 7500 50  0000 C CNN
@@ -5634,14 +5545,14 @@ Connection ~ 13900 5800
 Wire Wire Line
 	14100 5800 14100 5700
 Wire Wire Line
-	13900 5800 15900 5800
+	13900 5800 14100 5800
 Wire Wire Line
 	14100 5300 14100 5400
 Wire Wire Line
-	10100 5550 10100 5700
+	10100 5550 10100 5600
 Connection ~ 10100 5300
 Wire Wire Line
-	10100 5250 10100 5350
+	10100 5250 10100 5300
 Wire Wire Line
 	10100 5000 10100 5050
 Connection ~ 9000 5300
@@ -5651,10 +5562,10 @@ Connection ~ 9500 5300
 Wire Wire Line
 	9500 5300 9500 5350
 Wire Wire Line
-	9400 5300 10100 5300
+	9400 5300 9500 5300
 Connection ~ 8900 5300
 Wire Wire Line
-	8800 5300 9100 5300
+	8800 5300 8900 5300
 Wire Wire Line
 	8900 5500 8900 5300
 Wire Wire Line
@@ -5666,7 +5577,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 5500 8500 5500
 Wire Wire Line
-	8400 5500 8400 5700
+	8400 5500 8400 5600
 Connection ~ 1000 2900
 Wire Wire Line
 	1500 2800 1600 2800
@@ -5684,43 +5595,43 @@ Wire Wire Line
 Wire Wire Line
 	1000 2800 1100 2800
 Wire Wire Line
-	1000 2800 1000 3000
+	1000 2800 1000 2900
 Wire Wire Line
 	1000 2700 1100 2700
 Wire Wire Line
-	1000 2500 1000 2700
+	1000 2500 1000 2600
 Wire Wire Line
-	13800 5300 14400 5300
+	13800 5300 14100 5300
 Wire Wire Line
-	10100 4750 10100 4900
+	10100 4750 10100 4800
 Connection ~ 10100 4500
 Wire Wire Line
-	10100 4450 10100 4550
+	10100 4450 10100 4500
 Wire Wire Line
 	10100 4200 10100 4250
 Wire Wire Line
 	8000 3300 8000 3250
 Connection ~ 8000 3000
 Wire Wire Line
-	8000 2950 8000 3050
+	8000 2950 8000 3000
 Wire Wire Line
 	8000 2700 8000 2750
 Wire Wire Line
-	8000 3000 8900 3000
+	8000 3000 8800 3000
 Wire Wire Line
 	8000 2400 8000 2350
 Connection ~ 8000 2100
 Wire Wire Line
-	8000 2050 8000 2150
+	8000 2050 8000 2100
 Wire Wire Line
 	8000 1800 8000 1850
 Wire Wire Line
-	8000 2100 8900 2100
+	8000 2100 8800 2100
 Wire Wire Line
 	8000 1500 8000 1450
 Connection ~ 8000 1200
 Wire Wire Line
-	8000 1150 8000 1250
+	8000 1150 8000 1200
 Wire Wire Line
 	8000 900  8000 950 
 Wire Wire Line
@@ -5732,7 +5643,7 @@ Wire Wire Line
 	8400 4000 9500 4000
 Connection ~ 8900 3700
 Wire Wire Line
-	8800 3700 9900 3700
+	8800 3700 8900 3700
 Wire Wire Line
 	8900 3900 8900 3700
 Wire Wire Line
@@ -5747,19 +5658,18 @@ Wire Wire Line
 	8400 3900 8400 4000
 Wire Wire Line
 	9100 5900 9100 6000
-Connection ~ 5500 14500
 Connection ~ 18200 1500
 Connection ~ 17600 1300
 Wire Wire Line
 	17600 1500 17800 1500
 Wire Wire Line
-	17600 1300 17600 1550
+	17600 1300 17600 1500
 Connection ~ 15500 1500
 Connection ~ 14900 1300
 Wire Wire Line
 	14900 1500 15100 1500
 Wire Wire Line
-	14900 1300 14900 1550
+	14900 1300 14900 1500
 Wire Wire Line
 	8900 12800 9500 12800
 Wire Wire Line
@@ -5929,19 +5839,19 @@ Wire Wire Line
 Wire Wire Line
 	900  14700 1500 14700
 Wire Wire Line
-	900  14600 1500 14600
+	900  14600 1150 14600
 Wire Wire Line
-	900  14500 1500 14500
+	900  14500 1150 14500
 Wire Wire Line
-	900  14400 1500 14400
+	900  14400 1150 14400
 Wire Wire Line
-	900  14300 1500 14300
+	900  14300 1150 14300
 Wire Wire Line
 	900  14200 1500 14200
 Wire Wire Line
-	900  14100 1500 14100
+	900  14100 1150 14100
 Wire Wire Line
-	900  14000 1500 14000
+	900  14000 1150 14000
 Wire Wire Line
 	12400 6000 12400 5500
 Wire Wire Line
@@ -5952,7 +5862,7 @@ Connection ~ 11200 5600
 Wire Wire Line
 	11200 5700 11200 5600
 Wire Wire Line
-	10600 5600 11300 5600
+	10600 5600 11200 5600
 Connection ~ 11700 5600
 Wire Wire Line
 	11700 5500 11700 5600
@@ -5966,11 +5876,11 @@ Connection ~ 12400 5400
 Wire Wire Line
 	11600 5400 11800 5400
 Wire Wire Line
-	11600 5600 12500 5600
+	11600 5600 11700 5600
 Wire Wire Line
 	12400 5500 12500 5500
 Wire Wire Line
-	12100 5400 12500 5400
+	12100 5400 12400 5400
 Wire Wire Line
 	12400 5300 12400 5400
 Wire Wire Line
@@ -5983,7 +5893,7 @@ Connection ~ 11200 4800
 Wire Wire Line
 	11200 4900 11200 4800
 Wire Wire Line
-	10600 4800 11300 4800
+	10600 4800 11200 4800
 Connection ~ 11700 4800
 Wire Wire Line
 	11700 4700 11700 4800
@@ -5997,11 +5907,11 @@ Connection ~ 12400 4600
 Wire Wire Line
 	11600 4600 11800 4600
 Wire Wire Line
-	11600 4800 12500 4800
+	11600 4800 11700 4800
 Wire Wire Line
 	12400 4700 12500 4700
 Wire Wire Line
-	12100 4600 12500 4600
+	12100 4600 12400 4600
 Wire Wire Line
 	12400 4500 12400 4600
 Wire Wire Line
@@ -6014,7 +5924,7 @@ Connection ~ 11200 4000
 Wire Wire Line
 	11200 4100 11200 4000
 Wire Wire Line
-	10600 4000 11300 4000
+	10600 4000 11200 4000
 Connection ~ 11700 4000
 Wire Wire Line
 	11700 3900 11700 4000
@@ -6028,11 +5938,11 @@ Connection ~ 12400 3800
 Wire Wire Line
 	11600 3800 11800 3800
 Wire Wire Line
-	11600 4000 12500 4000
+	11600 4000 11700 4000
 Wire Wire Line
 	12400 3900 12500 3900
 Wire Wire Line
-	12100 3800 12500 3800
+	12100 3800 12400 3800
 Wire Wire Line
 	12400 3700 12400 3800
 Wire Wire Line
@@ -6052,7 +5962,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2800 9300 3000
 Wire Wire Line
-	9200 2800 9800 2800
+	9200 2800 9300 2800
 Wire Wire Line
 	8800 2800 9000 2800
 Wire Wire Line
@@ -6072,29 +5982,29 @@ Wire Wire Line
 	17800 5000 17800 5100
 Connection ~ 18000 5000
 Wire Wire Line
-	18000 4800 18000 5300
+	18000 4800 18000 5000
 Wire Wire Line
-	17700 5000 18000 5000
+	17700 5000 17800 5000
 Wire Wire Line
-	17300 5400 18000 5400
+	17300 5400 17400 5400
 Wire Wire Line
 	17400 5400 17400 5500
 Connection ~ 16500 5700
 Wire Wire Line
-	16500 5300 16500 6000
+	16500 5300 16500 5700
 Wire Wire Line
 	16500 6000 16800 6000
 Connection ~ 17500 6000
 Connection ~ 17400 6000
 Wire Wire Line
-	17500 5900 17500 6100
+	17500 5900 17500 6000
 Connection ~ 17300 6000
 Wire Wire Line
 	17400 6000 17400 5900
 Wire Wire Line
 	17300 6000 17300 5900
 Wire Wire Line
-	17100 6000 17500 6000
+	17100 6000 17300 6000
 Wire Wire Line
 	16500 5700 17100 5700
 Wire Wire Line
@@ -6106,27 +6016,27 @@ Connection ~ 17500 4300
 Wire Wire Line
 	17500 4300 17500 4200
 Wire Wire Line
-	18000 4200 18000 4500
+	18000 4200 18000 4300
 Wire Wire Line
-	16700 4300 18000 4300
+	16700 4300 17000 4300
 Wire Wire Line
 	17000 4200 17000 4300
 Wire Wire Line
 	18000 3900 17900 3900
 Wire Wire Line
-	18000 3700 18000 4000
+	18000 3700 18000 3900
 Wire Wire Line
-	16700 3900 17100 3900
+	16700 3900 17000 3900
 Wire Wire Line
-	17000 3700 17000 4000
+	17000 3700 17000 3900
 Wire Wire Line
-	13900 5700 13900 5900
+	13900 5700 13900 5800
 Wire Wire Line
 	13900 5100 14400 5100
 Wire Wire Line
 	15900 5200 15800 5200
 Wire Wire Line
-	15900 4800 15900 5400
+	15900 4800 15900 5200
 Connection ~ 18200 2600
 Connection ~ 17600 2400
 Wire Wire Line
@@ -6139,16 +6049,16 @@ Connection ~ 18200 2400
 Wire Wire Line
 	18200 2400 17900 2400
 Wire Wire Line
-	18200 2300 18200 2500
+	18200 2300 18200 2400
 Wire Wire Line
 	18200 2500 18300 2500
 Connection ~ 17600 2600
 Wire Wire Line
-	17500 2400 17700 2400
+	17500 2400 17600 2400
 Wire Wire Line
-	17600 2600 18300 2600
+	17600 2600 18200 2600
 Wire Wire Line
-	17600 2400 17600 2700
+	17600 2400 17600 2600
 Connection ~ 17000 2900
 Wire Wire Line
 	17000 3200 17000 2900
@@ -6157,48 +6067,47 @@ Wire Wire Line
 Wire Wire Line
 	15900 2900 16600 2900
 Wire Wire Line
-	16900 2900 17300 2900
+	16900 2900 17000 2900
 Connection ~ 17700 3200
 Connection ~ 17600 3200
 Wire Wire Line
-	17700 3100 17700 3300
+	17700 3100 17700 3200
 Wire Wire Line
 	17600 3200 17600 3100
 Connection ~ 17500 3200
 Wire Wire Line
 	17500 3200 17500 3100
 Wire Wire Line
-	17400 3200 17700 3200
+	17400 3200 17500 3200
 Wire Wire Line
-	18000 1500 18400 1500
+	18000 1500 18200 1500
 Wire Wire Line
-	18200 1400 18200 1900
+	18200 1400 18200 1500
 Wire Wire Line
-	17500 1300 18400 1300
+	17500 1300 17600 1300
 Wire Wire Line
 	15850 1900 16250 1900
 Connection ~ 17000 1700
 Wire Wire Line
 	17300 1700 17300 1600
 Wire Wire Line
-	16950 1700 17300 1700
+	16950 1700 17000 1700
 Wire Wire Line
 	17000 1650 17000 1700
 Connection ~ 17000 1300
 Wire Wire Line
-	17000 1200 17000 1350
+	17000 1200 17000 1300
 Wire Wire Line
 	17100 1300 17000 1300
 Connection ~ 6000 14400
-Connection ~ 5700 14400
 Wire Wire Line
-	6000 14000 6000 14800
+	6000 14000 6000 14400
 Wire Wire Line
 	5700 14400 5700 14800
 Connection ~ 6000 15200
 Connection ~ 5700 15200
 Wire Wire Line
-	6000 15100 6000 15400
+	6000 15100 6000 15200
 Connection ~ 5500 15200
 Wire Wire Line
 	5700 15200 5700 15100
@@ -6212,8 +6121,6 @@ Connection ~ 5500 14600
 Wire Wire Line
 	5400 14500 5500 14500
 Wire Wire Line
-	5500 14100 5500 14700
-Wire Wire Line
 	5500 14700 5400 14700
 Connection ~ 4500 15200
 Wire Wire Line
@@ -6226,17 +6133,15 @@ Wire Wire Line
 Wire Wire Line
 	5100 15000 5000 15000
 Wire Wire Line
-	4400 14700 5100 14700
+	4400 14700 5000 14700
 Connection ~ 3300 15200
 Wire Wire Line
 	4500 15200 4500 15100
 Connection ~ 4500 14500
 Wire Wire Line
-	4500 13900 4500 14800
+	4400 14500 4500 14500
 Wire Wire Line
-	4400 14500 4900 14500
-Wire Wire Line
-	4400 14600 5500 14600
+	4400 14600 4800 14600
 Wire Wire Line
 	3100 13900 4500 13900
 Wire Wire Line
@@ -6246,7 +6151,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 14400 3100 14400
 Wire Wire Line
-	3100 15200 6000 15200
+	3100 15200 3300 15200
 Wire Wire Line
 	3100 15000 3100 15200
 Wire Wire Line
@@ -6262,7 +6167,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 14800 3400 14800
 Wire Wire Line
-	3300 14500 3300 15200
+	3300 14500 3300 14700
 Connection ~ 7400 8300
 Wire Wire Line
 	7400 8300 7500 8300
@@ -6270,9 +6175,9 @@ Connection ~ 7900 8400
 Wire Wire Line
 	7400 8400 7500 8400
 Wire Wire Line
-	7800 8400 8700 8400
+	7800 8400 7900 8400
 Wire Wire Line
-	16500 14700 16900 14700
+	16500 14700 16700 14700
 Connection ~ 15500 3800
 Connection ~ 15500 2600
 Connection ~ 9000 4500
@@ -6289,7 +6194,7 @@ Connection ~ 9500 4500
 Wire Wire Line
 	9500 4500 9500 4550
 Wire Wire Line
-	9400 4500 10100 4500
+	9400 4500 9500 4500
 Wire Wire Line
 	16100 13900 16300 13900
 Wire Wire Line
@@ -6337,7 +6242,7 @@ Wire Wire Line
 Connection ~ 16900 14700
 Connection ~ 16700 14700
 Wire Wire Line
-	16900 14600 16900 14800
+	16900 14600 16900 14700
 Wire Wire Line
 	16700 14700 16700 14600
 Wire Wire Line
@@ -6562,7 +6467,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 11200 13300 11400
 Wire Wire Line
-	9200 14600 9200 15200
+	9200 14600 9200 14700
 Wire Wire Line
 	9700 14400 9700 14200
 Wire Wire Line
@@ -6844,16 +6749,16 @@ Connection ~ 15500 3600
 Wire Wire Line
 	15500 3600 15200 3600
 Wire Wire Line
-	15500 3500 15500 3700
+	15500 3500 15500 3600
 Wire Wire Line
 	15500 3700 15600 3700
 Connection ~ 14900 3800
 Wire Wire Line
-	14800 3600 15000 3600
+	14800 3600 14900 3600
 Wire Wire Line
-	14900 3800 15600 3800
+	14900 3800 15500 3800
 Wire Wire Line
-	14900 3600 14900 3900
+	14900 3600 14900 3800
 Connection ~ 14300 4100
 Wire Wire Line
 	14300 4400 14300 4100
@@ -6862,10 +6767,10 @@ Wire Wire Line
 Wire Wire Line
 	13200 4100 13900 4100
 Wire Wire Line
-	14200 4100 14600 4100
+	14200 4100 14300 4100
 Connection ~ 14900 4400
 Wire Wire Line
-	14700 4400 15000 4400
+	14700 4400 14800 4400
 Connection ~ 14900 2400
 Wire Wire Line
 	13500 2400 13600 2400
@@ -6877,16 +6782,16 @@ Connection ~ 15500 2400
 Wire Wire Line
 	15500 2400 15200 2400
 Wire Wire Line
-	15500 2300 15500 2500
+	15500 2300 15500 2400
 Wire Wire Line
 	15500 2500 15600 2500
 Connection ~ 14900 2600
 Wire Wire Line
-	14800 2400 15000 2400
+	14800 2400 14900 2400
 Wire Wire Line
-	14900 2600 15600 2600
+	14900 2600 15500 2600
 Wire Wire Line
-	14900 2400 14900 2700
+	14900 2400 14900 2600
 Connection ~ 14300 2900
 Wire Wire Line
 	14300 3200 14300 2900
@@ -6895,24 +6800,24 @@ Wire Wire Line
 Wire Wire Line
 	13200 2900 13900 2900
 Wire Wire Line
-	14200 2900 14600 2900
+	14200 2900 14300 2900
 Connection ~ 15000 3200
 Connection ~ 14900 3200
 Wire Wire Line
-	15000 3100 15000 3300
+	15000 3100 15000 3200
 Wire Wire Line
 	14900 3200 14900 3100
 Connection ~ 14800 3200
 Wire Wire Line
 	14800 3200 14800 3100
 Wire Wire Line
-	14700 3200 15000 3200
+	14700 3200 14800 3200
 Wire Wire Line
-	15300 1500 15700 1500
+	15300 1500 15500 1500
 Wire Wire Line
-	15500 1400 15500 1900
+	15500 1400 15500 1500
 Wire Wire Line
-	14800 1300 15700 1300
+	14800 1300 14900 1300
 Wire Wire Line
 	13150 1900 13550 1900
 Connection ~ 14300 1700
@@ -6920,7 +6825,7 @@ Wire Wire Line
 	14600 1700 14600 1600
 Connection ~ 14300 1300
 Wire Wire Line
-	14300 1200 14300 1350
+	14300 1200 14300 1300
 Wire Wire Line
 	14400 1300 14300 1300
 Wire Wire Line
@@ -6931,9 +6836,9 @@ Wire Wire Line
 	12400 6800 11200 6800
 Connection ~ 11200 6400
 Wire Wire Line
-	11200 6350 11200 6500
+	11200 6350 11200 6400
 Wire Wire Line
-	10600 6400 11300 6400
+	10600 6400 11200 6400
 Connection ~ 11700 6400
 Wire Wire Line
 	11700 6300 11700 6400
@@ -6947,11 +6852,11 @@ Connection ~ 12400 6200
 Wire Wire Line
 	11600 6200 11800 6200
 Wire Wire Line
-	11600 6400 12600 6400
+	11600 6400 11700 6400
 Wire Wire Line
 	12400 6300 12600 6300
 Wire Wire Line
-	12100 6200 12600 6200
+	12100 6200 12400 6200
 Wire Wire Line
 	12400 6100 12400 6200
 Wire Wire Line
@@ -6964,7 +6869,7 @@ Connection ~ 11200 3200
 Wire Wire Line
 	11200 3300 11200 3200
 Wire Wire Line
-	10600 3200 11300 3200
+	10600 3200 11200 3200
 Connection ~ 11700 3200
 Wire Wire Line
 	11700 3100 11700 3200
@@ -6978,11 +6883,11 @@ Connection ~ 12400 3000
 Wire Wire Line
 	11600 3000 11800 3000
 Wire Wire Line
-	11600 3200 12500 3200
+	11600 3200 11700 3200
 Wire Wire Line
 	12400 3100 12500 3100
 Wire Wire Line
-	12100 3000 12500 3000
+	12100 3000 12400 3000
 Wire Wire Line
 	12400 2900 12400 3000
 Wire Wire Line
@@ -6995,7 +6900,7 @@ Connection ~ 11200 2400
 Wire Wire Line
 	11200 2500 11200 2400
 Wire Wire Line
-	10600 2400 11300 2400
+	10600 2400 11200 2400
 Connection ~ 11700 2400
 Wire Wire Line
 	11700 2300 11700 2400
@@ -7009,11 +6914,11 @@ Connection ~ 12400 2200
 Wire Wire Line
 	11600 2200 11800 2200
 Wire Wire Line
-	11600 2400 12500 2400
+	11600 2400 11700 2400
 Wire Wire Line
 	12400 2300 12500 2300
 Wire Wire Line
-	12100 2200 12500 2200
+	12100 2200 12400 2200
 Wire Wire Line
 	12400 2100 12400 2200
 Wire Wire Line
@@ -7026,7 +6931,7 @@ Connection ~ 11200 1600
 Wire Wire Line
 	11200 1700 11200 1600
 Wire Wire Line
-	10600 1600 11300 1600
+	10600 1600 11200 1600
 Connection ~ 11700 1600
 Wire Wire Line
 	11700 1500 11700 1600
@@ -7040,11 +6945,11 @@ Connection ~ 12400 1400
 Wire Wire Line
 	11600 1400 11800 1400
 Wire Wire Line
-	11600 1600 12500 1600
+	11600 1600 11700 1600
 Wire Wire Line
 	12400 1500 12500 1500
 Wire Wire Line
-	12100 1400 12500 1400
+	12100 1400 12400 1400
 Wire Wire Line
 	12400 1300 12400 1400
 Wire Wire Line
@@ -7121,7 +7026,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 1900 9300 2100
 Wire Wire Line
-	9200 1900 9800 1900
+	9200 1900 9300 1900
 Wire Wire Line
 	8800 1900 9000 1900
 Wire Wire Line
@@ -7129,7 +7034,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 1800 8400 1900
 Wire Wire Line
-	8000 1200 8900 1200
+	8000 1200 8800 1200
 Wire Wire Line
 	9700 1100 9800 1100
 Wire Wire Line
@@ -7140,7 +7045,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 1000 9300 1200
 Wire Wire Line
-	9200 1000 9800 1000
+	9200 1000 9300 1000
 Wire Wire Line
 	8800 1000 9000 1000
 Wire Wire Line
@@ -7149,7 +7054,7 @@ Wire Wire Line
 	8400 900  8400 1000
 Connection ~ 8900 4500
 Wire Wire Line
-	8800 4500 9100 4500
+	8800 4500 8900 4500
 Wire Wire Line
 	8900 4700 8900 4500
 Wire Wire Line
@@ -7161,7 +7066,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4700 8500 4700
 Wire Wire Line
-	8400 4700 8400 4900
+	8400 4700 8400 4800
 Wire Wire Line
 	19000 6600 19700 6600
 Connection ~ 7300 1100
@@ -7170,9 +7075,9 @@ Wire Wire Line
 Wire Wire Line
 	19000 5200 19700 5200
 Wire Wire Line
-	6400 6000 7200 6000
+	6400 6000 7100 6000
 Wire Wire Line
-	6400 6300 7200 6300
+	6400 6300 7100 6300
 Wire Wire Line
 	19000 4200 19700 4200
 Wire Wire Line
@@ -7216,11 +7121,11 @@ Wire Wire Line
 Wire Wire Line
 	11500 9500 11500 9400
 Wire Wire Line
-	10900 8000 11500 8000
+	10900 8000 11100 8000
 Wire Wire Line
 	11100 8000 11100 8450
 Wire Wire Line
-	11500 8550 11500 9250
+	11500 8550 11500 9150
 Wire Wire Line
 	10600 8700 11000 8700
 Wire Wire Line
@@ -7349,11 +7254,11 @@ Wire Wire Line
 Wire Wire Line
 	5500 2900 5500 2800
 Wire Wire Line
-	5200 2900 5800 2900
+	5200 2900 5500 2900
 Wire Wire Line
 	5500 2400 5500 2500
 Wire Wire Line
-	5200 2400 5800 2400
+	5200 2400 5500 2400
 Wire Wire Line
 	5200 2900 5200 2800
 Wire Wire Line
@@ -7367,7 +7272,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 1100 7100 1100
 Wire Wire Line
-	7300 900  7300 1200
+	7300 900  7300 1100
 Wire Wire Line
 	6300 1100 6500 1100
 Wire Wire Line
@@ -7450,14 +7355,14 @@ Wire Wire Line
 Wire Wire Line
 	7600 7000 7500 7000
 Wire Wire Line
-	7600 6900 7600 7100
+	7600 6900 7600 7000
 Connection ~ 6500 7000
 Wire Wire Line
 	6500 7100 6700 7100
 Wire Wire Line
 	6500 7000 6700 7000
 Wire Wire Line
-	6500 6900 6500 7100
+	6500 6900 6500 7000
 Connection ~ 5700 3900
 Wire Wire Line
 	5700 3900 6100 3900
@@ -7472,11 +7377,11 @@ Wire Wire Line
 Wire Wire Line
 	5900 10100 6000 10100
 Wire Wire Line
-	5900 9900 5900 10300
+	5900 9900 5900 10100
 Wire Wire Line
 	5900 10300 7200 10300
 Wire Wire Line
-	7200 10200 7200 10400
+	7200 10200 7200 10300
 Wire Wire Line
 	7500 10100 7400 10100
 Wire Wire Line
@@ -7486,9 +7391,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 10100 7000 10100
 Wire Wire Line
-	7800 8300 8700 8300
+	7800 8300 7900 8300
 Wire Wire Line
-	7400 8100 7400 8400
+	7400 8100 7400 8300
 Wire Wire Line
 	6300 10800 6050 10800
 Wire Wire Line
@@ -7503,15 +7408,15 @@ Wire Wire Line
 Wire Wire Line
 	5800 11200 5900 11200
 Wire Wire Line
-	5800 10900 5800 11300
+	5800 10900 5800 11200
 Wire Wire Line
 	6200 11300 7000 11300
 Wire Wire Line
 	6200 11200 7000 11200
 Wire Wire Line
-	6300 4600 7100 4600
+	6300 4600 7000 4600
 Wire Wire Line
-	6300 4300 7100 4300
+	6300 4300 7000 4300
 Wire Wire Line
 	5700 4300 5800 4300
 Connection ~ 5700 4100
@@ -7526,9 +7431,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 6700 7600 6500
 Wire Wire Line
-	6400 6200 7200 6200
+	6400 6200 6700 6200
 Wire Wire Line
-	6400 6100 7200 6100
+	6400 6100 6700 6100
 Wire Wire Line
 	5800 6300 5900 6300
 Wire Wire Line
@@ -7546,9 +7451,9 @@ Wire Wire Line
 Wire Wire Line
 	5700 4600 5800 4600
 Wire Wire Line
-	5700 4600 5700 4900
+	5700 4600 5700 4800
 Wire Wire Line
-	5700 3800 5700 4300
+	5700 3800 5700 3900
 Connection ~ 5600 8200
 Wire Wire Line
 	5600 8200 5900 8200
@@ -7573,11 +7478,11 @@ Wire Wire Line
 Wire Wire Line
 	5600 8800 5700 8800
 Wire Wire Line
-	5600 8500 5600 8900
+	5600 8500 5600 8600
 Wire Wire Line
 	5600 8400 5700 8400
 Wire Wire Line
-	5600 8100 5600 8400
+	5600 8100 5600 8200
 Wire Wire Line
 	6400 2000 6500 2000
 Wire Wire Line
@@ -7589,7 +7494,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2600 4700 2600
 Wire Wire Line
-	4600 2400 4600 2600
+	4600 2400 4600 2500
 Wire Wire Line
 	4600 2700 4700 2700
 Wire Wire Line
@@ -7597,11 +7502,11 @@ Wire Wire Line
 Wire Wire Line
 	1300 1300 1400 1300
 Wire Wire Line
-	1300 1300 1300 1500
+	1300 1300 1300 1400
 Wire Wire Line
 	1300 1200 1400 1200
 Wire Wire Line
-	1300 1000 1300 1200
+	1300 1000 1300 1100
 Wire Wire Line
 	2800 10400 2800 10600
 Wire Wire Line
@@ -7749,13 +7654,13 @@ Wire Wire Line
 Wire Wire Line
 	1300 11400 1300 11300
 Wire Wire Line
-	1000 11400 4600 11400
+	1000 11400 1300 11400
 Wire Wire Line
 	1000 11300 1000 11400
 Wire Wire Line
 	1300 11000 1300 11100
 Wire Wire Line
-	1000 11000 4600 11000
+	1000 11000 1300 11000
 Wire Wire Line
 	1000 11100 1000 11000
 Connection ~ 1600 10800
@@ -7767,7 +7672,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 10800 1300 10700
 Wire Wire Line
-	1000 10800 1900 10800
+	1000 10800 1300 10800
 Wire Wire Line
 	1000 10700 1000 10800
 Connection ~ 1600 10400
@@ -7779,7 +7684,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 10400 1300 10500
 Wire Wire Line
-	1000 10400 1900 10400
+	1000 10400 1300 10400
 Wire Wire Line
 	1000 10500 1000 10400
 Connection ~ 1900 6900
@@ -7788,7 +7693,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 6900 1600 6900
 Wire Wire Line
-	1900 6800 1900 7000
+	1900 6800 1900 6900
 Wire Wire Line
 	2000 6800 1900 6800
 Connection ~ 1900 7300
@@ -7797,7 +7702,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 7200 2000 7200
 Wire Wire Line
-	1900 7200 1900 7400
+	1900 7200 1900 7300
 Wire Wire Line
 	1600 7300 1900 7300
 Wire Wire Line
@@ -7819,11 +7724,11 @@ Wire Wire Line
 Connection ~ 1900 6400
 Connection ~ 1900 6200
 Wire Wire Line
-	1600 6200 2000 6200
+	1600 6200 1900 6200
 Wire Wire Line
 	1900 6100 1900 6200
 Wire Wire Line
-	1600 6400 2000 6400
+	1600 6400 1900 6400
 Wire Wire Line
 	1900 6500 1900 6400
 Connection ~ 1900 7900
@@ -7883,7 +7788,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 9900 2000 9900
 Wire Wire Line
-	1900 7800 1900 10100
+	1900 7800 1900 7900
 Connection ~ 1900 5700
 Wire Wire Line
 	1900 5800 2000 5800
@@ -7935,21 +7840,21 @@ Wire Wire Line
 Wire Wire Line
 	1900 3900 2000 3900
 Wire Wire Line
-	1900 3700 1900 5800
+	1900 3700 1900 3900
 Wire Wire Line
 	14800 4300 14800 4400
 Connection ~ 14800 4400
 Wire Wire Line
-	15000 4300 15000 4500
+	15000 4300 15000 4400
 Wire Wire Line
 	14900 4400 14900 4300
 Connection ~ 15000 4400
 Wire Wire Line
 	3300 1200 3300 1100
 Wire Wire Line
-	3300 1100 3500 1100
+	3300 1100 3400 1100
 Wire Wire Line
-	3500 1000 3500 1200
+	3500 1000 3500 1100
 Connection ~ 3500 1100
 Wire Wire Line
 	3400 1100 3400 1200
@@ -7959,7 +7864,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 900  3000 1000
 Wire Wire Line
-	2900 1400 3100 1400
+	2900 1400 3000 1400
 Wire Wire Line
 	3000 1300 3000 1400
 Connection ~ 3000 1400
@@ -7968,7 +7873,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1400 2600 1700
 Wire Wire Line
-	3400 1600 3400 1800
+	3400 1600 3400 1700
 Wire Wire Line
 	3400 1800 3200 1800
 Wire Wire Line
@@ -7977,9 +7882,9 @@ Connection ~ 3400 1700
 Wire Wire Line
 	2700 2500 2700 2400
 Wire Wire Line
-	2700 2400 2900 2400
+	2700 2400 2800 2400
 Wire Wire Line
-	2900 2300 2900 2500
+	2900 2300 2900 2400
 Connection ~ 2900 2400
 Wire Wire Line
 	2800 2400 2800 2500
@@ -7989,7 +7894,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2300 2400 2350
 Wire Wire Line
-	2300 2700 2500 2700
+	2300 2700 2400 2700
 Wire Wire Line
 	2400 2650 2400 2700
 Connection ~ 2400 2700
@@ -7998,7 +7903,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 2700 2000 3000
 Wire Wire Line
-	2800 2900 2800 3100
+	2800 2900 2800 3000
 Wire Wire Line
 	2800 3100 2600 3100
 Wire Wire Line
@@ -8055,13 +7960,13 @@ Wire Wire Line
 	9000 7300 9000 7250
 Connection ~ 9000 7000
 Wire Wire Line
-	9000 6950 9000 7050
+	9000 6950 9000 7000
 Wire Wire Line
 	9000 6700 9000 6750
 Wire Wire Line
-	8400 7000 9100 7000
+	8400 7000 9000 7000
 Wire Wire Line
-	9400 7000 9800 7000
+	9400 7000 9700 7000
 Wire Wire Line
 	9700 7300 9700 7100
 Wire Wire Line
@@ -8076,7 +7981,7 @@ Wire Wire Line
 	11500 8000 11500 8050
 Connection ~ 11300 8000
 Wire Wire Line
-	10900 9150 11500 9150
+	10900 9150 11100 9150
 Connection ~ 11500 9150
 Wire Wire Line
 	11100 8950 11100 9150
@@ -8111,7 +8016,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 6600 7500 6500
 Wire Wire Line
-	14000 7650 14000 8000
+	14000 7650 14000 7900
 Wire Wire Line
 	14000 7900 13900 7900
 Wire Wire Line
@@ -8224,8 +8129,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 12200 4100 12200
 Wire Wire Line
-	4400 14400 5750 14400
-Wire Wire Line
 	5950 14400 6000 14400
 Wire Wire Line
 	16300 10400 16400 10400
@@ -8306,11 +8209,11 @@ Wire Wire Line
 Wire Wire Line
 	15700 10700 16400 10700
 Wire Wire Line
-	14250 2100 14250 2200
+	14250 2100 14250 2150
 Wire Wire Line
-	14250 1700 14600 1700
+	14250 1700 14300 1700
 Wire Wire Line
-	13850 1900 13950 1900
+	13850 1900 13900 1900
 Wire Wire Line
 	14300 1700 14300 1650
 Wire Wire Line
@@ -8322,13 +8225,13 @@ Wire Wire Line
 	13900 2050 13900 1900
 Connection ~ 13900 1900
 Wire Wire Line
-	16550 1900 16650 1900
+	16550 1900 16600 1900
 Wire Wire Line
 	16900 2050 16900 2150
 Wire Wire Line
 	16900 2150 16950 2150
 Wire Wire Line
-	16950 2100 16950 2200
+	16950 2100 16950 2150
 Wire Wire Line
 	16600 2050 16600 1900
 Connection ~ 16600 1900
@@ -8340,25 +8243,9 @@ Wire Wire Line
 	17900 1400 17900 1300
 Connection ~ 17900 1300
 Wire Wire Line
-	900  13100 950  13100
+	17100 6800 17100 7000
 Wire Wire Line
-	1250 13100 1300 13100
-Wire Wire Line
-	3600 13100 3650 13100
-Wire Wire Line
-	3950 13100 4000 13100
-Wire Wire Line
-	6300 13100 6350 13100
-Wire Wire Line
-	6650 13100 6700 13100
-Wire Wire Line
-	9000 13100 9050 13100
-Wire Wire Line
-	9350 13100 9400 13100
-Wire Wire Line
-	17100 6800 17100 7100
-Wire Wire Line
-	17100 7000 17700 7000
+	17100 7000 17600 7000
 Wire Wire Line
 	18200 7000 18100 7000
 Wire Wire Line
@@ -8368,9 +8255,9 @@ VFETSW_GATE
 Wire Wire Line
 	13900 5100 13900 5400
 Wire Wire Line
-	16800 7500 17200 7500
+	16800 7500 17100 7500
 Wire Wire Line
-	17500 7500 17900 7500
+	17500 7500 17600 7500
 Wire Wire Line
 	17900 7500 17900 7300
 Connection ~ 17100 7000
@@ -8378,7 +8265,7 @@ Wire Wire Line
 	17100 7500 17100 7400
 Connection ~ 17100 7500
 $Comp
-L BSS138 Q12
+L Smoothie2Standard-rescue:BSS138 Q12
 U 1 1 5E340019
 P 16700 7700
 F 0 "Q12" H 16900 7775 50  0000 L CNN
@@ -8393,7 +8280,7 @@ GND
 Text Label 16300 7700 0    60   ~ 0
 VFETSW_PG
 $Comp
-L R R111
+L Smoothie2Standard-rescue:R R111
 U 1 1 5E340021
 P 16600 7950
 F 0 "R111" V 16680 7950 50  0000 C CNN
@@ -8406,9 +8293,9 @@ $EndComp
 Wire Wire Line
 	15500 7700 16000 7700
 Wire Wire Line
-	16800 7900 16800 8100
+	16800 7900 16800 7950
 Wire Wire Line
-	16300 7700 16500 7700
+	16300 7700 16400 7700
 Wire Wire Line
 	16750 7950 16800 7950
 Connection ~ 16800 7950
@@ -8416,7 +8303,7 @@ Wire Wire Line
 	16400 7950 16400 7700
 Connection ~ 16400 7700
 $Comp
-L R R112
+L Smoothie2Standard-rescue:R R112
 U 1 1 5E355E93
 P 17100 7250
 F 0 "R112" V 17180 7250 50  0000 C CNN
@@ -8448,7 +8335,7 @@ NoConn ~ 15800 5100
 Text Label 13900 5100 0    60   ~ 0
 BED2_NC
 $Comp
-L Jumper_NC_Small JP7
+L Smoothie2Standard-rescue:Jumper_NC_Small JP7
 U 1 1 5E376DE4
 P 8700 6000
 F 0 "JP7" H 8700 6080 50  0000 C CNN
@@ -8466,4 +8353,650 @@ Text Label 22600 3800 0    60   ~ 0
 MCU_PF_0
 Text Label 22600 4500 0    60   ~ 0
 SD_DAT2
+Wire Wire Line
+	14100 5800 14300 5800
+Wire Wire Line
+	13900 5800 13900 5900
+Wire Wire Line
+	10100 5300 10100 5350
+Wire Wire Line
+	9000 5300 9100 5300
+Wire Wire Line
+	9500 5300 10100 5300
+Wire Wire Line
+	8900 5300 9000 5300
+Wire Wire Line
+	1000 2900 1000 3000
+Wire Wire Line
+	1000 2600 1000 2700
+Wire Wire Line
+	10100 4500 10100 4550
+Wire Wire Line
+	8000 3000 8000 3050
+Wire Wire Line
+	8000 2100 8000 2150
+Wire Wire Line
+	8000 1200 8000 1250
+Wire Wire Line
+	9500 3700 9900 3700
+Wire Wire Line
+	8900 3700 9500 3700
+Wire Wire Line
+	5500 14500 5500 14600
+Wire Wire Line
+	18200 1500 18400 1500
+Wire Wire Line
+	18200 1500 18200 1700
+Wire Wire Line
+	17600 1300 17900 1300
+Wire Wire Line
+	15500 1500 15700 1500
+Wire Wire Line
+	15500 1500 15500 1700
+Wire Wire Line
+	14900 1300 15200 1300
+Wire Wire Line
+	11200 5600 11300 5600
+Wire Wire Line
+	11700 5600 12500 5600
+Wire Wire Line
+	12400 5400 12500 5400
+Wire Wire Line
+	11200 4800 11300 4800
+Wire Wire Line
+	11700 4800 12500 4800
+Wire Wire Line
+	12400 4600 12500 4600
+Wire Wire Line
+	11200 4000 11300 4000
+Wire Wire Line
+	11700 4000 12500 4000
+Wire Wire Line
+	12400 3800 12500 3800
+Wire Wire Line
+	8800 3000 8900 3000
+Wire Wire Line
+	9300 2800 9800 2800
+Wire Wire Line
+	17800 5000 18000 5000
+Wire Wire Line
+	17400 5400 17800 5400
+Wire Wire Line
+	17800 5400 18000 5400
+Wire Wire Line
+	18000 5000 18000 5300
+Wire Wire Line
+	16500 5700 16500 6000
+Wire Wire Line
+	17500 6000 17500 6100
+Wire Wire Line
+	17400 6000 17500 6000
+Wire Wire Line
+	17300 6000 17400 6000
+Wire Wire Line
+	18000 4300 18000 4500
+Wire Wire Line
+	18000 3900 18000 4000
+Wire Wire Line
+	17000 3900 17100 3900
+Wire Wire Line
+	17000 3900 17000 4000
+Wire Wire Line
+	17500 4300 18000 4300
+Wire Wire Line
+	18200 2600 18300 2600
+Wire Wire Line
+	17600 2400 17700 2400
+Wire Wire Line
+	18200 2400 18200 2500
+Wire Wire Line
+	17600 2600 17600 2700
+Wire Wire Line
+	17000 2900 17300 2900
+Wire Wire Line
+	17700 3200 17700 3300
+Wire Wire Line
+	17600 3200 17700 3200
+Wire Wire Line
+	17500 3200 17600 3200
+Wire Wire Line
+	17000 1700 17300 1700
+Wire Wire Line
+	17000 1300 17000 1350
+Wire Wire Line
+	6000 14400 6000 14800
+Wire Wire Line
+	5700 14400 5750 14400
+Wire Wire Line
+	6000 15200 6000 15400
+Wire Wire Line
+	5700 15200 6000 15200
+Wire Wire Line
+	5500 15200 5700 15200
+Wire Wire Line
+	4800 15200 5500 15200
+Wire Wire Line
+	4800 14600 5500 14600
+Wire Wire Line
+	5500 14600 5500 14700
+Wire Wire Line
+	4500 15200 4800 15200
+Wire Wire Line
+	5000 14700 5100 14700
+Wire Wire Line
+	3300 15200 4500 15200
+Wire Wire Line
+	4500 14500 4500 14800
+Wire Wire Line
+	4500 14500 4900 14500
+Wire Wire Line
+	3300 14700 3300 14800
+Wire Wire Line
+	3300 14800 3300 15200
+Wire Wire Line
+	7400 8300 7400 8400
+Wire Wire Line
+	7900 8400 8700 8400
+Wire Wire Line
+	15500 3800 15600 3800
+Wire Wire Line
+	15500 2600 15600 2600
+Wire Wire Line
+	9000 4500 9100 4500
+Wire Wire Line
+	7100 6000 7200 6000
+Wire Wire Line
+	7100 6300 7200 6300
+Wire Wire Line
+	6700 6200 7200 6200
+Wire Wire Line
+	6700 6100 7200 6100
+Wire Wire Line
+	7000 4600 7100 4600
+Wire Wire Line
+	7000 4300 7100 4300
+Wire Wire Line
+	7900 8300 8700 8300
+Wire Wire Line
+	9500 4500 10100 4500
+Wire Wire Line
+	16900 14700 16900 14800
+Wire Wire Line
+	16700 14700 16900 14700
+Wire Wire Line
+	9200 14700 9200 14800
+Wire Wire Line
+	9200 14800 9200 14900
+Wire Wire Line
+	9200 14900 9200 15000
+Wire Wire Line
+	9200 15000 9200 15100
+Wire Wire Line
+	9200 15100 9200 15200
+Wire Wire Line
+	8800 1200 8900 1200
+Wire Wire Line
+	8800 2100 8900 2100
+Wire Wire Line
+	14900 3600 15000 3600
+Wire Wire Line
+	15500 3600 15500 3700
+Wire Wire Line
+	14900 3800 14900 3900
+Wire Wire Line
+	14300 4100 14600 4100
+Wire Wire Line
+	14900 4400 15000 4400
+Wire Wire Line
+	14900 2400 15000 2400
+Wire Wire Line
+	15500 2400 15500 2500
+Wire Wire Line
+	14900 2600 14900 2700
+Wire Wire Line
+	14300 2900 14600 2900
+Wire Wire Line
+	15000 3200 15000 3300
+Wire Wire Line
+	14900 3200 15000 3200
+Wire Wire Line
+	14800 3200 14900 3200
+Wire Wire Line
+	14300 1700 14600 1700
+Wire Wire Line
+	14300 1300 14300 1350
+Wire Wire Line
+	11200 6400 11200 6500
+Wire Wire Line
+	11200 6400 11300 6400
+Wire Wire Line
+	11700 6400 12600 6400
+Wire Wire Line
+	12400 6200 12600 6200
+Wire Wire Line
+	11200 3200 11300 3200
+Wire Wire Line
+	11700 3200 12500 3200
+Wire Wire Line
+	12400 3000 12500 3000
+Wire Wire Line
+	11200 2400 11300 2400
+Wire Wire Line
+	11700 2400 12500 2400
+Wire Wire Line
+	12400 2200 12500 2200
+Wire Wire Line
+	11200 1600 11300 1600
+Wire Wire Line
+	11700 1600 12500 1600
+Wire Wire Line
+	12400 1400 12500 1400
+Wire Wire Line
+	9300 1900 9800 1900
+Wire Wire Line
+	9300 1000 9800 1000
+Wire Wire Line
+	8900 4500 9000 4500
+Wire Wire Line
+	7300 1100 7300 1200
+Wire Wire Line
+	5700 4800 5700 4900
+Wire Wire Line
+	5500 2900 5800 2900
+Wire Wire Line
+	5500 2400 5800 2400
+Wire Wire Line
+	1300 1400 1300 1500
+Wire Wire Line
+	1300 1100 1300 1200
+Wire Wire Line
+	7600 7000 7600 7100
+Wire Wire Line
+	6500 7000 6500 7100
+Wire Wire Line
+	5700 3900 5700 4100
+Wire Wire Line
+	7200 10300 7200 10400
+Wire Wire Line
+	5900 10100 5900 10300
+Wire Wire Line
+	5800 11200 5800 11300
+Wire Wire Line
+	5700 4100 5700 4300
+Wire Wire Line
+	5600 8200 5600 8400
+Wire Wire Line
+	5600 8600 5600 8800
+Wire Wire Line
+	5600 8800 5600 8900
+Wire Wire Line
+	4300 11400 4600 11400
+Wire Wire Line
+	4000 11400 4300 11400
+Wire Wire Line
+	3700 11400 4000 11400
+Wire Wire Line
+	3400 11400 3700 11400
+Wire Wire Line
+	3100 11400 3400 11400
+Wire Wire Line
+	2800 11400 3100 11400
+Wire Wire Line
+	2500 11400 2800 11400
+Wire Wire Line
+	2200 11400 2500 11400
+Wire Wire Line
+	1900 11400 2200 11400
+Wire Wire Line
+	1600 11400 1900 11400
+Wire Wire Line
+	1300 11400 1600 11400
+Wire Wire Line
+	4300 11000 4600 11000
+Wire Wire Line
+	4000 11000 4300 11000
+Wire Wire Line
+	3700 11000 4000 11000
+Wire Wire Line
+	3400 11000 3700 11000
+Wire Wire Line
+	3100 11000 3400 11000
+Wire Wire Line
+	2800 11000 3100 11000
+Wire Wire Line
+	2500 11000 2800 11000
+Wire Wire Line
+	2200 11000 2500 11000
+Wire Wire Line
+	1900 11000 2200 11000
+Wire Wire Line
+	1600 11000 1900 11000
+Wire Wire Line
+	1300 11000 1600 11000
+Wire Wire Line
+	1600 10800 1900 10800
+Wire Wire Line
+	1300 10800 1600 10800
+Wire Wire Line
+	1600 10400 1900 10400
+Wire Wire Line
+	1300 10400 1600 10400
+Wire Wire Line
+	1900 6900 1900 7000
+Wire Wire Line
+	1900 7300 1900 7400
+Wire Wire Line
+	1900 6400 2000 6400
+Wire Wire Line
+	1900 6200 2000 6200
+Wire Wire Line
+	1900 7900 1900 8000
+Wire Wire Line
+	1900 8000 1900 8100
+Wire Wire Line
+	1900 8100 1900 8200
+Wire Wire Line
+	1900 8200 1900 8600
+Wire Wire Line
+	1900 8600 1900 8700
+Wire Wire Line
+	1900 8700 1900 8800
+Wire Wire Line
+	1900 8800 1900 8900
+Wire Wire Line
+	1900 8900 1900 9000
+Wire Wire Line
+	1900 9000 1900 9100
+Wire Wire Line
+	1900 9100 1900 9200
+Wire Wire Line
+	1900 9200 1900 9300
+Wire Wire Line
+	1900 9300 1900 9400
+Wire Wire Line
+	1900 9400 1900 9500
+Wire Wire Line
+	1900 9500 1900 9600
+Wire Wire Line
+	1900 9600 1900 9700
+Wire Wire Line
+	1900 9700 1900 9800
+Wire Wire Line
+	1900 9800 1900 9900
+Wire Wire Line
+	1900 9900 1900 10100
+Wire Wire Line
+	1900 5700 1900 5800
+Wire Wire Line
+	1900 5600 1900 5700
+Wire Wire Line
+	1900 5500 1900 5600
+Wire Wire Line
+	1900 5400 1900 5500
+Wire Wire Line
+	1900 5300 1900 5400
+Wire Wire Line
+	1900 5200 1900 5300
+Wire Wire Line
+	1900 5100 1900 5200
+Wire Wire Line
+	1900 5000 1900 5100
+Wire Wire Line
+	1900 4900 1900 5000
+Wire Wire Line
+	1900 4800 1900 4900
+Wire Wire Line
+	1900 4700 1900 4800
+Wire Wire Line
+	1900 4600 1900 4700
+Wire Wire Line
+	1900 4200 1900 4600
+Wire Wire Line
+	1900 4100 1900 4200
+Wire Wire Line
+	1900 4000 1900 4100
+Wire Wire Line
+	1900 3900 1900 4000
+Wire Wire Line
+	14800 4400 14900 4400
+Wire Wire Line
+	15000 4400 15000 4500
+Wire Wire Line
+	3500 1100 3500 1200
+Wire Wire Line
+	3400 1100 3500 1100
+Wire Wire Line
+	3000 1400 3100 1400
+Wire Wire Line
+	3400 1700 3400 1800
+Wire Wire Line
+	2900 2400 2900 2500
+Wire Wire Line
+	2800 2400 2900 2400
+Wire Wire Line
+	2400 2700 2500 2700
+Wire Wire Line
+	2800 3000 2800 3100
+Wire Wire Line
+	14100 5300 14400 5300
+Wire Wire Line
+	4600 2500 4600 2600
+Wire Wire Line
+	15900 5200 15900 5400
+Wire Wire Line
+	14300 5800 15900 5800
+Wire Wire Line
+	17000 4300 17500 4300
+Wire Wire Line
+	9000 7000 9000 7050
+Wire Wire Line
+	9000 7000 9100 7000
+Wire Wire Line
+	9700 7000 9800 7000
+Wire Wire Line
+	11100 8000 11300 8000
+Wire Wire Line
+	11300 8000 11500 8000
+Wire Wire Line
+	11500 9150 11500 9250
+Wire Wire Line
+	11100 9150 11300 9150
+Wire Wire Line
+	11300 9150 11500 9150
+Wire Wire Line
+	14000 7900 14000 8000
+Wire Wire Line
+	8400 4800 8400 4900
+Wire Wire Line
+	10100 4800 10100 4900
+Wire Wire Line
+	8400 5600 8400 5700
+Wire Wire Line
+	10100 5600 10100 5700
+Wire Wire Line
+	14900 1500 14900 1550
+Wire Wire Line
+	17600 1500 17600 1550
+Wire Wire Line
+	15500 1700 15500 1900
+Wire Wire Line
+	18200 1700 18200 1900
+Wire Wire Line
+	14250 2150 14250 2200
+Wire Wire Line
+	13900 1900 13950 1900
+Wire Wire Line
+	16600 1900 16650 1900
+Wire Wire Line
+	16950 2150 16950 2200
+Wire Wire Line
+	15200 1300 15700 1300
+Wire Wire Line
+	17900 1300 18400 1300
+Wire Wire Line
+	17100 7000 17100 7100
+Wire Wire Line
+	17100 7500 17200 7500
+Wire Wire Line
+	16800 7950 16800 8100
+Wire Wire Line
+	16400 7700 16500 7700
+Wire Wire Line
+	17600 7000 17700 7000
+Wire Wire Line
+	17600 7500 17900 7500
+$Comp
+L Smoothie2Standard-rescue:R R103
+U 1 1 60697379
+P 1300 14000
+F 0 "R103" V 1380 14000 50  0000 C CNN
+F 1 "33R" V 1300 14000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1230 14000 50  0001 C CNN
+F 3 "" H 1300 14000 50  0000 C CNN
+	1    1300 14000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 14000 1500 14000
+$Comp
+L Smoothie2Standard-rescue:R R113
+U 1 1 60699152
+P 1300 14100
+F 0 "R113" V 1380 14100 50  0000 C CNN
+F 1 "33R" V 1300 14100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1230 14100 50  0001 C CNN
+F 3 "" H 1300 14100 50  0000 C CNN
+	1    1300 14100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 14100 1500 14100
+$Comp
+L Smoothie2Standard-rescue:R R114
+U 1 1 606994A0
+P 1300 14300
+F 0 "R114" V 1380 14300 50  0000 C CNN
+F 1 "33R" V 1300 14300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1230 14300 50  0001 C CNN
+F 3 "" H 1300 14300 50  0000 C CNN
+	1    1300 14300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 14300 1500 14300
+$Comp
+L Smoothie2Standard-rescue:R R116
+U 1 1 606A475E
+P 1300 14500
+F 0 "R116" V 1380 14500 50  0000 C CNN
+F 1 "33R" V 1300 14500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1230 14500 50  0001 C CNN
+F 3 "" H 1300 14500 50  0000 C CNN
+	1    1300 14500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 14500 1500 14500
+$Comp
+L Smoothie2Standard-rescue:R R117
+U 1 1 606A4D18
+P 1300 14600
+F 0 "R117" V 1380 14600 50  0000 C CNN
+F 1 "33R" V 1300 14600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1230 14600 50  0001 C CNN
+F 3 "" H 1300 14600 50  0000 C CNN
+	1    1300 14600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 14600 1500 14600
+$Comp
+L Smoothie2Standard-rescue:R R115
+U 1 1 606A4FCC
+P 1300 14400
+F 0 "R115" V 1380 14400 50  0000 C CNN
+F 1 "33R" V 1300 14400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1230 14400 50  0001 C CNN
+F 3 "" H 1300 14400 50  0000 C CNN
+	1    1300 14400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 14400 1500 14400
+Text Notes 600  15800 0    60   ~ 0
+MAC to PHY signals terminated here\nPHY to MAC signals terminated on PHY end
+Text Label 15700 10800 0    60   ~ 0
+MCU_G0_4
+Text Label 15700 10600 0    60   ~ 0
+MCU_G2_9
+Text Label 15700 10700 0    60   ~ 0
+MCU_G5_14
+Text Label 15700 10500 0    60   ~ 0
+MCU_G2_10
+Text Label 17600 10500 2    60   ~ 0
+MCU_G0_11
+Text Label 17600 10600 2    60   ~ 0
+MCU_G2_11
+Text Label 17600 10700 2    60   ~ 0
+MCU_G1_9
+Text Label 15700 11700 0    60   ~ 0
+MCU_G1_2
+Text Label 15700 11600 0    60   ~ 0
+MCU_G1_3
+Text Label 15700 11800 0    60   ~ 0
+MCU_G1_1
+Text Label 15700 11500 0    60   ~ 0
+MCU_G2_12
+Text Label 17600 11500 2    60   ~ 0
+MCU_G1_5
+Text Label 17600 11600 2    60   ~ 0
+MCU_G1_4
+Text Label 17600 11700 2    60   ~ 0
+MCU_G2_13
+Text Label 15700 12800 0    60   ~ 0
+MCU_G1_6
+Text Label 15700 12700 0    60   ~ 0
+MCU_G6_23
+Text Label 15700 12600 0    60   ~ 0
+MCU_G1_7
+Text Label 15700 12500 0    60   ~ 0
+MCU_G2_7
+Text Label 17600 12500 2    60   ~ 0
+MCU_G2_15
+Text Label 17600 12700 2    60   ~ 0
+MCU_G6_27
+Text Label 17600 12600 2    60   ~ 0
+MCU_G6_30
+Wire Wire Line
+	900  13100 1300 13100
+Wire Wire Line
+	3600 13100 4000 13100
+Wire Wire Line
+	6300 13100 6700 13100
+Wire Wire Line
+	9000 13100 9400 13100
+Wire Wire Line
+	4750 14400 5650 14400
+Connection ~ 5700 14400
+$Comp
+L Device:D_Small_ALT D12
+U 1 1 61659750
+P 4650 14400
+F 0 "D12" H 4650 14607 50  0000 C CNN
+F 1 "D_Small_ALT" H 4650 14516 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" V 4650 14400 50  0001 C CNN
+F 3 "~" V 4650 14400 50  0001 C CNN
+	1    4650 14400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 14400 4400 14400
+Text Label 4500 13900 0    60   ~ 0
+5VREG_LX
+Wire Wire Line
+	5500 14850 5500 14700
+Connection ~ 5500 14700
+Connection ~ 5650 14400
+Wire Wire Line
+	5650 14400 5700 14400
 $EndSCHEMATC

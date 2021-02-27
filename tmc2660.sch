@@ -1,54 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:Smoothie2Standard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:a4982
-LIBS:ap2511
-LIBS:ksz8081rna
-LIBS:lm1117
-LIBS:lpc43xxfet256
-LIBS:microsd
-LIBS:q_nmos_sssgd
-LIBS:r78e
-LIBS:spi_flash
-LIBS:a8498
-LIBS:s29glxxxs
-LIBS:tmc2660
-LIBS:rj45-hr911105a
-LIBS:tc4427a
-LIBS:Smoothie2Standard-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -59,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TMC2660-RESCUE-Smoothie2Standard U9
+L Smoothie2Standard-rescue:TMC2660-RESCUE-Smoothie2Standard U9
 U 1 1 59AC708D
 P 3400 3600
 AR Path="/59AC699D/59AC708D" Ref="U9"  Part="1" 
@@ -75,7 +30,7 @@ F 3 "" H 3400 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C58
+L Smoothie2Standard-rescue:C C58
 U 1 1 59C5F0B7
 P 5500 2050
 AR Path="/59AC699D/59C5F0B7" Ref="C58"  Part="1" 
@@ -90,7 +45,7 @@ F 3 "" H 5500 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C60
+L Smoothie2Standard-rescue:C C60
 U 1 1 59C5F1BC
 P 6100 2050
 AR Path="/59AC699D/59C5F1BC" Ref="C60"  Part="1" 
@@ -105,7 +60,7 @@ F 3 "" H 6100 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C61
+L Smoothie2Standard-rescue:C C61
 U 1 1 59C5F1E1
 P 6400 2050
 AR Path="/59AC699D/59C5F1E1" Ref="C61"  Part="1" 
@@ -120,7 +75,7 @@ F 3 "" H 6400 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C62
+L Smoothie2Standard-rescue:C C62
 U 1 1 59C5F205
 P 6700 2050
 AR Path="/59AC699D/59C5F205" Ref="C62"  Part="1" 
@@ -135,7 +90,7 @@ F 3 "" H 6700 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C63
+L Smoothie2Standard-rescue:C C63
 U 1 1 59C5F371
 P 7000 2050
 AR Path="/59AC699D/59C5F371" Ref="C63"  Part="1" 
@@ -150,7 +105,7 @@ F 3 "" H 7000 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C59
+L Smoothie2Standard-rescue:C C59
 U 1 1 59C5F3C9
 P 5800 2050
 AR Path="/59AC699D/59C5F3C9" Ref="C59"  Part="1" 
@@ -212,7 +167,7 @@ OB1
 Text Label 4400 4300 0    60   ~ 0
 OB2
 $Comp
-L R R82
+L Smoothie2Standard-rescue:R R82
 U 1 1 59C6D417
 P 5050 3500
 AR Path="/59AC699D/59C6D417" Ref="R82"  Part="1" 
@@ -227,7 +182,7 @@ F 3 "" H 5050 3500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R83
+L Smoothie2Standard-rescue:R R83
 U 1 1 59C6D4C4
 P 5050 4800
 AR Path="/59AC699D/59C6D4C4" Ref="R83"  Part="1" 
@@ -246,7 +201,7 @@ SRA
 Text Label 4400 4800 0    60   ~ 0
 SRB
 $Comp
-L R R84
+L Smoothie2Standard-rescue:R R84
 U 1 1 59C6D769
 P 5550 3600
 AR Path="/59AC699D/59C6D769" Ref="R84"  Part="1" 
@@ -261,7 +216,7 @@ F 3 "" H 5550 3600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R85
+L Smoothie2Standard-rescue:R R85
 U 1 1 59C6D81C
 P 5550 4900
 AR Path="/59AC699D/59C6D81C" Ref="R85"  Part="1" 
@@ -302,7 +257,7 @@ OB1
 Text HLabel 4800 4300 2    60   Input ~ 0
 OB2
 $Comp
-L TVS D34
+L Smoothie2Standard-rescue:TVS D34
 U 1 1 59C9FF55
 P 4700 2700
 AR Path="/59AC699D/59C9FF55" Ref="D34"  Part="1" 
@@ -319,7 +274,7 @@ $EndComp
 Wire Wire Line
 	2600 3700 2500 3700
 Wire Wire Line
-	2500 3600 2500 5100
+	2500 3600 2500 3700
 Wire Wire Line
 	2500 4700 2600 4700
 Wire Wire Line
@@ -360,14 +315,14 @@ Wire Wire Line
 Wire Wire Line
 	5500 1700 5500 1900
 Wire Wire Line
-	6100 1800 7000 1800
+	6100 1800 6400 1800
 Wire Wire Line
 	6400 1800 6400 1900
 Wire Wire Line
 	6700 1800 6700 1900
 Connection ~ 6400 1800
 Wire Wire Line
-	7000 1700 7000 1900
+	7000 1700 7000 1800
 Connection ~ 6700 1800
 Wire Wire Line
 	5800 1700 5800 1900
@@ -377,7 +332,7 @@ Connection ~ 7000 1800
 Wire Wire Line
 	5500 2200 5500 2300
 Wire Wire Line
-	5500 2300 6700 2300
+	5500 2300 5800 2300
 Wire Wire Line
 	5800 2300 5800 2200
 Wire Wire Line
@@ -387,7 +342,7 @@ Wire Wire Line
 	6400 2300 6400 2200
 Connection ~ 6100 2300
 Wire Wire Line
-	6700 2200 6700 2400
+	6700 2200 6700 2300
 Connection ~ 6400 2300
 Connection ~ 6700 2300
 Connection ~ 2500 4900
@@ -400,7 +355,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2100 4200 2100
 Wire Wire Line
-	4300 1700 4300 2100
+	4300 1700 4300 1900
 Wire Wire Line
 	4300 2000 4200 2000
 Wire Wire Line
@@ -408,45 +363,45 @@ Wire Wire Line
 Connection ~ 4300 2000
 Connection ~ 4300 1900
 Wire Wire Line
-	4200 2500 4800 2500
+	4200 2500 4300 2500
 Wire Wire Line
 	4200 2600 4300 2600
 Connection ~ 4300 2500
 Wire Wire Line
-	4200 2700 4400 2700
+	4200 2700 4300 2700
 Connection ~ 4300 2600
 Wire Wire Line
 	4300 2800 4200 2800
 Connection ~ 4300 2700
 Wire Wire Line
-	4200 3000 4800 3000
+	4200 3000 4300 3000
 Wire Wire Line
-	4300 3000 4300 3300
+	4300 3000 4300 3100
 Connection ~ 4300 3000
 Wire Wire Line
-	4200 3200 4400 3200
+	4200 3200 4300 3200
 Connection ~ 4300 3100
 Wire Wire Line
 	4300 3300 4200 3300
 Connection ~ 4300 3200
 Wire Wire Line
-	4200 3800 4800 3800
+	4200 3800 4300 3800
 Wire Wire Line
 	4200 3900 4300 3900
 Connection ~ 4300 3800
 Wire Wire Line
-	4200 4000 4400 4000
+	4200 4000 4300 4000
 Connection ~ 4300 3900
 Wire Wire Line
 	4300 4100 4200 4100
 Connection ~ 4300 4000
 Wire Wire Line
-	4200 4300 4800 4300
+	4200 4300 4300 4300
 Wire Wire Line
-	4300 4300 4300 4600
+	4300 4300 4300 4400
 Connection ~ 4300 4300
 Wire Wire Line
-	4200 4500 4400 4500
+	4200 4500 4300 4500
 Connection ~ 4300 4400
 Wire Wire Line
 	4300 4600 4200 4600
@@ -456,9 +411,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 4800 4200 4800
 Wire Wire Line
-	4200 3600 5400 3600
+	4200 3600 5300 3600
 Wire Wire Line
-	4200 4900 5400 4900
+	4200 4900 5300 4900
 Wire Wire Line
 	5200 3500 5300 3500
 Wire Wire Line
@@ -472,20 +427,20 @@ Connection ~ 5300 4900
 Wire Wire Line
 	5800 3600 5700 3600
 Wire Wire Line
-	5800 2700 5800 5100
+	5800 2700 5800 3200
 Wire Wire Line
 	5800 4900 5700 4900
 Connection ~ 5800 4900
 Wire Wire Line
-	4300 2500 4300 2800
+	4300 2500 4300 2600
 Wire Wire Line
 	4200 3100 4300 3100
 Wire Wire Line
 	4200 4400 4300 4400
 Wire Wire Line
-	4300 3800 4300 4100
+	4300 3800 4300 3900
 $Comp
-L TVS D35
+L Smoothie2Standard-rescue:TVS D35
 U 1 1 59CA0279
 P 4700 3200
 AR Path="/59AC699D/59CA0279" Ref="D35"  Part="1" 
@@ -500,7 +455,7 @@ F 3 "" H 4700 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS D36
+L Smoothie2Standard-rescue:TVS D36
 U 1 1 59CA02FD
 P 4700 4500
 AR Path="/59AC699D/59CA02FD" Ref="D36"  Part="1" 
@@ -515,7 +470,7 @@ F 3 "" H 4700 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS D37
+L Smoothie2Standard-rescue:TVS D37
 U 1 1 59CA035B
 P 4700 4000
 AR Path="/59AC699D/59CA035B" Ref="D37"  Part="1" 
@@ -548,10 +503,84 @@ BRB
 Text GLabel 2400 4200 0    60   Input ~ 0
 VBB
 Wire Wire Line
-	2400 4200 2400 4500
+	2400 4200 2400 4400
 Wire Wire Line
 	2400 4500 2600 4500
 Wire Wire Line
 	2600 4400 2400 4400
 Connection ~ 2400 4400
+Wire Wire Line
+	2500 4700 2500 4800
+Wire Wire Line
+	2500 4800 2500 4900
+Wire Wire Line
+	2500 3700 2500 4700
+Wire Wire Line
+	6400 1800 6700 1800
+Wire Wire Line
+	6700 1800 7000 1800
+Wire Wire Line
+	7000 1800 7000 1900
+Wire Wire Line
+	5800 2300 6100 2300
+Wire Wire Line
+	6100 2300 6400 2300
+Wire Wire Line
+	6400 2300 6700 2300
+Wire Wire Line
+	6700 2300 6700 2400
+Wire Wire Line
+	2500 4900 2500 5100
+Wire Wire Line
+	4300 2000 4300 2100
+Wire Wire Line
+	4300 1900 4300 2000
+Wire Wire Line
+	4300 2500 4800 2500
+Wire Wire Line
+	4300 2600 4300 2700
+Wire Wire Line
+	4300 2700 4400 2700
+Wire Wire Line
+	4300 2700 4300 2800
+Wire Wire Line
+	4300 3000 4800 3000
+Wire Wire Line
+	4300 3100 4300 3200
+Wire Wire Line
+	4300 3200 4400 3200
+Wire Wire Line
+	4300 3200 4300 3300
+Wire Wire Line
+	4300 3800 4800 3800
+Wire Wire Line
+	4300 3900 4300 4000
+Wire Wire Line
+	4300 4000 4400 4000
+Wire Wire Line
+	4300 4000 4300 4100
+Wire Wire Line
+	4300 4300 4800 4300
+Wire Wire Line
+	4300 4400 4300 4500
+Wire Wire Line
+	4300 4500 4400 4500
+Wire Wire Line
+	4300 4500 4300 4600
+Wire Wire Line
+	5300 3600 5400 3600
+Wire Wire Line
+	5300 4900 5400 4900
+Wire Wire Line
+	5800 4900 5800 5100
+Wire Wire Line
+	5800 4000 5800 4500
+Wire Wire Line
+	5800 4500 5800 4900
+Wire Wire Line
+	5800 3600 5800 4000
+Wire Wire Line
+	5800 3200 5800 3600
+Wire Wire Line
+	2400 4400 2400 4500
 $EndSCHEMATC
