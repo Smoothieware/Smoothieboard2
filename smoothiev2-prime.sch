@@ -3600,7 +3600,7 @@ Wire Wire Line
 Connection ~ 5600 15250
 Wire Notes Line
 	5350 14800 5350 16000
-Text Notes 4800 15950 0    100  ~ 0
+Text Notes 4850 14950 0    100  ~ 0
 HOLES
 Text Notes 5400 15950 0    100  ~ 0
 LEDS
@@ -4111,4 +4111,48 @@ F 3 "~" H 3050 6200 50  0001 C CNN
 $EndComp
 Connection ~ 3250 6200
 Connection ~ 3250 6300
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60F05600
+P 5000 15600
+F 0 "H5" H 5100 15646 50  0000 L CNN
+F 1 "MountingHole" H 4850 15750 50  0000 L CNN
+F 2 "smoothieparts:Stencil8_2.5mm" H 5000 15600 50  0001 C CNN
+F 3 "~" H 5000 15600 50  0001 C CNN
+	1    5000 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60F0C77D
+P 5000 15850
+F 0 "H6" H 5100 15896 50  0000 L CNN
+F 1 "MountingHole" H 4850 16000 50  0000 L CNN
+F 2 "smoothieparts:Stencil8_2.5mm" H 5000 15850 50  0001 C CNN
+F 3 "~" H 5000 15850 50  0001 C CNN
+	1    5000 15850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60F13786
+P 5150 15600
+F 0 "H7" H 5250 15646 50  0000 L CNN
+F 1 "MountingHole" H 5000 15750 50  0001 L CNN
+F 2 "smoothieparts:Stencil8_2.5mm" H 5150 15600 50  0001 C CNN
+F 3 "~" H 5150 15600 50  0001 C CNN
+	1    5150 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60F13C20
+P 5150 15850
+F 0 "H8" H 5250 15896 50  0000 L CNN
+F 1 "MountingHole" H 5000 16000 50  0001 L CNN
+F 2 "smoothieparts:Stencil8_2.5mm" H 5150 15850 50  0001 C CNN
+F 3 "~" H 5150 15850 50  0001 C CNN
+	1    5150 15850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
