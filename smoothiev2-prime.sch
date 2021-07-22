@@ -1883,7 +1883,7 @@ Text Label 1800 13050 0    50   ~ 0
 T4
 Text Label 10450 12150 0    50   ~ 0
 T2
-Text Label 10450 12250 0    50   ~ 0
+Text Label 10450 4150 0    50   ~ 0
 T3
 Text Label 1550 8450 2    50   ~ 0
 MOTSPI_COPI
@@ -2077,17 +2077,15 @@ Text Label 10450 12350 0    50   ~ 0
 OUTPUTENABLE
 Text Label 10450 11950 0    50   ~ 0
 ADC3_CH6
-Text Label 10450 11750 0    50   ~ 0
-ADC3_CH7
 Text Label 10450 11550 0    50   ~ 0
 ADC3_CH8
 Text Label 10450 11350 0    50   ~ 0
 ADC3_CH9
-Text Label 10450 4150 0    50   ~ 0
+Text Label 10450 12050 0    50   ~ 0
 T4
 Text Label 10450 6050 0    50   ~ 0
 ADC1_CH12
-Text Label 10450 2750 0    50   ~ 0
+Text Label 4650 9750 2    50   ~ 0
 VMOTSENSE
 Text Label 1150 15050 2    50   ~ 0
 MOT_EN
@@ -2512,8 +2510,6 @@ Text Label 4650 9450 2    50   ~ 0
 PH2
 Text Label 1550 10300 2    50   ~ 0
 PH2
-Text Label 4650 9750 2    50   ~ 0
-ADC3_CH16
 Text Label 10450 5850 0    50   ~ 0
 PC0
 Text Label 1550 10500 2    50   ~ 0
@@ -2534,12 +2530,8 @@ Text Label 2250 10700 0    50   ~ 0
 PI10
 Text Label 10450 11150 0    50   ~ 0
 PF2
-Text Label 2250 10400 0    50   ~ 0
-ADC3_CH7
 Text Label 2250 10500 0    50   ~ 0
 ADC1_CH12
-Text Label 2250 10300 0    50   ~ 0
-ADC3_CH16
 Text Label 10450 7150 0    50   ~ 0
 PC13
 Text Label 1550 11650 2    50   ~ 0
@@ -2866,7 +2858,7 @@ Text Label 1550 7800 2    50   ~ 0
 3V3_LIMIT
 Text Label 5250 1050 2    50   ~ 0
 VMOTSENSE
-Text Label 10450 6150 0    50   ~ 0
+Text Label 10450 11750 0    50   ~ 0
 FETSENSE
 Text Label 10400 14600 2    50   ~ 0
 FETSENSE
@@ -3679,8 +3671,6 @@ F 3 "~" H 9100 1900 50  0001 C CNN
 	1    9100 1900
 	1    0    0    -1  
 $EndComp
-Text Label 10450 12050 0    50   ~ 0
-ADC1_CH2
 $Comp
 L Device:R_Pack04 RN?
 U 1 1 60F27E3E
@@ -4208,10 +4198,16 @@ F 3 "" H 6000 15850 50  0001 C CNN
 	1    6000 15850
 	0    1    1    0   
 $EndComp
-Text Label 6550 15800 0    50   ~ 0
-ADC1_CH2
-Wire Wire Line
-	6550 15800 6600 15800
-Wire Wire Line
-	6600 15800 6600 15850
+Text Label 10450 2750 0    50   ~ 0
+ADC1_CH15
+Text Label 2250 10400 0    50   ~ 0
+ADC1_CH15
+Text Label 10450 6150 0    50   ~ 0
+ADC1_CH13
+Text Label 2250 10300 0    50   ~ 0
+ADC1_CH13
+Text Label 10450 12250 0    50   ~ 0
+PF13
+Text Label 6600 15850 0    50   ~ 0
+PF13
 $EndSCHEMATC
