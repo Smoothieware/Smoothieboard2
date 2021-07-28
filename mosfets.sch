@@ -337,7 +337,7 @@ Connection ~ 3400 2600
 Wire Wire Line
 	3400 2600 2600 2600
 Wire Wire Line
-	2600 3000 2600 2600
+	2600 3000 2600 2700
 Wire Wire Line
 	2600 3500 2750 3500
 Wire Wire Line
@@ -388,14 +388,12 @@ Text HLabel 1450 5500 0    50   Input ~ 0
 SSR1
 Text HLabel 1450 5600 0    50   Input ~ 0
 SSR2
-Text HLabel 1450 5700 0    50   Input ~ 0
+Text HLabel 2500 4050 0    50   Input ~ 0
 ExtraFET
 Wire Wire Line
 	2950 5500 2450 5500
 Wire Wire Line
 	2950 5600 2450 5600
-Wire Wire Line
-	2950 5700 2450 5700
 $Comp
 L Device:R R?
 U 1 1 6313B650
@@ -436,8 +434,6 @@ F 3 "" H 4850 2350 50  0001 C CNN
 	1    4850 2350
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 2350 4250 2600
 $Comp
 L Device:R R69
 U 1 1 63608C62
@@ -465,7 +461,6 @@ Wire Wire Line
 Connection ~ 4850 2350
 Wire Wire Line
 	4250 2100 4250 2350
-Connection ~ 4250 2350
 $Comp
 L Device:R R70
 U 1 1 6360D224
@@ -622,11 +617,6 @@ Wire Wire Line
 Connection ~ 1900 2200
 Wire Wire Line
 	1900 2200 2900 2200
-Wire Wire Line
-	2600 2600 2000 2600
-Wire Wire Line
-	2000 2600 2000 1700
-Connection ~ 2600 2600
 Connection ~ 2000 1700
 Text Label 2700 1200 0    50   ~ 0
 VFET
@@ -634,47 +624,6 @@ Text Label 2900 1800 0    50   ~ 0
 SW_BED
 Text Label 2100 3500 0    50   ~ 0
 GND_FET
-$Comp
-L Transistor_FET:AO3401A Q25
-U 1 1 65BEA16F
-P 6000 5200
-F 0 "Q25" H 6204 5154 50  0000 L CNN
-F 1 "CJ2301 S1" H 6204 5245 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 5125 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 6000 5200 50  0001 L CNN
-	1    6000 5200
-	1    0    0    1   
-$EndComp
-Text Label 6100 5000 0    50   ~ 0
-5V_GATEDRIVE
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 65BEA31E
-P 6300 5400
-AR Path="/65BEA31E" Ref="J?"  Part="1" 
-AR Path="/612538A5/65BEA31E" Ref="J16"  Part="1" 
-F 0 "J16" H 6380 5392 50  0000 L CNN
-F 1 "Conn_01x02" H 6380 5301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6300 5400 50  0001 C CNN
-F 3 "~" H 6300 5400 50  0001 C CNN
-	1    6300 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 65BEA328
-P 6100 5500
-F 0 "#PWR08" H 6100 5250 50  0001 C CNN
-F 1 "GND" H 6105 5327 50  0000 C CNN
-F 2 "" H 6100 5500 50  0001 C CNN
-F 3 "" H 6100 5500 50  0001 C CNN
-	1    6100 5500
-	1    0    0    -1  
-$EndComp
-Text Label 5800 5200 1    50   ~ 0
-SSR3_G
-Text Label 2450 5700 0    50   ~ 0
-SSR3_G
 Text Label 2700 6200 2    50   ~ 0
 BED_GATE
 Text Label 2700 6400 2    50   ~ 0
@@ -896,44 +845,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 5400 4050 5750
 Connection ~ 4150 5400
-$Comp
-L Device:R R89
-U 1 1 60EB4240
-P 5950 5900
-F 0 "R89" V 5743 5900 50  0000 C CNN
-F 1 "1k" V 5834 5900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 5900 50  0001 C CNN
-F 3 "~" H 5950 5900 50  0001 C CNN
-	1    5950 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D31
-U 1 1 60EB44E2
-P 6100 6050
-F 0 "D31" H 6093 5795 50  0000 C CNN
-F 1 "LED" H 6093 5886 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6100 6050 50  0001 C CNN
-F 3 "~" H 6100 6050 50  0001 C CNN
-	1    6100 6050
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR067
-U 1 1 60EB44EC
-P 6250 6050
-F 0 "#PWR067" H 6250 5800 50  0001 C CNN
-F 1 "GND" H 6255 5877 50  0000 C CNN
-F 2 "" H 6250 6050 50  0001 C CNN
-F 3 "" H 6250 6050 50  0001 C CNN
-	1    6250 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 5400 5950 5400
-Wire Wire Line
-	5950 5400 5950 5750
-Connection ~ 6100 5400
 Wire Wire Line
 	3350 5700 3350 5600
 Wire Wire Line
@@ -1057,4 +968,108 @@ Wire Wire Line
 Connection ~ 3000 2200
 Wire Wire Line
 	3000 2200 2900 2200
+NoConn ~ 1450 5700
+Wire Wire Line
+	4250 2100 4250 1200
+Wire Wire Line
+	4250 1200 3300 1200
+Connection ~ 4250 2100
+Connection ~ 3300 1200
+$Comp
+L Transistor_FET:SiS415DNT Q25
+U 1 1 610823DA
+P 2400 2600
+F 0 "Q25" V 2649 2600 50  0000 C CNN
+F 1 "WSD30L40DN" V 2740 2600 50  0000 C CNN
+F 2 "Package_SO:Vishay_PowerPAK_1212-8_Single" H 2600 2525 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/63684/sis415dnt.pdf" V 2400 2600 50  0001 L CNN
+	1    2400 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 2700
+Wire Wire Line
+	2600 2700 2600 2600
+Wire Wire Line
+	2200 2700 2000 2700
+Wire Wire Line
+	2000 1700 2000 2400
+$Comp
+L Device:R R89
+U 1 1 6108A26A
+P 2250 2400
+F 0 "R89" V 2043 2400 50  0000 C CNN
+F 1 "21.5k" V 2134 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 2400 50  0001 C CNN
+F 3 "~" H 2250 2400 50  0001 C CNN
+	1    2250 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 2400 2000 2400
+Connection ~ 2000 2400
+Wire Wire Line
+	2000 2400 2000 2700
+Text Label 2700 2400 0    50   ~ 0
+CUTOFF_GATE
+Text Label 3250 4100 0    50   ~ 0
+CUTOFF_GATE
+$Comp
+L Device:R R92
+U 1 1 610A49E0
+P 2550 2400
+F 0 "R92" V 2343 2400 50  0000 C CNN
+F 1 "10k" V 2434 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 2400 50  0001 C CNN
+F 3 "~" H 2550 2400 50  0001 C CNN
+	1    2550 2400
+	0    1    1    0   
+$EndComp
+Connection ~ 2400 2400
+NoConn ~ 2950 5700
+NoConn ~ 2450 5700
+$Comp
+L Transistor_FET:2N7002 Q26
+U 1 1 610B28F1
+P 3150 4300
+F 0 "Q26" H 3354 4346 50  0000 L CNN
+F 1 "2N7002" H 3354 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3350 4225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3150 4300 50  0001 L CNN
+	1    3150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 610B5CC2
+P 3250 4500
+F 0 "#PWR08" H 3250 4250 50  0001 C CNN
+F 1 "GND" H 3255 4327 50  0000 C CNN
+F 2 "" H 3250 4500 50  0001 C CNN
+F 3 "" H 3250 4500 50  0001 C CNN
+	1    3250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R93
+U 1 1 610B7D0D
+P 2900 4500
+F 0 "R93" V 2693 4500 50  0000 C CNN
+F 1 "10k" V 2784 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2830 4500 50  0001 C CNN
+F 3 "~" H 2900 4500 50  0001 C CNN
+	1    2900 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 4300 2750 4300
+Wire Wire Line
+	2750 4300 2750 4500
+Wire Wire Line
+	3250 4500 3050 4500
+Connection ~ 3250 4500
+Wire Wire Line
+	2500 4050 2750 4050
+Wire Wire Line
+	2750 4050 2750 4300
+Connection ~ 2750 4300
 $EndSCHEMATC
