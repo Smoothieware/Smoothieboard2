@@ -3496,7 +3496,6 @@ NoConn ~ 4650 12350
 NoConn ~ 4650 12450
 NoConn ~ 10450 3450
 NoConn ~ 10450 4550
-NoConn ~ 10450 2450
 NoConn ~ 10450 6550
 NoConn ~ 10450 7650
 NoConn ~ 10450 10250
@@ -4210,4 +4209,86 @@ Text Label 10450 12250 0    50   ~ 0
 PF13
 Text Label 6600 15850 0    50   ~ 0
 PF13
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 615C7304
+P 2950 1200
+AR Path="/612538A5/615C7304" Ref="RN?"  Part="1" 
+AR Path="/615C7304" Ref="RN7"  Part="1" 
+F 0 "RN7" V 2533 1200 50  0000 C CNN
+F 1 "10k" V 2624 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 3225 1200 50  0001 C CNN
+F 3 "~" H 2950 1200 50  0001 C CNN
+	1    2950 1200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2250 1150 2550 1150
+Wire Wire Line
+	2550 1150 2550 1000
+Wire Wire Line
+	2550 1000 2750 1000
+Wire Wire Line
+	2250 1550 2600 1550
+Wire Wire Line
+	2600 1550 2600 1100
+Wire Wire Line
+	2600 1100 2750 1100
+Text Label 2750 1300 2    50   ~ 0
+SD_D3
+Text Label 2750 1200 2    50   ~ 0
+SD_D2
+Wire Wire Line
+	2700 1450 3150 1450
+Wire Wire Line
+	3150 1450 3150 1300
+Connection ~ 2700 1450
+Connection ~ 3150 1100
+Wire Wire Line
+	3150 1100 3150 1000
+Connection ~ 3150 1200
+Wire Wire Line
+	3150 1200 3150 1100
+Connection ~ 3150 1300
+Wire Wire Line
+	3150 1300 3150 1200
+$Comp
+L Device:R R95
+U 1 1 616855B4
+P 2650 900
+F 0 "R95" H 2580 854 50  0000 R CNN
+F 1 "10k" H 2580 945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2580 900 50  0001 C CNN
+F 3 "~" H 2650 900 50  0001 C CNN
+	1    2650 900 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2800 900  3150 900 
+Wire Wire Line
+	3150 900  3150 1000
+Connection ~ 3150 1000
+Wire Wire Line
+	2250 1050 2500 1050
+Wire Wire Line
+	2500 1050 2500 900 
+$Comp
+L Device:R R94
+U 1 1 616FE89A
+P 2400 700
+F 0 "R94" H 2330 654 50  0000 R CNN
+F 1 "10k" H 2330 745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2330 700 50  0001 C CNN
+F 3 "~" H 2400 700 50  0001 C CNN
+	1    2400 700 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2550 700  2800 700 
+Wire Wire Line
+	2800 700  2800 900 
+Connection ~ 2800 900 
+Wire Wire Line
+	2250 700  2250 850 
+NoConn ~ 10450 2450
 $EndSCHEMATC

@@ -15,8 +15,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 3150 2700 0    50   Input ~ 0
 5VIN
-Text HLabel 4750 2700 1    50   Input ~ 0
-5VOUT
 Text HLabel 1750 3950 0    50   Input ~ 0
 VMOT
 Text HLabel 1450 4250 0    50   Input ~ 0
@@ -517,12 +515,12 @@ $EndComp
 $Comp
 L Device:CP C111
 U 1 1 63D04F5F
-P 5050 4100
-F 0 "C111" H 5168 4146 50  0000 L CNN
-F 1 "CP" H 5168 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x11.9" H 5088 3950 50  0001 C CNN
-F 3 "~" H 5050 4100 50  0001 C CNN
-	1    5050 4100
+P 5150 2850
+F 0 "C111" H 5268 2896 50  0000 L CNN
+F 1 "CP" H 5268 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x11.9" H 5188 2700 50  0001 C CNN
+F 3 "~" H 5150 2850 50  0001 C CNN
+	1    5150 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -551,8 +549,6 @@ F 3 "~" H 5350 4100 50  0001 C CNN
 	1    5350 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 3950 5350 3950
 Connection ~ 5050 3950
 Wire Wire Line
 	5350 4250 5350 4550
@@ -587,52 +583,17 @@ F 3 "" H 5350 4850 50  0001 C CNN
 	1    5350 4850
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 3950 1    50   Input ~ 0
-5VOUT
 $Comp
 L Device:C C112
 U 1 1 63D0A6B7
-P 5700 4100
-F 0 "C112" H 5815 4146 50  0000 L CNN
-F 1 "22u" H 5815 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5738 3950 50  0001 C CNN
-F 3 "~" H 5700 4100 50  0001 C CNN
-	1    5700 4100
+P 5050 4100
+F 0 "C112" H 5165 4146 50  0000 L CNN
+F 1 "22u" H 5165 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5088 3950 50  0001 C CNN
+F 3 "~" H 5050 4100 50  0001 C CNN
+	1    5050 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 3950 5450 3950
-Connection ~ 5350 3950
-$Comp
-L power:GND #PWR?
-U 1 1 63D0B236
-P 5700 4250
-AR Path="/63D0B236" Ref="#PWR?"  Part="1" 
-AR Path="/631D7D17/63D0B236" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 5700 4000 50  0001 C CNN
-F 1 "GND" H 5705 4077 50  0000 C CNN
-F 2 "" H 5700 4250 50  0001 C CNN
-F 3 "" H 5700 4250 50  0001 C CNN
-	1    5700 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C113
-U 1 1 63D0B628
-P 6050 4100
-F 0 "C113" H 6165 4146 50  0000 L CNN
-F 1 "22u" H 6165 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 3950 50  0001 C CNN
-F 3 "~" H 6050 4100 50  0001 C CNN
-	1    6050 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 3950 5700 3950
-Connection ~ 5700 3950
-Wire Wire Line
-	6050 4250 5700 4250
-Connection ~ 5700 4250
 $Comp
 L Diode:B340 D23
 U 1 1 63D0DCE7
@@ -816,24 +777,13 @@ Connection ~ 8000 2700
 Connection ~ 7600 2700
 Connection ~ 7900 3950
 Wire Wire Line
-	5750 2700 5450 2700
-Wire Wire Line
-	5450 2700 5450 3950
+	5450 2700 5450 3350
 Connection ~ 5750 2700
-Connection ~ 5450 3950
-Wire Wire Line
-	5450 3950 5350 3950
-Wire Wire Line
-	6050 3950 7900 3950
-Connection ~ 6050 3950
-Wire Wire Line
-	5450 2700 4750 2700
-Connection ~ 5450 2700
 Connection ~ 4750 2700
 Wire Notes Line
 	6450 3600 6450 5100
 Wire Notes Line
-	5200 3600 5200 2150
+	5000 3600 5000 2150
 Wire Notes Line
 	2250 2150 2250 3600
 Wire Notes Line
@@ -864,4 +814,133 @@ Text Notes 8550 3400 0    50   ~ 10
 Current limit in A = 6.8k/R. \nSet to 0.32A with R65=21.5k
 Text Notes 8600 4650 0    50   ~ 10
 Current limit in A = 6.8k/R. \nSet to 0.32A with R64=21.5k
+$Comp
+L Power_Management:AP22814AW5 U23
+U 1 1 617F5F71
+P 6950 4350
+F 0 "U23" H 6950 4717 50  0000 C CNN
+F 1 "AP22814AW5" H 6950 4626 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6950 3950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP22804_14.pdf" H 6950 4400 50  0001 C CNN
+	1    6950 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 2700
+Wire Wire Line
+	5450 2700 5150 2700
+$Comp
+L power:GND #PWR?
+U 1 1 61821889
+P 6950 4650
+AR Path="/61821889" Ref="#PWR?"  Part="1" 
+AR Path="/631D7D17/61821889" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 6950 4400 50  0001 C CNN
+F 1 "GND" H 6955 4477 50  0000 C CNN
+F 2 "" H 6950 4650 50  0001 C CNN
+F 3 "" H 6950 4650 50  0001 C CNN
+	1    6950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C113
+U 1 1 63D0B628
+P 5550 2850
+F 0 "C113" H 5665 2896 50  0000 L CNN
+F 1 "22u" H 5665 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5588 2700 50  0001 C CNN
+F 3 "~" H 5550 2850 50  0001 C CNN
+	1    5550 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 2700
+Wire Wire Line
+	5550 2700 5450 2700
+$Comp
+L power:GND #PWR?
+U 1 1 618914CF
+P 5550 3000
+AR Path="/618914CF" Ref="#PWR?"  Part="1" 
+AR Path="/631D7D17/618914CF" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 5550 2750 50  0001 C CNN
+F 1 "GND" H 5555 2827 50  0000 C CNN
+F 2 "" H 5550 3000 50  0001 C CNN
+F 3 "" H 5550 3000 50  0001 C CNN
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 4750 2700
+$Comp
+L power:GND #PWR?
+U 1 1 61896B7B
+P 5150 3000
+AR Path="/61896B7B" Ref="#PWR?"  Part="1" 
+AR Path="/631D7D17/61896B7B" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 5150 2750 50  0001 C CNN
+F 1 "GND" H 5155 2827 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2700 5750 2700
+Wire Wire Line
+	5450 3350 6550 3350
+Wire Wire Line
+	6550 3950 7350 3950
+Wire Wire Line
+	5050 3950 5350 3950
+Wire Wire Line
+	7350 4250 7350 3950
+Connection ~ 7350 3950
+Wire Wire Line
+	7350 3950 7900 3950
+Wire Wire Line
+	6550 3350 6550 3950
+Wire Wire Line
+	6550 4250 6250 4250
+Wire Wire Line
+	6050 4250 6050 3950
+Wire Wire Line
+	6050 3950 5750 3950
+Connection ~ 5350 3950
+Wire Wire Line
+	6550 4450 6250 4450
+Wire Wire Line
+	6250 4450 6250 4250
+Connection ~ 6250 4250
+Wire Wire Line
+	6250 4250 6050 4250
+NoConn ~ 7350 4450
+$Comp
+L Device:C C119
+U 1 1 617B65EB
+P 5750 4100
+F 0 "C119" H 5865 4146 50  0000 L CNN
+F 1 "22u" H 5865 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5788 3950 50  0001 C CNN
+F 3 "~" H 5750 4100 50  0001 C CNN
+	1    5750 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3950
+Wire Wire Line
+	5750 3950 5350 3950
+$Comp
+L power:GND #PWR?
+U 1 1 617B6DBC
+P 5750 4250
+AR Path="/617B6DBC" Ref="#PWR?"  Part="1" 
+AR Path="/631D7D17/617B6DBC" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 5750 4000 50  0001 C CNN
+F 1 "GND" H 5755 4077 50  0000 C CNN
+F 2 "" H 5750 4250 50  0001 C CNN
+F 3 "" H 5750 4250 50  0001 C CNN
+	1    5750 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 6550 5050 0    69   ~ 0
+Reverse block and \ncurrent limit
 $EndSCHEMATC

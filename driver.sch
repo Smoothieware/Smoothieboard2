@@ -154,7 +154,7 @@ Connection ~ 3000 1600
 $Comp
 L Transistor_FET:Si4542DY Q1
 U 1 1 60B4B35F
-P 5100 2500
+P 5100 3050
 AR Path="/60B406B9/60B4B35F" Ref="Q1"  Part="1" 
 AR Path="/60CED0E3/60B4B35F" Ref="Q5"  Part="2" 
 AR Path="/60D08FD3/60B4B35F" Ref="Q9"  Part="2" 
@@ -172,17 +172,17 @@ AR Path="/60F5C8E7/60B4B35F" Ref="Q1"  Part="1"
 AR Path="/60FEB202/60B4B35F" Ref="Q5"  Part="1" 
 AR Path="/60FEEB1A/60B4B35F" Ref="Q9"  Part="1" 
 AR Path="/60FF2256/60B4B35F" Ref="Q13"  Part="1" 
-F 0 "Q13" H 5305 2546 50  0000 L CNN
-F 1 "Si4542DY" H 5305 2455 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 2425 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 2500 50  0001 L CNN
-	1    5100 2500
-	1    0    0    1   
+F 0 "Q13" H 5305 3096 50  0000 L CNN
+F 1 "Si4542DY" H 5305 3005 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 2975 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 3050 50  0001 L CNN
+	1    5100 3050
+	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:Si4542DY Q1
 U 2 1 60C7E19D
-P 5100 3050
+P 5100 2500
 AR Path="/60B406B9/60C7E19D" Ref="Q1"  Part="2" 
 AR Path="/60CED0E3/60C7E19D" Ref="Q5"  Part="1" 
 AR Path="/60D08FD3/60C7E19D" Ref="Q9"  Part="1" 
@@ -200,12 +200,12 @@ AR Path="/60F5C8E7/60C7E19D" Ref="Q1"  Part="2"
 AR Path="/60FEB202/60C7E19D" Ref="Q5"  Part="2" 
 AR Path="/60FEEB1A/60C7E19D" Ref="Q9"  Part="2" 
 AR Path="/60FF2256/60C7E19D" Ref="Q13"  Part="2" 
-F 0 "Q13" H 5305 3004 50  0000 L CNN
-F 1 "Si4542DY" H 5305 3095 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 2975 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 3050 50  0001 L CNN
-	2    5100 3050
-	1    0    0    -1  
+F 0 "Q13" H 5305 2454 50  0000 L CNN
+F 1 "Si4542DY" H 5305 2545 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 2425 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 2500 50  0001 L CNN
+	2    5100 2500
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4150 2850 5200 2850
@@ -227,7 +227,7 @@ Wire Wire Line
 $Comp
 L Transistor_FET:Si4542DY Q3
 U 1 1 60C7E19E
-P 5850 2650
+P 5850 3150
 AR Path="/60B406B9/60C7E19E" Ref="Q3"  Part="1" 
 AR Path="/60CED0E3/60C7E19E" Ref="Q7"  Part="2" 
 AR Path="/60D08FD3/60C7E19E" Ref="Q11"  Part="2" 
@@ -245,17 +245,17 @@ AR Path="/60F5C8E7/60C7E19E" Ref="Q3"  Part="1"
 AR Path="/60FEB202/60C7E19E" Ref="Q7"  Part="1" 
 AR Path="/60FEEB1A/60C7E19E" Ref="Q11"  Part="1" 
 AR Path="/60FF2256/60C7E19E" Ref="Q15"  Part="1" 
-F 0 "Q15" H 6055 2696 50  0000 L CNN
-F 1 "Si4542DY" H 6055 2605 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 2575 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 2650 50  0001 L CNN
-	1    5850 2650
-	1    0    0    1   
+F 0 "Q15" H 6055 3196 50  0000 L CNN
+F 1 "Si4542DY" H 6055 3105 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 3075 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 3150 50  0001 L CNN
+	1    5850 3150
+	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:Si4542DY Q3
 U 2 1 60C7E19F
-P 5850 3150
+P 5850 2650
 AR Path="/60B406B9/60C7E19F" Ref="Q3"  Part="2" 
 AR Path="/60CED0E3/60C7E19F" Ref="Q7"  Part="1" 
 AR Path="/60D08FD3/60C7E19F" Ref="Q11"  Part="1" 
@@ -273,12 +273,12 @@ AR Path="/60F5C8E7/60C7E19F" Ref="Q3"  Part="2"
 AR Path="/60FEB202/60C7E19F" Ref="Q7"  Part="2" 
 AR Path="/60FEEB1A/60C7E19F" Ref="Q11"  Part="2" 
 AR Path="/60FF2256/60C7E19F" Ref="Q15"  Part="2" 
-F 0 "Q15" H 6055 3104 50  0000 L CNN
-F 1 "Si4542DY" H 6055 3195 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 3075 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 3150 50  0001 L CNN
-	2    5850 3150
-	1    0    0    -1  
+F 0 "Q15" H 6055 2604 50  0000 L CNN
+F 1 "Si4542DY" H 6055 2695 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 2575 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 2650 50  0001 L CNN
+	2    5850 2650
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5650 3150 5500 3150
@@ -438,7 +438,7 @@ Wire Wire Line
 $Comp
 L Transistor_FET:Si4542DY Q2
 U 1 1 60C7E1A3
-P 5100 3800
+P 5100 4350
 AR Path="/60B406B9/60C7E1A3" Ref="Q2"  Part="1" 
 AR Path="/60CED0E3/60C7E1A3" Ref="Q6"  Part="2" 
 AR Path="/60D08FD3/60C7E1A3" Ref="Q10"  Part="2" 
@@ -456,17 +456,17 @@ AR Path="/60F5C8E7/60C7E1A3" Ref="Q2"  Part="1"
 AR Path="/60FEB202/60C7E1A3" Ref="Q6"  Part="1" 
 AR Path="/60FEEB1A/60C7E1A3" Ref="Q10"  Part="1" 
 AR Path="/60FF2256/60C7E1A3" Ref="Q14"  Part="1" 
-F 0 "Q14" H 5305 3846 50  0000 L CNN
-F 1 "Si4542DY" H 5305 3755 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 3725 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 3800 50  0001 L CNN
-	1    5100 3800
-	1    0    0    1   
+F 0 "Q14" H 5305 4396 50  0000 L CNN
+F 1 "Si4542DY" H 5305 4305 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 4275 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 4350 50  0001 L CNN
+	1    5100 4350
+	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:Si4542DY Q2
 U 2 1 60C7E1A4
-P 5100 4350
+P 5100 3800
 AR Path="/60B406B9/60C7E1A4" Ref="Q2"  Part="2" 
 AR Path="/60CED0E3/60C7E1A4" Ref="Q6"  Part="1" 
 AR Path="/60D08FD3/60C7E1A4" Ref="Q10"  Part="1" 
@@ -484,12 +484,12 @@ AR Path="/60F5C8E7/60C7E1A4" Ref="Q2"  Part="2"
 AR Path="/60FEB202/60C7E1A4" Ref="Q6"  Part="2" 
 AR Path="/60FEEB1A/60C7E1A4" Ref="Q10"  Part="2" 
 AR Path="/60FF2256/60C7E1A4" Ref="Q14"  Part="2" 
-F 0 "Q14" H 5305 4304 50  0000 L CNN
-F 1 "Si4542DY" H 5305 4395 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 4275 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 4350 50  0001 L CNN
-	2    5100 4350
-	1    0    0    -1  
+F 0 "Q14" H 5305 3754 50  0000 L CNN
+F 1 "Si4542DY" H 5305 3845 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 3725 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5200 3800 50  0001 L CNN
+	2    5100 3800
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4150 4150 5200 4150
@@ -507,7 +507,7 @@ Wire Wire Line
 $Comp
 L Transistor_FET:Si4542DY Q4
 U 1 1 60C7E1A5
-P 5850 3950
+P 5850 4450
 AR Path="/60B406B9/60C7E1A5" Ref="Q4"  Part="1" 
 AR Path="/60CED0E3/60C7E1A5" Ref="Q8"  Part="2" 
 AR Path="/60D08FD3/60C7E1A5" Ref="Q12"  Part="2" 
@@ -525,17 +525,17 @@ AR Path="/60F5C8E7/60C7E1A5" Ref="Q4"  Part="1"
 AR Path="/60FEB202/60C7E1A5" Ref="Q8"  Part="1" 
 AR Path="/60FEEB1A/60C7E1A5" Ref="Q12"  Part="1" 
 AR Path="/60FF2256/60C7E1A5" Ref="Q16"  Part="1" 
-F 0 "Q16" H 6055 3996 50  0000 L CNN
-F 1 "Si4542DY" H 6055 3905 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 3875 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 3950 50  0001 L CNN
-	1    5850 3950
-	1    0    0    1   
+F 0 "Q16" H 6055 4496 50  0000 L CNN
+F 1 "Si4542DY" H 6055 4405 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 4375 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 4450 50  0001 L CNN
+	1    5850 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:Si4542DY Q4
 U 2 1 60C7E1A6
-P 5850 4450
+P 5850 3950
 AR Path="/60B406B9/60C7E1A6" Ref="Q4"  Part="2" 
 AR Path="/60CED0E3/60C7E1A6" Ref="Q8"  Part="1" 
 AR Path="/60D08FD3/60C7E1A6" Ref="Q12"  Part="1" 
@@ -553,12 +553,12 @@ AR Path="/60F5C8E7/60C7E1A6" Ref="Q4"  Part="2"
 AR Path="/60FEB202/60C7E1A6" Ref="Q8"  Part="2" 
 AR Path="/60FEEB1A/60C7E1A6" Ref="Q12"  Part="2" 
 AR Path="/60FF2256/60C7E1A6" Ref="Q16"  Part="2" 
-F 0 "Q16" H 6055 4404 50  0000 L CNN
-F 1 "Si4542DY" H 6055 4495 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 4375 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 4450 50  0001 L CNN
-	2    5850 4450
-	1    0    0    -1  
+F 0 "Q16" H 6055 3904 50  0000 L CNN
+F 1 "Si4542DY" H 6055 3995 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 3875 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF" H 5950 3950 50  0001 L CNN
+	2    5850 3950
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5650 4450 5500 4450
