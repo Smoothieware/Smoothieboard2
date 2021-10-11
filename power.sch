@@ -64,10 +64,7 @@ Wire Wire Line
 	4100 3200 4100 3100
 Connection ~ 4100 3200
 Wire Wire Line
-	3700 2700 3700 2900
-Wire Wire Line
-	3700 2700 3400 2700
-Connection ~ 3700 2700
+	3700 2700 3550 2700
 $Comp
 L Device:R R?
 U 1 1 632D5012
@@ -943,4 +940,50 @@ F 3 "" H 5750 4250 50  0001 C CNN
 $EndComp
 Text Notes 6550 5050 0    69   ~ 0
 Reverse block and \ncurrent limit
+$Comp
+L Device:R R?
+U 1 1 61894662
+P 3700 3150
+AR Path="/61894662" Ref="R?"  Part="1" 
+AR Path="/631D7D17/61894662" Ref="R96"  Part="1" 
+F 0 "R96" H 3770 3196 50  0000 L CNN
+F 1 "10k" H 3770 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3630 3150 50  0001 C CNN
+F 3 "~" H 3700 3150 50  0001 C CNN
+	1    3700 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3150 3850 3100
+Wire Wire Line
+	3850 3050 3700 3050
+Wire Wire Line
+	3700 3050 3700 2900
+Wire Wire Line
+	3550 3150 3550 2700
+Connection ~ 3550 2700
+Wire Wire Line
+	3550 2700 3400 2700
+$Comp
+L Jumper:SolderJumper_2_Open JP15
+U 1 1 61899F74
+P 3900 3250
+F 0 "JP15" V 3854 3318 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 3945 3318 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3900 3250 50  0001 C CNN
+F 3 "~" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 3100 3850 3100
+Connection ~ 3850 3100
+Wire Wire Line
+	3850 3100 3850 3050
+Wire Wire Line
+	3900 3400 4000 3400
+Wire Wire Line
+	4000 3400 4000 3200
+Wire Wire Line
+	4000 3200 4100 3200
 $EndSCHEMATC
