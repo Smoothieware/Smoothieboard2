@@ -846,10 +846,7 @@ Wire Wire Line
 	4050 5400 4050 5750
 Connection ~ 4150 5400
 Wire Wire Line
-	3350 5700 3350 5600
-Wire Wire Line
 	3350 5500 3350 5600
-Connection ~ 3350 5600
 $Comp
 L Device:R_Pack04 RN5
 U 1 1 62F1120B
@@ -1025,7 +1022,6 @@ F 3 "~" H 2550 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 2400 2400
-NoConn ~ 2950 5700
 NoConn ~ 2450 5700
 $Comp
 L Transistor_FET:2N7002 Q26
@@ -1072,4 +1068,58 @@ Wire Wire Line
 Wire Wire Line
 	2750 4050 2750 4300
 Connection ~ 2750 4300
+$Comp
+L power:GND #PWR0152
+U 1 1 61B81538
+P 3350 5700
+F 0 "#PWR0152" H 3350 5450 50  0001 C CNN
+F 1 "GND" H 3355 5527 50  0000 C CNN
+F 2 "" H 3350 5700 50  0001 C CNN
+F 3 "" H 3350 5700 50  0001 C CNN
+	1    3350 5700
+	1    0    0    -1  
+$EndComp
+Text HLabel 2950 5700 0    50   Input ~ 0
+BED_G
+$Comp
+L Device:R_Pack04 RN8
+U 1 1 61B8A880
+P 1400 4150
+F 0 "RN8" V 983 4150 50  0000 C CNN
+F 1 "10k" V 1074 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 1675 4150 50  0001 C CNN
+F 3 "~" H 1400 4150 50  0001 C CNN
+	1    1400 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR067
+U 1 1 61B8B3E4
+P 1600 4300
+F 0 "#PWR067" H 1600 4050 50  0001 C CNN
+F 1 "GND" H 1605 4127 50  0000 C CNN
+F 2 "" H 1600 4300 50  0001 C CNN
+F 3 "" H 1600 4300 50  0001 C CNN
+	1    1600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3950 1600 4050
+Connection ~ 1600 4050
+Wire Wire Line
+	1600 4050 1600 4150
+Connection ~ 1600 4150
+Wire Wire Line
+	1600 4150 1600 4250
+Connection ~ 1600 4250
+Wire Wire Line
+	1600 4250 1600 4300
+Text HLabel 1200 3950 0    50   Input ~ 0
+FAN2_G
+Text HLabel 1200 4050 0    50   Input ~ 0
+FAN1_G
+Text HLabel 1200 4150 0    50   Input ~ 0
+HEB_G
+Text HLabel 1200 4250 0    50   Input ~ 0
+HEA_G
 $EndSCHEMATC

@@ -431,15 +431,13 @@ Text Label 2100 600  0    50   ~ 0
 3V3
 Text Label 3850 800  0    50   ~ 0
 3V3
-Text Label 4150 2350 0    50   ~ 0
-3V3
-Text HLabel 5600 1350 2    50   Input ~ 0
+Text HLabel 6500 1350 2    50   Input ~ 0
 T1
-Text HLabel 5600 1850 2    50   Input ~ 0
+Text HLabel 6500 1450 2    50   Input ~ 0
 T2
-Text HLabel 5600 2350 2    50   Input ~ 0
+Text HLabel 6500 1550 2    50   Input ~ 0
 T3
-Text HLabel 5600 2850 2    50   Input ~ 0
+Text HLabel 6500 1650 2    50   Input ~ 0
 T4
 $Comp
 L Device:Net-Tie_2 NT11
@@ -1476,4 +1474,47 @@ Text HLabel 2050 900  0    50   Input ~ 0
 3V3_LIMIT_IN
 Wire Wire Line
 	2050 900  2350 900 
+Text Label 4300 2350 0    50   ~ 0
+5V
+Text HLabel 2050 1000 0    50   Input ~ 0
+5V_IN
+Text Label 2150 1000 0    50   ~ 0
+5V
+Wire Wire Line
+	2150 1000 2050 1000
+$Comp
+L Device:R_Pack04 RN9
+U 1 1 61C42B19
+P 6300 1550
+F 0 "RN9" V 5883 1550 50  0000 C CNN
+F 1 "4.7k" V 5974 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6575 1550 50  0001 C CNN
+F 3 "~" H 6300 1550 50  0001 C CNN
+	1    6300 1550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6100 1350 5600 1350
+Connection ~ 5600 1350
+Wire Wire Line
+	6100 1450 5700 1450
+Wire Wire Line
+	5700 1450 5700 1850
+Wire Wire Line
+	5700 1850 5600 1850
+Connection ~ 5600 1850
+Wire Wire Line
+	6100 1550 5800 1550
+Wire Wire Line
+	5800 1550 5800 2350
+Wire Wire Line
+	5800 2350 5600 2350
+Connection ~ 5600 2350
+Wire Wire Line
+	6100 1650 5950 1650
+Wire Wire Line
+	5950 1650 5950 2850
+Wire Wire Line
+	5950 2850 5600 2850
+Connection ~ 5600 2850
 $EndSCHEMATC
