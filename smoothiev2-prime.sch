@@ -1173,27 +1173,27 @@ F65 "GI_8" I L 1550 11550 50
 F66 "GI_9" I L 1550 11650 50 
 $EndSheet
 Text Label 1800 13250 0    50   ~ 0
-ESXP
+ESXMIN
 Text Label 1800 13350 0    50   ~ 0
-ESXN
+ESXMAX
 Text Label 4650 7850 2    50   ~ 0
-ESXN
+ESXMAX
 Text Label 10450 5450 0    50   ~ 0
 USB_PWR_ON
 Text Label 1800 13450 0    50   ~ 0
-ESYP
+ESYMIN
 Text Label 1800 13550 0    50   ~ 0
-ESYN
+ESYMAX
 Text Label 1800 13750 0    50   ~ 0
-ESZN
+ESZMAX
 Text Label 1800 13650 0    50   ~ 0
-ESZP
+ESZMIN
 Text Label 4650 7650 2    50   ~ 0
-ESYP
+ESYMIN
 Text Label 10450 3350 0    50   ~ 0
-ESYN
+ESYMAX
 Text Label 4650 7550 2    50   ~ 0
-ESZP
+ESZMIN
 Text Label 10450 7850 0    50   ~ 0
 STEP_A
 Text Label 10450 7950 0    50   ~ 0
@@ -1759,9 +1759,9 @@ Text Label 4650 2450 2    50   ~ 0
 Text Label 1000 5850 2    50   ~ 0
 QSPI_IO0
 Text Label 4650 10750 2    50   ~ 0
-ESZN
+ESZMAX
 Text Label 10450 7550 0    50   ~ 0
-ESXP
+ESXMIN
 Text Label 4650 7350 2    50   ~ 0
 SG_C
 Text Label 4650 11850 2    50   ~ 0

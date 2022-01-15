@@ -748,9 +748,6 @@ Wire Wire Line
 Connection ~ 7250 3000
 Text HLabel 7600 2700 1    50   Input ~ 0
 3V3_DCDC
-Wire Wire Line
-	3250 4350 3250 3950
-Connection ~ 3250 3950
 $Comp
 L Device:C C117
 U 1 1 63E25811
@@ -924,7 +921,7 @@ F 3 "~" H 5750 4100 50  0001 C CNN
 $EndComp
 Connection ~ 5750 3950
 Wire Wire Line
-	5750 3950 5350 3950
+	5750 3950 5600 3950
 $Comp
 L power:GND #PWR?
 U 1 1 617B6DBC
@@ -986,4 +983,37 @@ Wire Wire Line
 	4000 3400 4000 3200
 Wire Wire Line
 	4000 3200 4100 3200
+$Comp
+L Jumper:SolderJumper_2_Open JP16
+U 1 1 61CF5C8F
+P 3250 4600
+F 0 "JP16" V 3204 4668 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 3295 4668 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3250 4600 50  0001 C CNN
+F 3 "~" H 3250 4600 50  0001 C CNN
+	1    3250 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 4450 3250 4350
+Wire Wire Line
+	3650 4550 3450 4550
+Wire Wire Line
+	3450 4550 3450 4750
+Wire Wire Line
+	3450 4750 3250 4750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61F941BB
+P 5600 3950
+F 0 "#FLG0101" H 5600 4025 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 4123 50  0000 C CNN
+F 2 "" H 5600 3950 50  0001 C CNN
+F 3 "~" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 3950
+Wire Wire Line
+	5600 3950 5350 3950
 $EndSCHEMATC

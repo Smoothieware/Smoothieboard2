@@ -836,12 +836,12 @@ F 3 "~" H 2550 7400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP7
+L Jumper:SolderJumper_2_Open JP7
 U 1 1 6154AF0A
 P 2400 7550
 F 0 "JP7" H 2400 7755 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 2400 7664 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 2400 7550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2400 7550 50  0001 C CNN
 F 3 "~" H 2400 7550 50  0001 C CNN
 	1    2400 7550
 	1    0    0    1   
@@ -851,8 +851,6 @@ E3V3
 Wire Wire Line
 	2350 7250 2550 7250
 Connection ~ 2550 7250
-Wire Wire Line
-	2550 7250 2650 7250
 Wire Wire Line
 	2350 6150 2400 6150
 Connection ~ 2750 6150
@@ -1323,11 +1321,6 @@ Wire Wire Line
 Connection ~ 2400 6150
 Wire Wire Line
 	2400 6150 2750 6150
-Wire Wire Line
-	2650 6700 2650 7250
-Connection ~ 2650 7250
-Wire Wire Line
-	2650 7250 3000 7250
 NoConn ~ 2550 6300
 NoConn ~ 2450 6300
 Wire Wire Line
@@ -1380,7 +1373,7 @@ Text HLabel 4450 4300 2    50   Input ~ 0
 ESYP
 Text HLabel 4450 5000 2    50   Input ~ 0
 ESZP
-Text HLabel 4350 7250 2    50   Input ~ 0
+Text HLabel 5900 7150 2    50   Input ~ 0
 PROBE
 Text HLabel 4450 5350 2    50   Input ~ 0
 ESZN
@@ -1393,7 +1386,7 @@ L Device:R R47
 U 1 1 61907479
 P 3300 7250
 F 0 "R47" V 3093 7250 50  0000 C CNN
-F 1 "5.1k" V 3184 7250 50  0000 C CNN
+F 1 "7.1k" V 3184 7250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 7250 50  0001 C CNN
 F 3 "~" H 3300 7250 50  0001 C CNN
 	1    3300 7250
@@ -1414,7 +1407,7 @@ L Device:R R48
 U 1 1 61A4CA02
 P 3450 7400
 F 0 "R48" H 3380 7354 50  0000 R CNN
-F 1 "10k" H 3380 7445 50  0000 R CNN
+F 1 "1k" H 3380 7445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3380 7400 50  0001 C CNN
 F 3 "~" H 3450 7400 50  0001 C CNN
 	1    3450 7400
@@ -1517,4 +1510,75 @@ Wire Wire Line
 Wire Wire Line
 	5950 2850 5600 2850
 Connection ~ 5600 2850
+$Comp
+L Comparator:LMV331 U24
+U 1 1 61E69E41
+P 5600 7150
+F 0 "U24" H 5650 7300 50  0000 L CNN
+F 1 "LMV331" H 5650 7000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5600 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 5600 7350 50  0001 C CNN
+	1    5600 7150
+	1    0    0    -1  
+$EndComp
+Text Label 5500 6850 0    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR074
+U 1 1 61E862CC
+P 5500 7450
+F 0 "#PWR074" H 5500 7200 50  0001 C CNN
+F 1 "GND" H 5505 7277 50  0000 C CNN
+F 2 "" H 5500 7450 50  0001 C CNN
+F 3 "" H 5500 7450 50  0001 C CNN
+	1    5500 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 7050 4350 7050
+Wire Wire Line
+	4350 7050 4350 7250
+Text Label 4600 7250 2    50   ~ 0
+3V3
+$Comp
+L Device:R R97
+U 1 1 61E947D0
+P 4750 7250
+F 0 "R97" V 4543 7250 50  0000 C CNN
+F 1 "8.2k" V 4634 7250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 7250 50  0001 C CNN
+F 3 "~" H 4750 7250 50  0001 C CNN
+	1    4750 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R98
+U 1 1 61E9639D
+P 4900 7400
+F 0 "R98" H 4830 7354 50  0000 R CNN
+F 1 "1k" H 4830 7445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4830 7400 50  0001 C CNN
+F 3 "~" H 4900 7400 50  0001 C CNN
+	1    4900 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 61E96E18
+P 4900 7550
+F 0 "#PWR073" H 4900 7300 50  0001 C CNN
+F 1 "GND" H 4905 7377 50  0000 C CNN
+F 2 "" H 4900 7550 50  0001 C CNN
+F 3 "" H 4900 7550 50  0001 C CNN
+	1    4900 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 7250 4900 7250
+Connection ~ 4900 7250
+Wire Wire Line
+	2550 7250 3000 7250
+NoConn ~ 2650 6700
+Text Notes 4150 6750 0    50   ~ 0
+Set comparator threshold to 0.359V.\nThe output is 3.3V if input pin is between 2.9V and 26V (nominal 24V).\nThe output is 0V if input pin is below 2.9V.
 $EndSCHEMATC
