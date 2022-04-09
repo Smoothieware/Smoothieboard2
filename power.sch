@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -298,7 +298,7 @@ F 3 "" H 9050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 3950 2400 3950
+	1750 3950 2150 3950
 Wire Wire Line
 	4500 2700 4750 2700
 $Comp
@@ -748,23 +748,9 @@ Wire Wire Line
 Connection ~ 7250 3000
 Text HLabel 7600 2700 1    50   Input ~ 0
 3V3_DCDC
-$Comp
-L Device:C C117
-U 1 1 63E25811
-P 3150 2850
-F 0 "C117" H 3265 2896 50  0000 L CNN
-F 1 "22u" H 3265 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3188 2700 50  0001 C CNN
-F 3 "~" H 3150 2850 50  0001 C CNN
-	1    3150 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 2700 3400 2700
 Connection ~ 3400 2700
-Wire Wire Line
-	3150 3000 3400 3000
-Connection ~ 3400 3000
 Wire Wire Line
 	8000 2700 7600 2700
 Connection ~ 8000 2700
@@ -780,8 +766,6 @@ Wire Notes Line
 	5000 3600 5000 2150
 Wire Notes Line
 	2250 2150 2250 3600
-Wire Notes Line
-	750  2150 750  5100
 Wire Notes Line
 	7750 2150 7750 5100
 Text Notes 800  3500 0    100  ~ 0
@@ -894,19 +878,12 @@ Wire Wire Line
 Wire Wire Line
 	6550 3350 6550 3950
 Wire Wire Line
-	6550 4250 6250 4250
-Wire Wire Line
 	6050 4250 6050 3950
 Wire Wire Line
 	6050 3950 5750 3950
 Connection ~ 5350 3950
 Wire Wire Line
 	6550 4450 6250 4450
-Wire Wire Line
-	6250 4450 6250 4250
-Connection ~ 6250 4250
-Wire Wire Line
-	6250 4250 6050 4250
 NoConn ~ 7350 4450
 $Comp
 L Device:C C119
@@ -1016,4 +993,89 @@ $EndComp
 Connection ~ 5600 3950
 Wire Wire Line
 	5600 3950 5350 3950
+Wire Wire Line
+	6050 4250 6550 4250
+Text Label 6250 4450 2    50   ~ 0
+UVLO
+Text Label 3250 4350 2    50   ~ 0
+UVLO
+$Comp
+L smoothieparts:BD47XXG U25
+U 1 1 627CE557
+P 2550 5800
+F 0 "U25" H 2362 5871 50  0000 R CNN
+F 1 "BD4722G" H 2850 6150 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2550 5800 50  0001 C CNN
+F 3 "" H 2550 5800 50  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+Text Label 2850 5650 0    50   ~ 0
+UVLO
+$Comp
+L power:GND #PWR?
+U 1 1 627D26CD
+P 2450 6100
+AR Path="/627D26CD" Ref="#PWR?"  Part="1" 
+AR Path="/631D7D17/627D26CD" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 2450 5850 50  0001 C CNN
+F 1 "GND" H 2455 5927 50  0000 C CNN
+F 2 "" H 2450 6100 50  0001 C CNN
+F 3 "" H 2450 6100 50  0001 C CNN
+	1    2450 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6100 2450 6100
+Connection ~ 2450 6100
+$Comp
+L Device:R R?
+U 1 1 627D5521
+P 2050 5450
+AR Path="/627D5521" Ref="R?"  Part="1" 
+AR Path="/631D7D17/627D5521" Ref="R99"  Part="1" 
+F 0 "R99" H 2120 5496 50  0000 L CNN
+F 1 "56k" H 2120 5405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1980 5450 50  0001 C CNN
+F 3 "~" H 2050 5450 50  0001 C CNN
+	1    2050 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 627D6BF2
+P 2200 5950
+AR Path="/627D6BF2" Ref="R?"  Part="1" 
+AR Path="/631D7D17/627D6BF2" Ref="R100"  Part="1" 
+F 0 "R100" H 2270 5996 50  0000 L CNN
+F 1 "21.5k" H 2270 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2130 5950 50  0001 C CNN
+F 3 "~" H 2200 5950 50  0001 C CNN
+	1    2200 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 5450 2200 5450
+Wire Wire Line
+	2200 5450 2200 5800
+Connection ~ 2200 5450
+Wire Wire Line
+	2450 6100 2200 6100
+Wire Wire Line
+	1900 5450 1900 4600
+Wire Wire Line
+	1900 4600 2150 4600
+Wire Wire Line
+	2150 4600 2150 3950
+Connection ~ 2150 3950
+Wire Wire Line
+	2150 3950 2400 3950
+Wire Notes Line
+	750  6700 4100 6700
+Wire Notes Line
+	4100 6700 4100 5100
+Wire Notes Line
+	750  2150 750  6700
+Text Notes 850  6550 0    100  ~ 0
+VMOT UNDERVOLTAGE DETECT
 $EndSCHEMATC

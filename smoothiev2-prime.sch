@@ -2050,8 +2050,6 @@ Text Label 1550 9850 2    50   ~ 0
 PD15
 Text Label 10450 9050 0    50   ~ 0
 PD15
-Text Label 1500 2450 0    50   ~ 0
-5V_IN
 Text Label 4650 2750 2    50   ~ 0
 BOOT0
 Text Label 10400 13600 2    50   ~ 0
@@ -4296,4 +4294,50 @@ Text Label 1050 12800 2    50   ~ 0
 5V
 Wire Wire Line
 	1050 12800 1150 12800
+$Comp
+L Jumper:SolderJumper_2_Bridged JP17
+U 1 1 62582F65
+P 1750 2550
+F 0 "JP17" H 1650 2650 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 2450 2500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 1750 2550 50  0001 C CNN
+F 3 "~" H 1750 2550 50  0001 C CNN
+	1    1750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2550 1500 2550
+Wire Wire Line
+	1500 2550 1500 2450
+Text Label 1900 2550 0    50   ~ 0
+5V_IN
+$Comp
+L Device:C C?
+U 1 1 625ECF17
+P 650 2450
+AR Path="/631D7D17/625ECF17" Ref="C?"  Part="1" 
+AR Path="/625ECF17" Ref="C117"  Part="1" 
+F 0 "C117" H 765 2496 50  0000 L CNN
+F 1 "22u" H 765 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 688 2300 50  0001 C CNN
+F 3 "~" H 650 2450 50  0001 C CNN
+	1    650  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  2300 1500 2300
+Wire Wire Line
+	1500 2300 1500 2450
+Connection ~ 1500 2450
+$Comp
+L power:GND #PWR075
+U 1 1 62665763
+P 650 2600
+F 0 "#PWR075" H 650 2350 50  0001 C CNN
+F 1 "GND" H 655 2427 50  0000 C CNN
+F 2 "" H 650 2600 50  0001 C CNN
+F 3 "" H 650 2600 50  0001 C CNN
+	1    650  2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
