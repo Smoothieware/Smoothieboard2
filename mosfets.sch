@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -384,9 +384,9 @@ Text HLabel 1450 5400 0    50   Input ~ 0
 FAN2_G
 Text HLabel 850  4700 0    50   Input ~ 0
 3V3_IN
-Text HLabel 1450 5500 0    50   Input ~ 0
+Text HLabel 1400 5500 0    50   Input ~ 0
 SSR1
-Text HLabel 1450 5600 0    50   Input ~ 0
+Text HLabel 1400 5600 0    50   Input ~ 0
 SSR2
 Text HLabel 2500 4050 0    50   Input ~ 0
 ExtraFET
@@ -480,27 +480,23 @@ FETSENSE
 Text HLabel 1250 6000 0    50   Input ~ 0
 OUTPUTENABLE
 Wire Wire Line
-	850  4700 850  5800
+	850  4700 850  5200
 $Comp
 L Device:R R80
 U 1 1 63B15BCF
-P 1000 5800
-F 0 "R80" V 793 5800 50  0000 C CNN
-F 1 "10k" V 884 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 930 5800 50  0001 C CNN
-F 3 "~" H 1000 5800 50  0001 C CNN
-	1    1000 5800
+P 1100 5900
+F 0 "R80" V 893 5900 50  0000 C CNN
+F 1 "10k" V 984 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 5900 50  0001 C CNN
+F 3 "~" H 1100 5900 50  0001 C CNN
+	1    1100 5900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1150 5800 1250 5800
 Wire Wire Line
 	3350 5100 3350 5000
 Connection ~ 3350 5100
 Wire Wire Line
 	2950 5000 2450 5000
-Wire Wire Line
-	1250 5800 1250 6000
 Wire Wire Line
 	1250 6000 1450 6000
 Wire Wire Line
@@ -965,7 +961,6 @@ Wire Wire Line
 Connection ~ 3000 2200
 Wire Wire Line
 	3000 2200 2900 2200
-NoConn ~ 1450 5700
 Wire Wire Line
 	4250 2100 4250 1200
 Wire Wire Line
@@ -1122,4 +1117,48 @@ Text HLabel 1200 4150 0    50   Input ~ 0
 HEB_G
 Text HLabel 1200 4250 0    50   Input ~ 0
 HEA_G
+$Comp
+L Device:R R102
+U 1 1 6264E949
+P 950 5350
+F 0 "R102" V 850 5350 50  0000 C CNN
+F 1 "10k" V 950 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 880 5350 50  0001 C CNN
+F 3 "~" H 950 5350 50  0001 C CNN
+	1    950  5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R101
+U 1 1 6265222C
+P 750 5450
+F 0 "R101" V 650 5450 50  0000 C CNN
+F 1 "10k" V 750 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 680 5450 50  0001 C CNN
+F 3 "~" H 750 5450 50  0001 C CNN
+	1    750  5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  5200 850  5200
+Connection ~ 850  5200
+Wire Wire Line
+	850  5200 850  5300
+Wire Wire Line
+	750  5300 850  5300
+Wire Wire Line
+	1450 5500 950  5500
+Wire Wire Line
+	1450 5600 750  5600
+Wire Wire Line
+	1450 5700 1450 5900
+Connection ~ 1450 5900
+Text Label 1000 5800 2    50   ~ 0
+5V_GATEDRIVE
+Wire Wire Line
+	1250 5900 1250 6000
+Wire Wire Line
+	1000 5800 950  5800
+Wire Wire Line
+	950  5800 950  5900
 $EndSCHEMATC
