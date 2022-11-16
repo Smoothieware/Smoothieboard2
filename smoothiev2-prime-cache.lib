@@ -732,6 +732,23 @@ X R1.2 8 -200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Thermistor
 #
 DEF Device_Thermistor TH 0 0 N Y 1 F N
@@ -894,6 +911,21 @@ P 2 0 1 0 100 0 80 0 N
 X A 1 -200 0 100 R 50 50 1 1 P
 X C 2 0 -150 100 U 50 50 1 1 I
 X B 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_Fiducial
+#
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
@@ -1128,6 +1160,24 @@ X GNDPAD 9 0 -400 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# SQ3493EV_SQ3493EV
+#
+DEF SQ3493EV_SQ3493EV Q 0 40 Y Y 1 F N
+F0 "Q" 100 -200 50 H V C CNN
+F1 "SQ3493EV_SQ3493EV" -25 475 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -175 350 200 -150 0 1 0 N
+X D 1 -275 275 100 R 50 50 1 1 B
+X D 2 -275 75 100 R 50 50 1 1 B
+X G 3 -275 -75 100 R 50 50 1 1 I
+X S 4 300 -75 100 L 50 50 1 1 B
+X D 5 300 75 100 L 50 50 1 1 B
+X D 6 300 275 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N
@@ -1142,6 +1192,33 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_BJT_MBT3906DW1
+#
+DEF Transistor_BJT_MBT3906DW1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Transistor_BJT_MBT3906DW1" 200 -50 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS BC856BDW1 BC857BS BC857BDW1 PMBT3906YS MMDT3906 MBT3906DW1 FFB3906 MMDT5401 PUMT1
+$FPLIST
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1342,11 +1419,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# smoothieparts_BD47XXG
+# smoothiev2-prime-rescue_BD47XXG-smoothieparts
 #
-DEF smoothieparts_BD47XXG U 0 40 Y Y 1 F N
+DEF smoothiev2-prime-rescue_BD47XXG-smoothieparts U 0 40 Y Y 1 F N
 F0 "U" 350 -200 50 H V C CNN
-F1 "smoothieparts_BD47XXG" 250 400 50 H V C CNN
+F1 "smoothiev2-prime-rescue_BD47XXG-smoothieparts" 250 400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1358,11 +1435,11 @@ X VDD 5 -100 350 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# smoothieparts_RJ45_Hanrun_HR911105A
+# smoothiev2-prime-rescue_RJ45_Hanrun_HR911105A-smoothieparts
 #
-DEF smoothieparts_RJ45_Hanrun_HR911105A J 0 20 Y Y 1 F N
+DEF smoothiev2-prime-rescue_RJ45_Hanrun_HR911105A-smoothieparts J 0 20 Y Y 1 F N
 F0 "J" 500 550 50 H V R CNN
-F1 "smoothieparts_RJ45_Hanrun_HR911105A" 0 -650 50 H V C CNN
+F1 "smoothiev2-prime-rescue_RJ45_Hanrun_HR911105A-smoothieparts" 0 -650 50 H V C CNN
 F2 "Connector_RJ:RJ45_Hanrun_HR911105A" 0 -750 50 H I C CNN
 F3 "" -415 -235 50 H I L TNN
 $FPLIST
@@ -1521,11 +1598,11 @@ X ~ SH 0 -600 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smoothieparts_STM32H745XIHx
+# smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts
 #
-DEF smoothieparts_STM32H745XIHx U 0 20 Y Y 1 F N
+DEF smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts U 0 20 Y Y 1 F N
 F0 "U" -200 1850 200 H V L CNN
-F1 "smoothieparts_STM32H745XIHx" -1250 500 200 H V L CNN
+F1 "smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts" -1250 500 200 H V L CNN
 F2 "Package_BGA:TFBGA-265_14x14mm_Layout17x17_P0.8mm" -2700 -5100 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1805,11 +1882,11 @@ X PE7 U9 2900 -2500 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# smoothieparts_TMC2590
+# smoothiev2-prime-rescue_TMC2590-smoothieparts
 #
-DEF smoothieparts_TMC2590 U 0 40 Y Y 1 F N
+DEF smoothiev2-prime-rescue_TMC2590-smoothieparts U 0 40 Y Y 1 F N
 F0 "U" 400 -1650 50 H V C CNN
-F1 "smoothieparts_TMC2590" -350 800 50 H V C CNN
+F1 "smoothiev2-prime-rescue_TMC2590-smoothieparts" -350 800 50 H V C CNN
 F2 "smoothieparts:TMC2590-TA-T" -300 -550 50 H I C CNN
 F3 "" -300 -550 50 H I C CNN
 DRAW

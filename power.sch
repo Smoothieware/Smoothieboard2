@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 13
 Title ""
 Date ""
 Rev ""
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3150 2700 0    50   Input ~ 0
+Text HLabel 3825 1675 0    50   Input ~ 0
 5VIN
 Text HLabel 1750 3950 0    50   Input ~ 0
 VMOT
@@ -756,10 +756,7 @@ Wire Wire Line
 Connection ~ 8000 2700
 Connection ~ 7600 2700
 Connection ~ 7900 3950
-Wire Wire Line
-	5450 2700 5450 3350
 Connection ~ 5750 2700
-Connection ~ 4750 2700
 Wire Notes Line
 	6450 3600 6450 5100
 Wire Notes Line
@@ -784,8 +781,6 @@ Wire Notes Line
 	9800 5100 9800 2150
 Wire Notes Line
 	750  5100 9800 5100
-Wire Notes Line
-	750  2150 9800 2150
 Text Notes 2650 3500 0    50   ~ 10
 Current limit in A = 6.8k/R. Set to 1.44A with R63=4.7k
 Text Notes 8550 3400 0    50   ~ 10
@@ -846,9 +841,6 @@ F 3 "" H 5550 3000 50  0001 C CNN
 	1    5550 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 2700
-Wire Wire Line
-	5150 2700 4750 2700
 $Comp
 L power:GND #PWR?
 U 1 1 61896B7B
@@ -865,18 +857,7 @@ $EndComp
 Wire Wire Line
 	5550 2700 5750 2700
 Wire Wire Line
-	5450 3350 6550 3350
-Wire Wire Line
-	6550 3950 7350 3950
-Wire Wire Line
 	5050 3950 5350 3950
-Wire Wire Line
-	7350 4250 7350 3950
-Connection ~ 7350 3950
-Wire Wire Line
-	7350 3950 7900 3950
-Wire Wire Line
-	6550 3350 6550 3950
 Wire Wire Line
 	6050 4250 6050 3950
 Wire Wire Line
@@ -1000,9 +981,11 @@ UVLO
 Text Label 3250 4350 2    50   ~ 0
 UVLO
 $Comp
-L smoothieparts:BD47XXG U25
+L smoothiev2-prime-rescue:BD47XXG-smoothieparts U25
 U 1 1 627CE557
 P 2550 5800
+AR Path="/627CE557" Ref="U25"  Part="1" 
+AR Path="/631D7D17/627CE557" Ref="U25"  Part="1" 
 F 0 "U25" H 2362 5871 50  0000 R CNN
 F 1 "BD4722G" H 2850 6150 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2550 5800 50  0001 C CNN
@@ -1010,7 +993,7 @@ F 3 "" H 2550 5800 50  0001 C CNN
 	1    2550 5800
 	1    0    0    -1  
 $EndComp
-Text Label 2850 5650 0    50   ~ 0
+Text Label 3125 5650 0    50   ~ 0
 UVLO
 $Comp
 L power:GND #PWR?
@@ -1062,7 +1045,7 @@ Connection ~ 2200 5450
 Wire Wire Line
 	2450 6100 2200 6100
 Wire Wire Line
-	1900 5450 1900 4600
+	1900 5450 1900 5350
 Wire Wire Line
 	1900 4600 2150 4600
 Wire Wire Line
@@ -1078,4 +1061,93 @@ Wire Notes Line
 	750  2150 750  6700
 Text Notes 850  6550 0    100  ~ 0
 VMOT UNDERVOLTAGE DETECT
+$Comp
+L Device:R R?
+U 1 1 63875BD8
+P 2975 5800
+AR Path="/63875BD8" Ref="R?"  Part="1" 
+AR Path="/631D7D17/63875BD8" Ref="R104"  Part="1" 
+F 0 "R104" H 3045 5846 50  0000 L CNN
+F 1 "7.1k" H 3045 5755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2905 5800 50  0001 C CNN
+F 3 "~" H 2975 5800 50  0001 C CNN
+	1    2975 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63876832
+P 2975 5500
+AR Path="/63876832" Ref="R?"  Part="1" 
+AR Path="/631D7D17/63876832" Ref="R103"  Part="1" 
+F 0 "R103" H 3045 5546 50  0000 L CNN
+F 1 "33k" H 3045 5455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2905 5500 50  0001 C CNN
+F 3 "~" H 2975 5500 50  0001 C CNN
+	1    2975 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 5350 1900 5350
+Connection ~ 1900 5350
+Wire Wire Line
+	1900 5350 1900 4600
+Wire Wire Line
+	2975 5950 2975 6100
+Wire Wire Line
+	2975 6100 2550 6100
+Connection ~ 2550 6100
+Wire Wire Line
+	2850 5650 2975 5650
+Connection ~ 2975 5650
+Wire Wire Line
+	2975 5650 3125 5650
+Wire Notes Line
+	750  2150 9800 2150
+$Sheet
+S 3825 1625 525  200 
+U 63881870
+F0 "IdealDiode" 50
+F1 "IdealDiode.sch" 50
+F2 "ID_in" B L 3825 1675 50 
+F3 "ID_out" B R 4350 1775 50 
+$EndSheet
+$Sheet
+S 4750 1625 525  200 
+U 638DB850
+F0 "IdealDiode_USB" 50
+F1 "IdealDiode.sch" 50
+F2 "ID_in" B L 4750 1675 50 
+F3 "ID_out" B R 5275 1775 50 
+$EndSheet
+$Sheet
+S 5675 1625 525  200 
+U 638DE946
+F0 "IdealDiode_5vreg" 50
+F1 "IdealDiode.sch" 50
+F2 "ID_in" B L 5675 1675 50 
+F3 "ID_out" B R 6200 1775 50 
+$EndSheet
+Text Label 4750 2700 0    50   ~ 0
+5v_USB
+Text Label 4750 1675 2    50   ~ 0
+5v_USB
+Text HLabel 5275 1775 2    50   Input ~ 0
+5VOUT
+Text HLabel 4350 1775 2    50   Input ~ 0
+5VOUT
+Text HLabel 6200 1775 2    50   Input ~ 0
+5VOUT
+Wire Wire Line
+	7900 3550 7900 3950
+Wire Wire Line
+	5450 2700 5450 3550
+Wire Wire Line
+	5450 3550 7900 3550
+Text Label 7350 4250 0    50   ~ 0
+5v_REG
+Text Label 5675 1675 2    50   ~ 0
+5v_REG
+Text HLabel 3150 2700 0    50   Input ~ 0
+USB_PWR
 $EndSCHEMATC

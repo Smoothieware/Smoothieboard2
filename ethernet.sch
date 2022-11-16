@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
@@ -339,7 +339,7 @@ Connection ~ 6950 5350
 Wire Wire Line
 	6950 5350 7050 5350
 $Comp
-L smoothieparts:RJ45_Hanrun_HR911105A J4
+L smoothiev2-prime-rescue:RJ45_Hanrun_HR911105A-smoothieparts J4
 U 1 1 60DC8A27
 P 7450 4150
 F 0 "J4" H 6920 4196 50  0000 R CNN

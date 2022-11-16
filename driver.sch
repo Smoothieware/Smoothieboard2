@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 13
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smoothieparts:TMC2590 U1
+L smoothiev2-prime-rescue:TMC2590-smoothieparts U1
 U 1 1 60B43DE0
 P 3400 3450
 AR Path="/60B406B9/60B43DE0" Ref="U1"  Part="1" 

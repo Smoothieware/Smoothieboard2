@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 10
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -733,7 +733,7 @@ Wire Wire Line
 Connection ~ 5350 12750
 Connection ~ 5250 12750
 $Comp
-L smoothieparts:STM32H745XIHx U2
+L smoothiev2-prime-rescue:STM32H745XIHx-smoothieparts U2
 U 1 1 607B3889
 P 7550 7450
 F 0 "U2" H 7500 10050 50  0000 C CNN
@@ -2697,7 +2697,7 @@ PROBE
 Text Label 10450 5150 0    50   ~ 0
 PROBE
 $Sheet
-S 5250 650  650  900 
+S 5250 650  625  975 
 U 631D7D17
 F0 "power" 50
 F1 "power.sch" 50
@@ -2709,6 +2709,7 @@ F6 "3V3_DCDC" I L 5250 1150 50
 F7 "5V_LIM" I L 5250 1250 50 
 F8 "3V3_LIM" I L 5250 1350 50 
 F9 "VBAT" I L 5250 1450 50 
+F10 "USB_PWR" I L 5250 1550 50 
 $EndSheet
 $Comp
 L Connector_Generic:Conn_01x02 J43
@@ -4338,6 +4339,52 @@ F 1 "GND" H 655 2427 50  0000 C CNN
 F 2 "" H 650 2600 50  0001 C CNN
 F 3 "" H 650 2600 50  0001 C CNN
 	1    650  2600
+	1    0    0    -1  
+$EndComp
+Text Label 5250 1550 2    50   ~ 0
+USB_PWR
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 63978589
+P 9150 14925
+F 0 "FID1" H 9235 14971 50  0000 L CNN
+F 1 "Fiducial" H 9235 14880 50  0000 L CNN
+F 2 "Fiducials:Fiducial_0.75mm_Dia_1.5mm_Outer" H 9150 14925 50  0001 C CNN
+F 3 "~" H 9150 14925 50  0001 C CNN
+	1    9150 14925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 63978B07
+P 9150 15100
+F 0 "FID2" H 9235 15146 50  0000 L CNN
+F 1 "Fiducial" H 9235 15055 50  0000 L CNN
+F 2 "Fiducials:Fiducial_0.75mm_Dia_1.5mm_Outer" H 9150 15100 50  0001 C CNN
+F 3 "~" H 9150 15100 50  0001 C CNN
+	1    9150 15100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 63978E0C
+P 9650 14925
+F 0 "FID3" H 9735 14971 50  0000 L CNN
+F 1 "Fiducial" H 9735 14880 50  0000 L CNN
+F 2 "Fiducials:Fiducial_0.75mm_Dia_1.5mm_Outer" H 9650 14925 50  0001 C CNN
+F 3 "~" H 9650 14925 50  0001 C CNN
+	1    9650 14925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 63979453
+P 9650 15100
+F 0 "FID4" H 9735 15146 50  0000 L CNN
+F 1 "Fiducial" H 9735 15055 50  0000 L CNN
+F 2 "Fiducials:Fiducial_0.75mm_Dia_1.5mm_Outer" H 9650 15100 50  0001 C CNN
+F 3 "~" H 9650 15100 50  0001 C CNN
+	1    9650 15100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
