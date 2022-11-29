@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 10
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -2620,6 +2620,7 @@ F6 "3V3_DCDC" I L 5250 1150 50
 F7 "5V_LIM" I L 5250 1250 50 
 F8 "3V3_LIM" I L 5250 1350 50 
 F9 "VBAT" I L 5250 1450 50 
+F10 "5V_PORTIN" I R 5900 700 50 
 $EndSheet
 $Comp
 L Connector_Generic:Conn_01x02 J43
@@ -2645,8 +2646,6 @@ F 3 "" H 8050 1350 50  0001 C CNN
 	1    8050 1350
 	1    0    0    -1  
 $EndComp
-Text Label 7400 1250 0    50   ~ 0
-5V_IN
 $Comp
 L power:GND #PWR034
 U 1 1 62A4A435
@@ -4456,4 +4455,8 @@ F 3 "" H 650 2550 50  0001 C CNN
 	1    650  2550
 	1    0    0    -1  
 $EndComp
+Text Label 7400 1250 0    50   ~ 0
+5VPORTIN
+Text Label 5900 700  0    50   ~ 0
+5VPORTIN
 $EndSCHEMATC

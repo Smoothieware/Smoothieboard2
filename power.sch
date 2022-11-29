@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -981,7 +981,7 @@ UVLO
 Text Label 3250 4350 2    50   ~ 0
 UVLO
 $Comp
-L smoothiev2-prime-rescue:BD47XXG-smoothieparts U25
+L smoothiev2-prime-rescue:BD47XXG-smoothieparts-smoothiev2-prime-rescue U25
 U 1 1 627CE557
 P 2550 5800
 AR Path="/627CE557" Ref="U25"  Part="1" 
@@ -1069,7 +1069,7 @@ AR Path="/63875BD8" Ref="R?"  Part="1"
 AR Path="/631D7D17/63875BD8" Ref="R104"  Part="1" 
 F 0 "R104" H 3045 5846 50  0000 L CNN
 F 1 "7.1k" H 3045 5755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 2905 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2905 5800 50  0001 C CNN
 F 3 "~" H 2975 5800 50  0001 C CNN
 	1    2975 5800
 	1    0    0    -1  
@@ -1082,7 +1082,7 @@ AR Path="/63876832" Ref="R?"  Part="1"
 AR Path="/631D7D17/63876832" Ref="R103"  Part="1" 
 F 0 "R103" H 3045 5546 50  0000 L CNN
 F 1 "33k" H 3045 5455 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 2905 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2905 5500 50  0001 C CNN
 F 3 "~" H 2975 5500 50  0001 C CNN
 	1    2975 5500
 	1    0    0    -1  
@@ -1105,22 +1105,6 @@ Wire Wire Line
 Wire Notes Line
 	750  2150 9800 2150
 $Sheet
-S 3825 1625 525  200 
-U 63881870
-F0 "IdealDiode" 50
-F1 "IdealDiode.sch" 50
-F2 "ID_in" B L 3825 1675 50 
-F3 "ID_out" B R 4350 1775 50 
-$EndSheet
-$Sheet
-S 4750 1625 525  200 
-U 638DB850
-F0 "IdealDiode_USB" 50
-F1 "IdealDiode.sch" 50
-F2 "ID_in" B L 4750 1675 50 
-F3 "ID_out" B R 5275 1775 50 
-$EndSheet
-$Sheet
 S 5675 1625 525  200 
 U 638DE946
 F0 "IdealDiode_5vreg" 50
@@ -1128,13 +1112,7 @@ F1 "IdealDiode.sch" 50
 F2 "ID_in" B L 5675 1675 50 
 F3 "ID_out" B R 6200 1775 50 
 $EndSheet
-Text Label 4750 2700 0    50   ~ 0
-5v_USB
-Text Label 4750 1675 2    50   ~ 0
-5v_USB
 Text HLabel 5275 1775 2    50   Input ~ 0
-5VOUT
-Text HLabel 4350 1775 2    50   Input ~ 0
 5VOUT
 Text HLabel 6200 1775 2    50   Input ~ 0
 5VOUT
@@ -1148,6 +1126,34 @@ Text Label 7350 4250 0    50   ~ 0
 5v_REG
 Text Label 5675 1675 2    50   ~ 0
 5v_REG
-Text HLabel 3150 2700 0    50   Input ~ 0
-USB_PWR
+Text HLabel 4700 1450 0    50   Input ~ 0
+5V_PORTIN
+$Sheet
+S 4750 1625 525  200 
+U 638DB850
+F0 "IdealDiode_USB" 50
+F1 "IdealDiode.sch" 50
+F2 "ID_in" B L 4750 1700 50 
+F3 "ID_out" B R 5275 1775 50 
+$EndSheet
+Wire Wire Line
+	4750 1700 4700 1700
+Wire Wire Line
+	4700 1700 4700 1450
+$Sheet
+S 3825 1625 525  200 
+U 63881870
+F0 "IdealDiode" 50
+F1 "IdealDiode.sch" 50
+F2 "ID_in" B L 3825 1675 50 
+F3 "ID_out" B R 4350 1750 50 
+$EndSheet
+Text Label 4350 1750 0    50   ~ 0
+USB_IN
+Text Label 3150 2700 2    50   ~ 0
+USB_IN
+Wire Wire Line
+	4750 2700 5150 2700
+Connection ~ 4750 2700
+Connection ~ 5150 2700
 $EndSCHEMATC

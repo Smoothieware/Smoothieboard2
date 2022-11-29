@@ -733,7 +733,7 @@ Wire Wire Line
 Connection ~ 5350 12750
 Connection ~ 5250 12750
 $Comp
-L smoothiev2-prime-rescue:STM32H745XIHx-smoothieparts U2
+L smoothiev2-prime-rescue:STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue U2
 U 1 1 607B3889
 P 7550 7450
 F 0 "U2" H 7500 10050 50  0000 C CNN
@@ -2696,21 +2696,6 @@ Text Label 1800 13950 0    50   ~ 0
 PROBE
 Text Label 10450 5150 0    50   ~ 0
 PROBE
-$Sheet
-S 5250 650  625  975 
-U 631D7D17
-F0 "power" 50
-F1 "power.sch" 50
-F2 "5VIN" I L 5250 750 50 
-F3 "5VOUT" I L 5250 850 50 
-F4 "VMOT" I L 5250 950 50 
-F5 "VMOTSENSE" I L 5250 1050 50 
-F6 "3V3_DCDC" I L 5250 1150 50 
-F7 "5V_LIM" I L 5250 1250 50 
-F8 "3V3_LIM" I L 5250 1350 50 
-F9 "VBAT" I L 5250 1450 50 
-F10 "USB_PWR" I L 5250 1550 50 
-$EndSheet
 $Comp
 L Connector_Generic:Conn_01x02 J43
 U 1 1 62A55876
@@ -2735,8 +2720,8 @@ F 3 "" H 8050 1350 50  0001 C CNN
 	1    8050 1350
 	1    0    0    -1  
 $EndComp
-Text Label 7400 1250 0    50   ~ 0
-5V_IN
+Text Label 5250 850  2    50   ~ 0
+5V_PORTIN
 $Comp
 L power:GND #PWR034
 U 1 1 62A4A435
@@ -2811,7 +2796,7 @@ Text Label 5250 1150 2    50   ~ 0
 3V3
 Text Label 5250 950  2    50   ~ 0
 VMOT
-Text Label 5250 850  2    50   ~ 0
+Text Label 5850 750  0    50   ~ 0
 5V
 Text Label 5250 750  2    50   ~ 0
 5V_IN
@@ -4341,8 +4326,6 @@ F 3 "" H 650 2600 50  0001 C CNN
 	1    650  2600
 	1    0    0    -1  
 $EndComp
-Text Label 5250 1550 2    50   ~ 0
-USB_PWR
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 63978589
@@ -4387,4 +4370,21 @@ F 3 "~" H 9650 15100 50  0001 C CNN
 	1    9650 15100
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5250 650  600  1000
+U 631D7D17
+F0 "power" 50
+F1 "power.sch" 50
+F2 "5VIN" I L 5250 750 50 
+F3 "5VOUT" I R 5850 750 50 
+F4 "VMOT" I L 5250 950 50 
+F5 "VMOTSENSE" I L 5250 1050 50 
+F6 "3V3_DCDC" I L 5250 1150 50 
+F7 "5V_LIM" I L 5250 1250 50 
+F8 "3V3_LIM" I L 5250 1350 50 
+F9 "VBAT" I L 5250 1450 50 
+F10 "5V_PORTIN" I L 5250 850 50 
+$EndSheet
+Text Label 7400 1250 0    50   ~ 0
+5V_PORTIN
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 13
+Sheet 3 13
 Title ""
 Date ""
 Rev ""
@@ -1161,4 +1161,22 @@ Wire Wire Line
 	1000 5800 950  5800
 Wire Wire Line
 	950  5800 950  5900
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 63AE783B
+P 1200 1700
+AR Path="/63AE783B" Ref="J?"  Part="1" 
+AR Path="/612538A5/63AE783B" Ref="J16"  Part="1" 
+F 0 "J16" H 1280 1692 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 1601 50  0000 L CNN
+F 2 "smoothieparts:XT30" H 1200 1700 50  0001 C CNN
+F 3 "~" H 1200 1700 50  0001 C CNN
+	1    1200 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1700 1850 1700
+Connection ~ 1850 1700
+Wire Wire Line
+	1400 1800 1850 1800
 $EndSCHEMATC
