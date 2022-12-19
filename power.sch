@@ -981,7 +981,7 @@ UVLO
 Text Label 3250 4350 2    50   ~ 0
 UVLO
 $Comp
-L smoothiev2-prime-rescue:BD47XXG-smoothieparts-smoothiev2-prime-rescue U25
+L smoothiev2-prime-2660-rescue:BD47XXG-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue U25
 U 1 1 627CE557
 P 2550 5800
 AR Path="/627CE557" Ref="U25"  Part="1" 

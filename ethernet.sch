@@ -339,7 +339,7 @@ Connection ~ 6950 5350
 Wire Wire Line
 	6950 5350 7050 5350
 $Comp
-L smoothiev2-prime-rescue:RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue J4
+L smoothiev2-prime-2660-rescue:RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue J4
 U 1 1 60DC8A27
 P 7450 4150
 AR Path="/60DC8A27" Ref="J4"  Part="1" 

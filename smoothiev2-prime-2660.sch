@@ -645,7 +645,7 @@ Wire Wire Line
 Connection ~ 5350 12750
 Connection ~ 5250 12750
 $Comp
-L smoothieparts:STM32H745XIHx U2
+L smoothiev2-prime-2660-rescue:STM32H745XIHx-smoothieparts U2
 U 1 1 607B3889
 P 7550 7450
 F 0 "U2" H 7500 10050 50  0000 C CNN

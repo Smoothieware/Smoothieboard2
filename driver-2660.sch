@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smoothieparts:TMC2660 U3
+L smoothiev2-prime-2660-rescue:TMC2660-smoothieparts U3
 U 1 1 6201210C
 P 4100 3750
 AR Path="/62010486/6201210C" Ref="U3"  Part="1" 

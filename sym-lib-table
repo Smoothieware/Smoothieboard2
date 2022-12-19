@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name smoothiev2-prime-rescue)(type Legacy)(uri ${KIPRJMOD}/smoothiev2-prime-rescue.lib)(options "")(descr ""))
+  (lib (name smoothiev2-prime-2660-rescue)(type Legacy)(uri ${KIPRJMOD}/smoothiev2-prime-2660-rescue.lib)(options "")(descr ""))
+)
