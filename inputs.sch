@@ -309,18 +309,6 @@ Text Label 1750 6850 0    50   ~ 0
 E3V3
 Wire Wire Line
 	1900 7050 2350 7050
-Text Label 2450 3300 2    50   ~ 0
-E3V3
-Text Label 2450 3850 2    50   ~ 0
-E3V3
-Text Label 2450 4350 2    50   ~ 0
-E3V3
-Text Label 2450 4850 2    50   ~ 0
-E3V3
-Text Label 2450 5350 2    50   ~ 0
-E3V3
-Text Label 2450 5850 2    50   ~ 0
-E3V3
 Wire Wire Line
 	2350 7250 2550 7250
 Connection ~ 2550 7250
@@ -1580,7 +1568,7 @@ U 1 1 6154AF0A
 P 1825 7550
 F 0 "JP7" H 1825 7755 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 1825 7664 50  0000 C CNN
-F 2 "kicad-footprints-master:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1825 7550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1825 7550 50  0001 C CNN
 F 3 "~" H 1825 7550 50  0001 C CNN
 	1    1825 7550
 	1    0    0    1   
@@ -1598,4 +1586,34 @@ F 3 "~" H 2125 7550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2275 7550 2550 7550
+Wire Wire Line
+	2350 3950 2450 3950
+Wire Wire Line
+	2450 3950 2450 3850
+Connection ~ 2350 3950
+Wire Wire Line
+	2450 3300 2450 3400
+Wire Wire Line
+	2450 3400 2350 3400
+Connection ~ 2350 3400
+Wire Wire Line
+	2350 4450 2450 4450
+Wire Wire Line
+	2450 4450 2450 4350
+Connection ~ 2350 4450
+Wire Wire Line
+	2350 4950 2450 4950
+Wire Wire Line
+	2450 4950 2450 4850
+Connection ~ 2350 4950
+Wire Wire Line
+	2350 5450 2450 5450
+Wire Wire Line
+	2450 5450 2450 5350
+Connection ~ 2350 5450
+Wire Wire Line
+	2350 5950 2450 5950
+Wire Wire Line
+	2450 5950 2450 5850
+Connection ~ 2350 5950
 $EndSCHEMATC

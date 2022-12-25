@@ -1401,11 +1401,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# smoothiev2-prime-rescue_BD47XXG-smoothieparts-smoothiev2-prime-rescue
+# smoothiev2-prime-2660-rescue_BD47XXG-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue
 #
-DEF smoothiev2-prime-rescue_BD47XXG-smoothieparts-smoothiev2-prime-rescue U 0 40 Y Y 1 F N
+DEF smoothiev2-prime-2660-rescue_BD47XXG-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue U 0 40 Y Y 1 F N
 F0 "U" 350 -200 50 H V C CNN
-F1 "smoothiev2-prime-rescue_BD47XXG-smoothieparts-smoothiev2-prime-rescue" 250 400 50 H V C CNN
+F1 "smoothiev2-prime-2660-rescue_BD47XXG-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue" 250 400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1417,11 +1417,11 @@ X VDD 5 -100 350 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# smoothiev2-prime-rescue_RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue
+# smoothiev2-prime-2660-rescue_RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue
 #
-DEF smoothiev2-prime-rescue_RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue J 0 20 Y Y 1 F N
+DEF smoothiev2-prime-2660-rescue_RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue J 0 20 Y Y 1 F N
 F0 "J" 500 550 50 H V R CNN
-F1 "smoothiev2-prime-rescue_RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue" 0 -650 50 H V C CNN
+F1 "smoothiev2-prime-2660-rescue_RJ45_Hanrun_HR911105A-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue" 0 -650 50 H V C CNN
 F2 "Connector_RJ:RJ45_Hanrun_HR911105A" 0 -750 50 H I C CNN
 F3 "" -415 -235 50 H I L TNN
 $FPLIST
@@ -1580,11 +1580,11 @@ X ~ SH 0 -600 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smoothiev2-prime-rescue_SQ3493EV-SQ3493EV
+# smoothiev2-prime-2660-rescue_SQ3493EV-SQ3493EV-smoothiev2-prime-rescue
 #
-DEF smoothiev2-prime-rescue_SQ3493EV-SQ3493EV Q 0 40 Y Y 1 F N
+DEF smoothiev2-prime-2660-rescue_SQ3493EV-SQ3493EV-smoothiev2-prime-rescue Q 0 40 Y Y 1 F N
 F0 "Q" 100 -200 50 H V C CNN
-F1 "smoothiev2-prime-rescue_SQ3493EV-SQ3493EV" -25 475 50 H V C CNN
+F1 "smoothiev2-prime-2660-rescue_SQ3493EV-SQ3493EV-smoothiev2-prime-rescue" -25 475 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1598,11 +1598,11 @@ X D 6 300 275 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue
+# smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue
 #
-DEF smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue U 0 20 Y Y 1 F N
+DEF smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue U 0 20 Y Y 1 F N
 F0 "U" -200 1850 200 H V L CNN
-F1 "smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue" -1250 500 200 H V L CNN
+F1 "smoothiev2-prime-rescue_STM32H745XIHx-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue" -1250 500 200 H V L CNN
 F2 "Package_BGA:TFBGA-265_14x14mm_Layout17x17_P0.8mm" -2700 -5100 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1882,11 +1882,11 @@ X PE7 U9 2900 -2500 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# smoothiev2-prime-rescue_TMC2590-smoothieparts-smoothiev2-prime-rescue
+# smoothiev2-prime-rescue_TMC2590-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue
 #
-DEF smoothiev2-prime-rescue_TMC2590-smoothieparts-smoothiev2-prime-rescue U 0 40 Y Y 1 F N
+DEF smoothiev2-prime-rescue_TMC2590-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue U 0 40 Y Y 1 F N
 F0 "U" 400 -1650 50 H V C CNN
-F1 "smoothiev2-prime-rescue_TMC2590-smoothieparts-smoothiev2-prime-rescue" -350 800 50 H V C CNN
+F1 "smoothiev2-prime-rescue_TMC2590-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue" -350 800 50 H V C CNN
 F2 "smoothieparts:TMC2590-TA-T" -300 -550 50 H I C CNN
 F3 "" -300 -550 50 H I C CNN
 DRAW

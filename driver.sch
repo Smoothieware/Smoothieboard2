@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smoothiev2-prime-rescue:TMC2590-smoothieparts-smoothiev2-prime-rescue U1
+L smoothiev2-prime-rescue:TMC2590-smoothieparts-smoothiev2-prime-rescue-smoothiev2-prime-rescue U1
 U 1 1 60B43DE0
 P 3400 3450
 AR Path="/60B406B9/60B43DE0" Ref="U1"  Part="1" 
