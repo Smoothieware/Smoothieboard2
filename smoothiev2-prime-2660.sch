@@ -645,7 +645,7 @@ Wire Wire Line
 Connection ~ 5350 12750
 Connection ~ 5250 12750
 $Comp
-L smoothiev2-prime-2660-rescue:STM32H745XIHx-smoothieparts U2
+L smoothieparts:STM32H745XIHx U2
 U 1 1 607B3889
 P 7550 7450
 F 0 "U2" H 7500 10050 50  0000 C CNN
@@ -3397,8 +3397,6 @@ NoConn ~ 4650 8850
 NoConn ~ 4650 8950
 NoConn ~ 4650 9050
 NoConn ~ 4650 9850
-NoConn ~ 4650 12350
-NoConn ~ 4650 12450
 NoConn ~ 10450 3450
 NoConn ~ 10450 4550
 NoConn ~ 10450 6550
@@ -4405,10 +4403,8 @@ Wire Notes Line
 	4750 1200 3200 1200
 Text Notes 4100 900  0    50   ~ 0
 Board type 1 - \n2660
-Text Label 9400 2000 1    50   ~ 0
+Text Label 9400 2150 1    50   ~ 0
 VLX
-Wire Wire Line
-	9400 2150 9400 2000
 Text Label 9400 1400 0    50   ~ 0
 VLX
 $Comp
@@ -4459,4 +4455,50 @@ Text Label 7400 1250 0    50   ~ 0
 5VPORTIN
 Text Label 5900 700  0    50   ~ 0
 5VPORTIN
+NoConn ~ 4650 12350
+NoConn ~ 4650 12450
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 63DA9C6F
+P 9250 14950
+F 0 "FID1" H 9335 14996 50  0000 L CNN
+F 1 "Fiducial" H 9335 14905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 9250 14950 50  0001 C CNN
+F 3 "~" H 9250 14950 50  0001 C CNN
+	1    9250 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 63DAABF5
+P 9250 15150
+F 0 "FID2" H 9335 15196 50  0000 L CNN
+F 1 "Fiducial" H 9335 15105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 9250 15150 50  0001 C CNN
+F 3 "~" H 9250 15150 50  0001 C CNN
+	1    9250 15150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 63DAB223
+P 9850 14950
+F 0 "FID3" H 9935 14996 50  0000 L CNN
+F 1 "Fiducial" H 9935 14905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 9850 14950 50  0001 C CNN
+F 3 "~" H 9850 14950 50  0001 C CNN
+	1    9850 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 63DAB7DB
+P 9850 15150
+F 0 "FID4" H 9935 15196 50  0000 L CNN
+F 1 "Fiducial" H 9935 15105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 9850 15150 50  0001 C CNN
+F 3 "~" H 9850 15150 50  0001 C CNN
+	1    9850 15150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
