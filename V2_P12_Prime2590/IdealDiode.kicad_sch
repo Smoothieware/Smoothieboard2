@@ -1,0 +1,1539 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "14a1d101-1929-443d-850b-da437192e1a9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MBT3906DW1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MBT3906DW1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3906DW1T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PNP/PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBT3906DW1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBT3906DW1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MBT3906DW1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "smoothiev2-prime-2660-rescue:SQ3493EV-SQ3493EV-smoothiev2-prime-rescue"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SQ3493EV-SQ3493EV-smoothiev2-prime-rescue"
+				(at -0.635 12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SQ3493EV-SQ3493EV-smoothiev2-prime-rescue_0_1"
+				(rectangle
+					(start -4.445 8.89)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SQ3493EV-SQ3493EV-smoothiev2-prime-rescue_1_1"
+				(pin bidirectional line
+					(at -6.985 6.985 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.985 1.905 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.985 -1.905 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -1.905 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 1.905 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 6.985 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "smoothiev2-prime-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 114.3 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a964744-7c8a-4cb7-8d83-ccd96d844951")
+	)
+	(junction
+		(at 102.87 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36678d95-d3ca-4682-9196-2982d0239e63")
+	)
+	(junction
+		(at 111.76 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395986c5-6a35-4001-baae-c9a8f9b4a1a2")
+	)
+	(junction
+		(at 102.87 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "409bd3e9-7867-4bc2-b578-97a010748243")
+	)
+	(junction
+		(at 92.71 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e297ad8-b32c-411a-a8c3-642d46d8caf8")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a5a3be3-5643-4ba5-aad5-c2ec6275f0be")
+	)
+	(junction
+		(at 92.71 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e7b4ffc-f987-4eef-9f83-073fa2384faf")
+	)
+	(junction
+		(at 110.49 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f191a1dd-950c-43df-a292-c7672477bac0")
+	)
+	(wire
+		(pts
+			(xy 102.87 62.23) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02724a87-44d1-4dcc-82b2-6552023f19d9")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e937b5-11aa-4b9f-80f6-bd8a59863cbf")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3912ff-ed77-4200-a6a2-969de66e2640")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb73a72-18bc-48d8-ac36-6fc3f71e8f06")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be66e57-0188-4eb1-b0a9-27bb7bb39541")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa483db-61ee-4b30-842d-b9203ceae3e0")
+	)
+	(wire
+		(pts
+			(xy 111.125 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eba98ee-aff8-4b9c-8983-1594ded2d419")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 111.125 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fba3c3a-219e-4c65-87e7-7f5a8a56f41e")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71686cef-e9ba-4706-97d5-d1aeb044f06a")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 96.52 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847a386b-42b4-42a2-a395-d2190a20b0a3")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d424aa7-2790-4074-b005-6af9325478c9")
+	)
+	(wire
+		(pts
+			(xy 105.41 55.88) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d254a-671f-4286-949e-828a629c8b43")
+	)
+	(wire
+		(pts
+			(xy 102.87 72.39) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905a2441-4ec6-4ce0-b1ef-5d2a8d09fa73")
+	)
+	(wire
+		(pts
+			(xy 113.03 52.07) (xy 111.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925840e5-5d9b-46e9-93e1-ac394d3e2703")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946512bf-afc3-4a3b-a95f-79703a522e6e")
+	)
+	(wire
+		(pts
+			(xy 111.76 57.15) (xy 111.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95425366-be50-4330-b4cd-c81b88db351a")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 111.125 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3386a2-f1a5-45f2-8cd7-a7b3c56b4808")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac596f9d-653d-46a4-a803-7b3d6a54ed81")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b741dd42-7582-4cf4-878d-aa6281e63b20")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaf7c85-fd3f-4ca7-be14-3616395194c4")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbe1c16-1058-4faf-b6e0-954b4cbd1172")
+	)
+	(wire
+		(pts
+			(xy 91.44 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4014ac-d315-4c8b-80ec-4f944a84d4b4")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d499f634-b60a-4d67-8cf4-6cc8a9eb04ee")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee417747-13c0-4958-8654-fae256bbb590")
+	)
+	(hierarchical_label "ID_in"
+		(shape bidirectional)
+		(at 91.44 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42d6b763-24a6-4f28-a91f-59dd72bbdd98")
+	)
+	(hierarchical_label "ID_out"
+		(shape bidirectional)
+		(at 113.03 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6e44ace-bfbe-42e0-880d-cf545a30de59")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT3906DW1")
+		(at 97.79 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063884ae6")
+		(property "Reference" "Q29"
+			(at 92.9386 61.0616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MBT3906DW1"
+			(at 92.9386 63.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3906DW1T1-D.PDF"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c9c56c-085b-45f9-83e0-fc38dc862c60")
+		)
+		(pin "2"
+			(uuid "0794d27b-6aa3-44f3-9db1-ee8fc3a5476a")
+		)
+		(pin "6"
+			(uuid "86dfe35e-4609-4bb9-b214-49e0c53a1797")
+		)
+		(pin "3"
+			(uuid "d1f8e349-eef6-4c50-9325-969299ddab95")
+		)
+		(pin "4"
+			(uuid "d29a37f0-7130-44d0-addf-29192bcd902b")
+		)
+		(pin "5"
+			(uuid "3bbfdd66-a1b9-4361-9b7d-b9a6a48967a0")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "Q29")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT3906DW1")
+		(at 107.95 62.23 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006388718e")
+		(property "Reference" "Q29"
+			(at 112.776 61.0616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MBT3906DW1"
+			(at 112.776 63.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT3906DW1T1-D.PDF"
+			(at 107.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73715f1c-515b-4544-8836-599b9d00e050")
+		)
+		(pin "2"
+			(uuid "a540bb3d-ffa5-4301-9e6b-42ee3e356537")
+		)
+		(pin "6"
+			(uuid "5db5a108-b56d-4d09-92f7-b3a28c07fa8a")
+		)
+		(pin "3"
+			(uuid "d169d997-d65d-4f7e-bf60-51fbea466ab6")
+		)
+		(pin "4"
+			(uuid "5e4900e3-bad7-4379-9f1b-1f77e1161587")
+		)
+		(pin "5"
+			(uuid "ac539406-fdfc-48d7-90aa-77ebe2a7dc55")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "Q29")
+					(unit 2)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "Q27")
+					(unit 2)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "Q31")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000638894e4")
+		(property "Reference" "R108"
+			(at 96.7486 68.6816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 96.7486 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90fddd46-311c-46a0-b874-694e7f5631d2")
+		)
+		(pin "2"
+			(uuid "5a12ffe6-4374-4421-bdd8-b8bb13d3bd4a")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "R108")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "R105")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063889c41")
+		(property "Reference" "R109"
+			(at 104.3686 68.6816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.3686 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a5e4f43-e7ee-4c87-a628-a1a4378bfaff")
+		)
+		(pin "2"
+			(uuid "d2aef0f2-c674-452f-a51b-644a1f29b7ed")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "R109")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "R106")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063889f07")
+		(property "Reference" "R110"
+			(at 111.9886 68.6816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.9886 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca004803-2e58-451f-9932-4249500627ac")
+		)
+		(pin "2"
+			(uuid "a4338c06-0e46-4aca-9c0a-75fbb08cfa14")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "R110")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "R107")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smoothiev2-prime-2660-rescue:SQ3493EV-SQ3493EV-smoothiev2-prime-rescue")
+		(at 103.505 50.165 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006388da58")
+		(property "Reference" "Q30"
+			(at 103.8098 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQ3493EV"
+			(at 103.8098 39.3954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+			(at 103.505 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f294276-8926-4fa3-88da-5c1adad98bb0")
+		)
+		(pin "2"
+			(uuid "ad26eb01-c0ee-4ef8-b7f8-e9520d33ff75")
+		)
+		(pin "3"
+			(uuid "f0349077-7cf3-4041-969e-a72e384e33a0")
+		)
+		(pin "4"
+			(uuid "2a1f3ff7-6346-40db-adf6-3e0a87ca52ce")
+		)
+		(pin "5"
+			(uuid "255caac4-1b21-4141-8d54-5acfe1946293")
+		)
+		(pin "6"
+			(uuid "e21e2f2b-2275-439a-aa60-c593ef543dbf")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "Q30")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smoothiev2-prime-rescue:GND-power")
+		(at 102.87 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000638903fb")
+		(property "Reference" "#PWR0154"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.997 76.7842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee5765e-c31e-4bbe-9cfc-b91810600843")
+		)
+		(instances
+			(project "smoothiev2-prime"
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638db850"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-000063881870"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+				(path "/edd71b52-2f7c-4562-9743-d1904296695f/00000000-0000-0000-0000-0000631d7d17/00000000-0000-0000-0000-0000638de946"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

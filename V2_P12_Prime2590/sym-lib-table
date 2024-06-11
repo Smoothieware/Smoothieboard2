@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name smoothiev2-prime-rescue)(type Legacy)(uri ${KIPRJMOD}/smoothiev2-prime-rescue.lib)(options "")(descr ""))
-  (lib (name smoothiev2-prime-2660-rescue)(type Legacy)(uri ${KIPRJMOD}/smoothiev2-prime-2660-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "smoothiev2-prime-rescue")(type "KiCad")(uri "${KIPRJMOD}/smoothiev2-prime-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "smoothiev2-prime-2660-rescue")(type "Legacy")(uri "${KIPRJMOD}/smoothiev2-prime-2660-rescue.lib")(options "")(descr ""))
 )
