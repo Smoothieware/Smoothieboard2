@@ -1,5 +1,8 @@
 # Smoothieboard2
 Hardware files for the Smoothieboard v2, and extension boards
+
+Boards available at Robosprout.com https://www.robosprout.com/product/smoothieboard-v2-prime-2/
+
 <img width="1723" height="960" alt="smoothiev2-prime-2660_top_LQ" src="https://github.com/user-attachments/assets/bc25616b-4d5f-45a2-9f76-2c02b5c2a51a" />
 <img width="1723" height="960" alt="smoothiev2-prime-2660_bot_LQ" src="https://github.com/user-attachments/assets/fcd1d697-6a86-4f3a-857d-3da4ba29096c" />
 <img width="1723" height="960" alt="smoothiev2-prime_top" src="https://github.com/user-attachments/assets/b7f25563-2e37-45f0-98e3-1ba0f6edf1e2" />
