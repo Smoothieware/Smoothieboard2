@@ -6391,16 +6391,6 @@
 		)
 		(uuid "8ce3b626-3688-49c1-bcb1-9410b14b84fa")
 	)
-	(label "TIM8_CH1"
-		(at 20.32 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9318634e-0dad-4d6a-bb82-d80313888d5b")
-	)
 	(label "E5V"
 		(at 44.45 105.41 0)
 		(effects
@@ -6657,6 +6647,17 @@
 			(justify right)
 		)
 		(uuid "63092e6a-72ea-4a48-86c0-8fe0ee360217")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 20.32 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6888b15a-384a-4205-97cc-852025eb1b8a")
 	)
 	(hierarchical_label "ESXN"
 		(shape input)

@@ -8979,7 +8979,7 @@
 			(uuid "4a0401ad-0995-4977-8396-c8cd0636141c")
 		)
 		(instances
-			(project "V2_Core"
+			(project "V2 Core"
 				(path "/5af88cec-3f10-44f6-9923-0d18fcfa3dd0/00000000-0000-0000-0000-0000631d7d17"
 					(page "8")
 				)
@@ -9037,7 +9037,7 @@
 			(uuid "09538e40-5ffb-4f27-9390-c5c874a04ebd")
 		)
 		(instances
-			(project "V2_Core"
+			(project "V2 Core"
 				(path "/5af88cec-3f10-44f6-9923-0d18fcfa3dd0/00000000-0000-0000-0000-0000631d7d17"
 					(page "9")
 				)
@@ -9095,7 +9095,7 @@
 			(uuid "b50b2346-24b8-4095-a3dd-9057be5ed2f8")
 		)
 		(instances
-			(project "V2_Core"
+			(project "V2 Core"
 				(path "/5af88cec-3f10-44f6-9923-0d18fcfa3dd0/00000000-0000-0000-0000-0000631d7d17"
 					(page "10")
 				)
