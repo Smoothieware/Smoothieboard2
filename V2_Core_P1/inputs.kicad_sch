@@ -6311,6 +6311,16 @@
 		)
 		(uuid "20a4439f-f8a2-4eca-812d-5df0057e104c")
 	)
+	(label "5V"
+		(at 27.94 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24cd4562-820b-452b-9022-d4af60e0bbfe")
+	)
 	(label "E3V3"
 		(at 44.45 81.28 0)
 		(effects
@@ -6480,16 +6490,6 @@
 			(justify left bottom)
 		)
 		(uuid "cad7ccdd-92da-4f52-b481-6202fbc2fe09")
-	)
-	(label "E5V"
-		(at 27.94 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d2f08076-234f-4830-8b2f-fb525f426dff")
 	)
 	(label "GND"
 		(at 50.8 181.61 0)
