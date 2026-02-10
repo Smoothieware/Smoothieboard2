@@ -10,7 +10,7 @@ Prime 2590
 <img width="1723" height="960" alt="smoothiev2-prime_top" src="https://github.com/user-attachments/assets/b55535c5-1072-4fc4-9e37-f38b7a8679d1" />
 <img width="1723" height="960" alt="smoothiev2-prime2590_bot" src="https://github.com/user-attachments/assets/3437ccf8-3b16-4054-8f45-eeb4265d7c42" />
 Core
-<img width="1723" height="960" alt="V2_core_frontview" src="https://github.com/user-attachments/assets/436acb98-4cb2-43d2-af41-7a5c1e14c2dd" />
+<img width="1723" height="960" alt="V2_core_frontview" src="https://github.com/user-attachments/assets/db7691c8-e440-4d2b-955c-d906c3a1af55" />
 <img width="1723" height="960" alt="V2_core_backview" src="https://github.com/user-attachments/assets/5fe84b5c-0fba-44d4-916b-8f6e4b1bd7ae" />
 
 
