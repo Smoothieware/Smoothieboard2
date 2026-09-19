@@ -1,0 +1,51 @@
+[submodule "extension-boards/gadgeteer-3v3-5v-level-shifter"]
+	path = extension-boards/gadgeteer-3v3-5v-level-shifter
+	url = https://github.com/Ccecil/3v3-5v-LevelShifter.git
+[submodule "extension-boards/six-axis-breakout"]
+	path = extension-boards/six-axis-breakout
+	url = https://github.com/Ccecil/6-Axis-Breakout.git
+[submodule "extension-boards/bounce-stop"]
+	path = extension-boards/bounce-stop
+	url = https://github.com/Ccecil/BounceStop.git
+[submodule "extension-boards/dual-digital-potentiometer"]
+	path = extension-boards/dual-digital-potentiometer
+	url = https://github.com/Ccecil/DualDigipot.git
+[submodule "extension-boards/gadgeteer-dip-switch-board"]
+	path = extension-boards/gadgeteer-dip-switch-board
+	url = https://github.com/Ccecil/GDGT_DIP.git
+[submodule "extension-boards/gadgeteer-qwiic-adapter"]
+	path = extension-boards/gadgeteer-qwiic-adapter
+	url = https://github.com/Ccecil/GDGT_Qwiic.git
+[submodule "extension-boards/gadgeteer-rs232-adapter"]
+	path = extension-boards/gadgeteer-rs232-adapter
+	url = https://github.com/Ccecil/GDGT_RS232.git
+[submodule "extension-boards/five-port-gadgeteer-header-adapter"]
+	path = extension-boards/five-port-gadgeteer-header-adapter
+	url = https://github.com/Ccecil/HeaderAdapter.git
+[submodule "extension-boards/gadgeteer-led-breakout"]
+	path = extension-boards/gadgeteer-led-breakout
+	url = https://github.com/Ccecil/LED_Breakout.git
+[submodule "extension-boards/multi-motor-single-axis-splitter"]
+	path = extension-boards/multi-motor-single-axis-splitter
+	url = https://github.com/Ccecil/MultiMotorSingleAxisSplitter.git
+[submodule "extension-boards/gadgeteer-pwm-io-board"]
+	path = extension-boards/gadgeteer-pwm-io-board
+	url = https://github.com/Ccecil/PWMBoard.git
+[submodule "extension-boards/external-stepper-signal-breakout"]
+	path = extension-boards/external-stepper-signal-breakout
+	url = https://github.com/Ccecil/StepXternal.git
+[submodule "extension-boards/differential-spi-lvds-extender"]
+	path = extension-boards/differential-spi-lvds-extender
+	url = https://github.com/Ccecil/LVDS_SPI.git
+[submodule "extension-boards/opto-isolated-endstop-adapter"]
+	path = extension-boards/opto-isolated-endstop-adapter
+	url = https://github.com/Ccecil/OptoIsoStop.git
+[submodule "extension-boards/extruder-toolhead-harness-with-motor"]
+	path = extension-boards/extruder-toolhead-harness-with-motor
+	url = https://github.com/Ccecil/ExtruderBoardMotor-V0.1.git
+[submodule "extension-boards/extruder-toolhead-harness-without-motor"]
+	path = extension-boards/extruder-toolhead-harness-without-motor
+	url = https://github.com/Ccecil/ExtruderBoards.git
+[submodule "extension-boards/jauart-usb-uart-adapter"]
+	path = extension-boards/jauart-usb-uart-adapter
+	url = https://github.com/Ccecil/jaUART.git

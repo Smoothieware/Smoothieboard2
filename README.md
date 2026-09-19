@@ -1,6 +1,11 @@
 # Smoothieboard2
 Hardware files for the Smoothieboard v2, and extension boards
 
+Extension-board hardware is maintained in independent repositories and included here as
+Git submodules under [`extension-boards/`](extension-boards/). Clone this repository with
+`--recurse-submodules`, or initialize an existing clone with
+`git submodule update --init --recursive`.
+
 Boards available at Robosprout.com https://www.robosprout.com/product/smoothieboard-v2-prime-2/
 
 Prime 2660
@@ -17,4 +22,3 @@ Core
 # License.
 
 Under the same license as v1 ( CERN OHL v1.2 or later and GPL v3 or later )
-
