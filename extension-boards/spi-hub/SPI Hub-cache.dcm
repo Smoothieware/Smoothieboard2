@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+D 3.3V Net
+$ENDCMP
+#
+$CMP Cap
+D Non-polarized Capacitor
+$ENDCMP
+#
+$CMP Diode
+D Diode
+$ENDCMP
+#
+$CMP GND
+D Ground Net
+$ENDCMP
+#
+$CMP MAX31855KASA
+D K-Type Thermocouple Amplifier
+$ENDCMP
+#
+$CMP MH
+D A mounting hole
+$ENDCMP
+#
+$CMP Res
+D Resistor
+$ENDCMP
+#
+$CMP Smoothie-teer-S
+D Smoothie-teer Type S Connector
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Gadgeteer)(type KiCad)(uri "$(KIPRJMOD)\\Gadgeteer.pretty")(options "")(descr ""))
+)

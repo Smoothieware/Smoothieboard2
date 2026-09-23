@@ -1,0 +1,6 @@
+Board will take up to 36V input.
+A potentiometer at the bottom of each driver circuit will adjust the current output.
+Mounting holes for 60mm fan are provided. Place fan underneath so it blows on the side with no components.
+The mounting holes for the fan are isolated.
+The mounting holes for the board itself are connected to ground.
+Three microstep set resistors are provided at the top of each driver circuit. See datasheet for configuration details. To close, either short with solder or use an 0603 jumper.

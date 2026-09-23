@@ -1,10 +1,13 @@
 # Smoothieboard2
 Hardware files for the Smoothieboard v2, and extension boards
 
-Extension-board hardware is maintained in independent repositories and included here as
-Git submodules under [`extension-boards/`](extension-boards/). Clone this repository with
-`--recurse-submodules`, or initialize an existing clone with
-`git submodule update --init --recursive`.
+Extension-board hardware includes independent Ccecil repositories pinned as Git submodules
+and legacy board designs copied from this repository's `master:extensions` tree, all under
+[`extension-boards/`](extension-boards/). Clone with `--recurse-submodules` to initialize the
+Ccecil boards, or initialize them in an existing clone with
+`git submodule update --init --recursive`. The legacy designs are ordinary tracked folders;
+their source revisions and folder mappings are documented in
+[`extension-boards/README.md`](extension-boards/README.md).
 
 Boards available at Robosprout.com https://www.robosprout.com/product/smoothieboard-v2-prime-2/
 

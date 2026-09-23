@@ -1,0 +1,17 @@
+(module Gadgeteer_logo (layer F.Cu) (tedit 573CDE71)
+  (fp_text reference G*** (at 0 -3.5) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value LOGO (at 0 3.5) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_line (start -2 -2) (end 2 -2) (layer F.SilkS) (width 0.5))
+  (fp_line (start 2 -2) (end 2 2) (layer F.SilkS) (width 0.5))
+  (fp_line (start 2 2) (end -2 2) (layer F.SilkS) (width 0.5))
+  (fp_line (start -2 2) (end -2 -2) (layer F.SilkS) (width 0.5))
+  (fp_line (start 1 -1) (end -1 -1) (layer F.SilkS) (width 0.5))
+  (fp_line (start -1 -1) (end -1 1) (layer F.SilkS) (width 0.5))
+  (fp_line (start -1 1) (end 1 1) (layer F.SilkS) (width 0.5))
+  (fp_line (start 1 1) (end 1 0) (layer F.SilkS) (width 0.5))
+  (fp_line (start 1 0) (end 0 0) (layer F.SilkS) (width 0.5))
+)

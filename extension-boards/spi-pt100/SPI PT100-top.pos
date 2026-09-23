@@ -1,0 +1,15 @@
+### Module positions - created on 04/23/17 21:58:48 ###
+### Printed by Pcbnew version kicad (2017-03-04 revision f18196186)-makepkg
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                             PosX       PosY       Rot  Side
+C1        0.1u             C_0805                           13.0000     9.5000  180.0000  top
+C2        0.1u             C_0805                           13.0000     7.5000  180.0000  top
+C3        10n              C_0805                           12.7500    20.7500  180.0000  top
+R1        NM               R_0805                           19.7500    16.2500    0.0000  top
+R2        0                R_0805                           19.7500    18.7500  270.0000  top
+R3        400              R_0805                           22.7500    14.7500   90.0000  top
+R4        0                R_0805                           16.7500    20.7500    0.0000  top
+R5        0                R_0805                            7.0000    18.0000   90.0000  top
+U1        MAX31865_SSOP20  SSOP-20_5.3x7.2mm_Pitch0.65mm    12.7500    14.7500  180.0000  top
+## End

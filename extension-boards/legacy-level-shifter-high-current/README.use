@@ -1,0 +1,5 @@
+This board levelshifts any input, to a higher voltage output either 5v from the smoothieboard, or 5-12v from the external power connector (possibly higher voltages, however no calculations have been done for this)
+The level shifter is uni directional, it only level-shifts from smoothieboard to output.
+It can handle 2A sink/source per output, though max 3A combined (limitted by diode), with external power.
+
+To use the board, connect it to the smoothieboard 2.0 via either a Y or P port, and read the silkscreen on the back for instructions on which pins are what.

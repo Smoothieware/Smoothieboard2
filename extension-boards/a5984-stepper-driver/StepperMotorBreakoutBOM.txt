@@ -1,0 +1,20 @@
+Motor Driver A5984GLP, Manufacturer: Allegro MicroSystems, LLC, Manufacturer Part Number: A5984GLPTR-T, Digikey Part Number: 620-1787-1-ND
+
+10-pin Gadgeteer header, Manufacturer: CNC Tech, Manufacturer Part Number: 3220-10-0200-00, Digikey Part Number: 1175-1627-ND
+
+0R 0603 setting resistor, Manufacturer: Yageo, Manufacturer Part Number: RC0603JR-070RL, Digikey Part Number: 311-0.0GRCT-ND
+
+0R05 1206 sense resistor, Manufacturer: Stackpole Electronics Inc., Manufacturer Part Number: CSR1206FT50L0, Digikey Part Number: CSR1206FT50L0CT-ND
+
+33K2 0603 voltage set resistor, Manufacturer: Yageo, Manufacturer Part Number: RC0603FR-0733K2L
+, Digikey Part Number: 	311-33.2KHRCT-ND
+
+50 KOhm current set pot, Manufacturer: Bourns Inc., Manufacturer Part Number: TC33X-2-503E, Digikey Part Number: TC33X-503ECT-ND
+
+u10 0603 Capacitor, Manufacturer: Samsung Electro-Mechanics America, Inc, Manufacturer Part Number: CL10B104KO8NNNC, Digikey Part Number: 1276-1005-2-ND
+
+47 uF Bulk cap, Manufacturer: Nichicon, Manufacturer Part Number: UUR1J470MNL1GS, Digikey Part Number: 493-6235-1-ND
+
+Power input header, Manufacturer: TE Connectivity AMP Connectors, Manufacturer Part Number: 1776275-2, Digikey Part Number: A98036-ND
+
+Motor Output Header, Manufacturer: Molex, LLC, Manufacturer Part Number: 0022272041, Digikey Part Number: WM4113-ND

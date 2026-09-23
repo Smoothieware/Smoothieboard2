@@ -1,0 +1,11 @@
+Usage
+
+Plug a gadgeteer into the Smoothieboard side that connects to the Smoothieboard.
+Plug a gadgeteer into the External side that connects to your external circuitry.
+
+All connections are opto-isolated. There are 6 outputs and 1 input.
+If you use the standard gadgeteer SPI connections, then your SPI will be isolated correctly.
+
+You can power external components from the Smoothieboard power by wiring the GND and 5V connections together at the top of the board.
+Be aware that this severly reduces your creepage distances! 
+Creepage between traces on the External side is significantly less than creepage between Smoothieboard and External sides.

@@ -1,0 +1,16 @@
+Usage
+-----
+
+Turn off power before changing connections.
+
+Connect power supply to JP2. Voltage should be in range 12-24V, max current 12A.
+
+Connect load (fan, heater) to JP3. For polarized loads, pin 2 is positive (marked on PCB) 
+
+Connect JP1 to Smoothieboard "output" connector. The logic signal should be 3.3-5V to turn on the MOSFET. The LED will
+be on when the output is on.
+
+Note: the output is not isolated, ground is shared with Smoothieboard.
+
+
+
